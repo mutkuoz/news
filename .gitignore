@@ -1,0 +1,3 @@
+# plaintext personal data for the utku times — only the sealed (encrypted) form is committed
+paper/*.private.json
+__pycache__/

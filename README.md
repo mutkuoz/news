@@ -22,6 +22,7 @@ same background artwork, same day/night themes.
 | `content/*.md`         | one markdown file per edition — the only inputs   |
 | `template.html`        | the page shell (style lives here)                 |
 | `generate.py`          | stdlib-only builder: content → html               |
+| `times.py`, `times.html` | the utku times (see below)                      |
 | `index.html`           | generated — latest edition                        |
 | `archive/*.html`       | generated — permalink per edition                 |
 | `archive.html`         | generated — list of all editions                  |
@@ -53,6 +54,62 @@ python3 generate.py   # no dependencies
 
 then open `index.html`. never edit the generated html by hand — edit
 `content/` or `template.html` and regenerate.
+
+## the utku times — a two-page paper (`/times/`)
+
+a print-style front page and a puzzles-and-planner back page, built by the same
+`generate.py` from `paper/*.json` (code lives in `times.py`, shell in `times.html`).
+prints as exactly two a4 sheets (ctrl/cmd-p).
+
+| path                              | what it is                                                       |
+| --------------------------------- | ---------------------------------------------------------------- |
+| `paper/YYYY-MM-DD.json`           | public content: lead story, markets, weather, crossword entries  |
+| `paper/YYYY-MM-DD.private.json`   | calendar + personal radar. **gitignored**, never committed       |
+| `paper/YYYY-MM-DD.sealed.json`    | the private page, encrypted. this is what gets committed         |
+| `paper_data.py`                   | real markets / weather / commons photo, so numbers aren't recalled from memory |
+| `times/*.html`                    | generated, like the rest                                         |
+
+**the sealed back page.** the site is public, so the calendar and personal radar are
+encrypted at build time (PBKDF2 → AES-256-CBC + HMAC-SHA256, needs the `openssl`
+binary) with the passphrase in the `TIMES_PASSPHRASE` environment variable, and
+decrypted in the browser with WebCrypto. without the variable the build still works but
+leaves the panel out, and past editions keep their committed ciphertext.
+
+**public json** (`paper/YYYY-MM-DD.json`) — write plain text, not html entities:
+
+```json
+{
+  "tagline": "…",
+  "lead": { "kicker": "", "headline": "", "deck": "", "body": ["para", "para"],
+            "image": { "src": "/assets/times/x.jpg", "alt": "", "caption": "", "credit": "" },
+            "box": { "title": "What Utku should do", "items": ["", ""] }, "source": "" },
+  "secondary": [{ "kicker": "", "headline": "", "body": ["para"] }],
+  "markets": [], "markets_note": "", "weather": {},
+  "inside": [{ "page": "A6", "head": "", "blurb": "" }],
+  "stats": [{ "big": "229%", "text": "" }],
+  "crossword": { "entries": [{ "answer": "WORD", "clue": "…" }] }
+}
+```
+
+`image` is either a photo (`python3 paper_data.py image "<terms>"`, freely licensed from
+wikimedia commons) or `{"art": "skyline|columns|circuit", "caption": "…"}` for a generated
+engraving. `markets` and `weather` come straight from `paper_data.py markets|weather`.
+give the crossword 25–30 entries; the generator fits what it can and reports the rest.
+both sudokus are generated per date (unique solution; the "difficult" one needs more than
+singles) — nothing to write.
+
+**private json** (`paper/YYYY-MM-DD.private.json`):
+
+```json
+{ "calendar": [{ "day": "Thu 22 Oct", "time": "all day", "title": "", "note": "" }],
+  "radar": [{ "kind": "deadline|funding|program|event|test", "title": "", "when": "", "why": "", "url": "" }],
+  "note": "" }
+```
+
+the daily routine does, after the brief: write `paper/…json` and `paper/…private.json`,
+run `python3 generate.py` with `TIMES_PASSPHRASE` set, then commit `paper/`, `times/` and
+`assets/times/` (never the `.private.json`). the personal profile (what to look for) lives
+in the routine's own prompt, not in this public repo.
 
 ## one-time setup (already done or in progress)
 
