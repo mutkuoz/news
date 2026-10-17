@@ -13,7 +13,7 @@
   "body": [
    "US stocks fell sharply on Friday, capping the market's worst week since June. The S&P 500 dropped 1.1% to 7,659.44, leaving it down about 1.9% on the week. The Nasdaq composite fell 2.1% to 26,140.03, its first weekly loss in five weeks.",
    "The Dow Jones Industrial Average held up best, slipping 0.3% to 52,002.41. Semiconductor names took the brunt of the selling: Intel and Micron each lost roughly 6%, and Nvidia ended the session down about 1.4%.",
-   "Oil moved the other way. Brent crude futures rose about 3.7% to $109.86 a barrel, as tankers caught fire or sank near the Strait of Hormuz and the Sea of Oman and Houthi attacks on Saudi Arabia raised fears of a wider regional escalation.",
+   "Oil moved the other way. Brent crude futures rose about 3.7% to $109.86 a barrel, as Iran's Revolutionary Guards declared the Strait of Hormuz closed after four tankers were reported hit and Houthi attacks on Saudi Arabia raised fears of a wider regional escalation.",
    "Istanbul's Borsa fell too: the BIST 100 closed 2.9% lower at 11,722, while the lira barely moved at about 49.5 to the dollar.",
    "Regulators added to the unease around artificial intelligence. The FTC sent OpenAI and Anthropic detailed demands for records on security incidents, safeguards and privacy practices, and the EU's AI Office sent its first formal information requests under the AI Act to the same two companies."
   ],
@@ -92,15 +92,15 @@
   },
   {
    "name": "Bitcoin",
-   "value": "$81,434",
-   "change": "−0.08%"
+   "value": "$81,372",
+   "change": "−0.16%"
   }
  ],
  "markets_note": "Previous close in the US; BIST 100 and USD/TRY at the latest Istanbul close. Change vs the prior session.",
  "weather": {
   "now": "10° / 8°",
-  "cond": "moderate rain",
-  "summary": "Now 9°C, feels like 9°C, humidity 91%.",
+  "cond": "light rain",
+  "summary": "Now 10°C, feels like 8°C, humidity 89%.",
   "days": [
    {
     "d": "SAT",
