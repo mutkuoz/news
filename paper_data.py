@@ -4,6 +4,8 @@
 usage:
   python3 paper_data.py markets                 → json for the "markets" block
   python3 paper_data.py weather                 → json for the "weather" block (ankara)
+  python3 paper_data.py article-image <url>     → saves the lead photo (og:image) of a news
+        article under assets/times/ and prints the "image" block. best match for the story.
   python3 paper_data.py image "<search terms>"  → finds a freely licensed photo on
         wikimedia commons, saves a 1400px copy under assets/times/ and prints the
         "image" block (src, alt, caption, credit). prints nothing and exits 1 when
@@ -99,12 +101,49 @@ def commons_image(query: str):
     return None
 
 
+def article_image(url: str):
+    """the story's own photo: the page's og:image / twitter:image, downloaded
+    (never hot-linked) and credited to the publisher."""
+    page = get(url, 30).decode("utf-8", "replace")
+    m = (re.search(r'<meta[^>]+(?:property|name)=["\'](?:og:image(?::secure_url)?|twitter:image)["\'][^>]*content=["\']([^"\']+)', page, re.I)
+         or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\']', page, re.I))
+    if not m:
+        return None
+    img_url = urllib.parse.urljoin(url, html_unescape(m.group(1)))
+    data = get(img_url, 60)
+    if len(data) < 20_000 or not (data[:3] == b"\xff\xd8\xff" or data[:8] == b"\x89PNG\r\n\x1a\n" or data[8:12] == b"WEBP"):
+        return None  # tiny or not a real photo (logo, svg, html error page)
+    host = urllib.parse.urlparse(url).netloc.removeprefix("www.")
+    slug = re.sub(r"[^a-z0-9]+", "-", urllib.parse.urlparse(url).path.lower()).strip("-")[-40:].strip("-") or "lead"
+    ext = "png" if data[:4] == b"\x89PNG" else "webp" if data[8:12] == b"WEBP" else "jpg"
+    dest = ROOT / "assets" / "times" / f"{slug}.{ext}"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(data)
+    title = re.search(r'<meta[^>]+property=["\']og:title["\'][^>]*content=["\']([^"\']+)', page, re.I)
+    cap = html_unescape(title.group(1)).strip() if title else host
+    return {"src": f"/assets/times/{dest.name}", "alt": cap, "caption": cap, "credit": f"Photo: {host}"}
+
+
+def html_unescape(text: str) -> str:
+    import html
+    return html.unescape(text)
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd == "markets":
         print(json.dumps(markets(), ensure_ascii=False, indent=1))
     elif cmd == "weather":
         print(json.dumps(weather(), ensure_ascii=False, indent=1))
+    elif cmd == "article-image" and len(sys.argv) > 2:
+        try:
+            res = article_image(sys.argv[2])
+        except Exception as e:
+            print(f"  ! {e}", file=sys.stderr)
+            res = None
+        if not res:
+            sys.exit(1)
+        print(json.dumps(res, ensure_ascii=False, indent=1))
     elif cmd == "image" and len(sys.argv) > 2:
         res = commons_image(" ".join(sys.argv[2:]))
         if not res:

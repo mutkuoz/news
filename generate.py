@@ -113,7 +113,7 @@ def meta_desc(ed: dict) -> str:
     return f"{n} stories in brief — {topics}. the {ed['title']} edition."
 
 
-def build_times(template_dir: pathlib.Path) -> None:
+def build_times(template_dir: pathlib.Path, briefs: dict) -> None:
     """the utku times: paper/YYYY-MM-DD.json → times/index.html + times/YYYY-MM-DD.html"""
     files = sorted((p for p in (ROOT / "paper").glob("*.json")
                     if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", p.name)), reverse=True)
@@ -122,7 +122,7 @@ def build_times(template_dir: pathlib.Path) -> None:
     tpl = (template_dir / "times.html").read_text(encoding="utf-8")
     numbers = times.issue_numbers(files)
     passphrase = os.environ.get("TIMES_PASSPHRASE")
-    editions = [times.build_edition(p, ROOT, passphrase, numbers[p.stem]) for p in files]
+    editions = [times.build_edition(p, ROOT, passphrase, numbers[p.stem], briefs.get(p.stem)) for p in files]
     out = ROOT / "times"
     out.mkdir(exist_ok=True)
 
@@ -202,7 +202,7 @@ def main() -> None:
         ARCHIVE_NOTE="you are reading the full archive.",
     ), encoding="utf-8")
 
-    build_times(template_dir=ROOT)
+    build_times(ROOT, {ed["iso"]: ed for ed in editions})
 
     n = sum(len(items) for _, items in latest["sections"])
     print(f"built: index.html ({latest['iso']}, {n} items), "

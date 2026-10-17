@@ -1,8 +1,10 @@
-"""the utku times — a two-page print-style paper, built next to the daily brief.
+"""the utku times — a three-page print-style paper, built next to the daily brief.
+page 1 the front page, page 2 the whole daily brief, page 3 sudokus + the sealed planner.
 
 used by generate.py. stdlib only (plus the `openssl` binary for the sealed page).
 
 inputs  : paper/YYYY-MM-DD.json            public content   (schema in README)
+          content/YYYY-MM-DD.md            the daily brief, printed in full on page 2
           paper/YYYY-MM-DD.private.json    calendar + personal radar (gitignored)
           paper/YYYY-MM-DD.sealed.json     encrypted form of the private file (committed)
 outputs : times/index.html                 newest edition
@@ -178,168 +180,24 @@ def make_sudoku(iso: str, salt: str, attempts: int):
 
 
 def sudoku_html(puzzle, label: str, note: str) -> str:
-    rows = []
+    cells = []
     for r in range(9):
-        cells = []
         for c in range(9):
             v = puzzle[r * 9 + c]
             cls = "sd" + (" r3" if r in (2, 5) else "") + (" c3" if c in (2, 5) else "")
             if v:
-                cells.append(f'<td class="{cls} g">{v}</td>')
+                cells.append(f'<div class="{cls} g">{v}</div>')
             else:
-                cells.append(f'<td class="{cls}"><input inputmode="numeric" maxlength="1" '
-                             f'aria-label="row {r + 1} column {c + 1}"></td>')
-        rows.append("<tr>" + "".join(cells) + "</tr>")
+                cells.append(f'<div class="{cls}"><input inputmode="numeric" maxlength="1" '
+                             f'aria-label="row {r + 1} column {c + 1}"></div>')
     clues = sum(1 for v in puzzle if v)
-    return (f'<figure class="sudoku"><figcaption><b>{esc(label)}</b>'
-            f'<span>{esc(note)} &middot; {clues} givens</span></figcaption>'
-            f'<table>{"".join(rows)}</table></figure>')
+    return (f'<figure class="sudoku" title="{esc(note)}"><figcaption><b>{esc(label)}</b>'
+            f'<span>{clues} givens</span></figcaption>'
+            f'<div class="sdgrid">{"".join(cells)}</div></figure>')
 
 
 def sudoku_key(solution) -> str:
     return "".join(str(v) for v in solution)
-
-
-# ── crossword ──────────────────────────────────────────────────────────────
-
-def _fold(word: str) -> str:
-    word = word.replace("ı", "i").replace("İ", "I")
-    word = unicodedata.normalize("NFKD", word)
-    return re.sub(r"[^A-Za-z]", "", word).upper()
-
-
-def _try_place(grid, word, r, c, d):
-    """returns number of crossings, or None when the placement is illegal."""
-    dr, dc = (0, 1) if d == "A" else (1, 0)
-    if grid.get((r - dr, c - dc)) or grid.get((r + dr * len(word), c + dc * len(word))):
-        return None
-    cross = 0
-    for k, ch in enumerate(word):
-        rr, cc = r + dr * k, c + dc * k
-        have = grid.get((rr, cc))
-        if have:
-            if have != ch:
-                return None
-            cross += 1
-        else:
-            if grid.get((rr + dc, cc + dr)) or grid.get((rr - dc, cc - dr)):
-                return None
-    return cross
-
-
-def make_crossword(iso: str, entries: list, max_size: int = 17, attempts: int = 300):
-    items = []
-    seen = set()
-    for e in entries:
-        w = _fold(e["answer"])
-        if 3 <= len(w) <= max_size and w not in seen:
-            seen.add(w)
-            items.append({"word": w, "clue": e["clue"]})
-    rng = random.Random(seed_for(iso, "crossword"))
-    best = None
-    for _ in range(attempts):
-        pool = items[:]
-        rng.shuffle(pool)
-        pool.sort(key=lambda x: -len(x["word"]) - rng.random() * 3)
-        first = pool.pop(0)
-        grid = {(0, i): ch for i, ch in enumerate(first["word"])}
-        placed = [(first, 0, 0, "A")]
-        progress = True
-        while progress:
-            progress = False
-            rows = [r for r, _ in grid]
-            cols = [c for _, c in grid]
-            for item in list(pool):
-                options = []
-                w = item["word"]
-                for (gr, gc), ch in list(grid.items()):
-                    for k, wc in enumerate(w):
-                        if wc != ch:
-                            continue
-                        for d in "AD":
-                            r, c = (gr, gc - k) if d == "A" else (gr - k, gc)
-                            r2, c2 = (r, c + len(w) - 1) if d == "A" else (r + len(w) - 1, c)
-                            if (max(r2, *rows) - min(r, *rows) + 1 > max_size
-                                    or max(c2, *cols) - min(c, *cols) + 1 > max_size):
-                                continue
-                            n = _try_place(grid, w, r, c, d)
-                            if n:
-                                options.append((n, rng.random(), r, c, d))
-                if options:
-                    options.sort(reverse=True)
-                    _, _, r, c, d = options[0]
-                    dr, dc = (0, 1) if d == "A" else (1, 0)
-                    for k, ch in enumerate(w):
-                        grid[(r + dr * k, c + dc * k)] = ch
-                    placed.append((item, r, c, d))
-                    pool.remove(item)
-                    rows = [r for r, _ in grid]
-                    cols = [c for _, c in grid]
-                    progress = True
-        rs = [r for r, _ in grid]
-        cs = [c for _, c in grid]
-        h, wd = max(rs) - min(rs) + 1, max(cs) - min(cs) + 1
-        score = (len(placed), -(h * wd))
-        if best is None or score > best[0]:
-            best = (score, grid, placed)
-    if best is None:
-        return None
-    _, grid, placed = best
-    r0, c0 = min(r for r, _ in grid), min(c for _, c in grid)
-    grid = {(r - r0, c - c0): ch for (r, c), ch in grid.items()}
-    placed = [(it, r - r0, c - c0, d) for it, r, c, d in placed]
-    h = max(r for r, _ in grid) + 1
-    w = max(c for _, c in grid) + 1
-
-    # number the starts the way a printed crossword does (reading order)
-    numbers, n = {}, 0
-    for r in range(h):
-        for c in range(w):
-            if (r, c) not in grid:
-                continue
-            across = any(p[1] == r and p[2] == c and p[3] == "A" for p in placed)
-            down = any(p[1] == r and p[2] == c and p[3] == "D" for p in placed)
-            if across or down:
-                n += 1
-                numbers[(r, c)] = n
-    across_clues, down_clues = [], []
-    for it, r, c, d in placed:
-        (across_clues if d == "A" else down_clues).append(
-            (numbers[(r, c)], it["clue"], len(it["word"]), it["word"]))
-    across_clues.sort()
-    down_clues.sort()
-    dropped = [it["word"] for it in items if it["word"] not in {p[0]["word"] for p in placed}]
-    return {"grid": grid, "h": h, "w": w, "numbers": numbers,
-            "across": across_clues, "down": down_clues, "dropped": dropped}
-
-
-def crossword_html(cw: dict, title: str) -> str:
-    cells = []
-    for r in range(cw["h"]):
-        for c in range(cw["w"]):
-            if (r, c) not in cw["grid"]:
-                cells.append('<div class="cx blk"></div>')
-                continue
-            num = cw["numbers"].get((r, c))
-            n = f'<i>{num}</i>' if num else ""
-            cells.append(f'<div class="cx">{n}<input maxlength="1" '
-                         f'data-a="{cw["grid"][(r, c)]}" aria-label="row {r + 1} column {c + 1}"></div>')
-
-    def clue_list(label, clues):
-        li = "".join(f'<li><b>{n}</b> {inline(clue)} <span>({ln})</span></li>'
-                     for n, clue, ln, _ in clues)
-        return f'<div class="clues"><h4>{label}</h4><ol>{li}</ol></div>'
-
-    return (f'<section class="crossword"><div class="puz-head"><h3>{esc(title)}</h3>'
-            f'<span>{len(cw["across"]) + len(cw["down"])} clues</span></div>'
-            f'<div class="cw-layout"><div class="cwgrid" style="--cols:{cw["w"]}">{"".join(cells)}</div>'
-            f'<div class="cw-clues">{clue_list("Across", cw["across"])}'
-            f'{clue_list("Down", cw["down"])}</div></div></section>')
-
-
-def crossword_key(cw: dict) -> str:
-    lines = [f'{n}A {w}' for n, _, _, w in cw["across"]] + [f'{n}D {w}' for n, _, _, w in cw["down"]]
-    return " · ".join(lines)
 
 
 # ── generated engraving-style art (fallback when no photo is available) ────
@@ -488,7 +346,38 @@ def _figure(lead: dict, iso: str) -> str:
             + "</figcaption></figure>")
 
 
-def render_front(c: dict, iso: str, issue_no: int) -> str:
+def inside_index(brief):
+    rows = []
+    back = "A3" if brief else "A2"
+    if brief:
+        n = sum(len(items) for _, items in brief["sections"])
+        names = ", ".join(_title(name) for name, _ in brief["sections"])
+        rows.append(("A2", "The Daily Brief", f"All {n} stories: {names}."))
+    rows.append((back, "Three Sudokus", "Difficult, devilish and diabolical. Singles alone won't save you."))
+    rows.append((back, "Your Week & Your Radar", "Calendar, deadlines and programs. Sealed, unlocks with your passphrase."))
+    return rows
+
+
+def _title(name: str) -> str:
+    words = [("AI" if w == "ai" else w if w == "&" else w.capitalize()) for w in name.split()]
+    return " ".join(words)
+
+
+def render_brief(brief: dict, iso: str) -> str:
+    cols = []
+    for name, items in brief["sections"]:
+        lis = "".join(f"<li>{inline(i)}</li>" for i in items)
+        cols.append(f'<section class="bsec"><h3>{esc(_title(name))}</h3><ul>{lis}</ul></section>')
+    n = sum(len(items) for _, items in brief["sections"])
+    return f'''
+<article class="sheet brief" id="a2">
+	<header class="back-head"><span class="mini-flag">The Utku Times</span><span>The Daily Brief &middot; {n} stories</span><span>{esc(long_date(iso))}</span></header>
+	<div class="brief-cols">{"".join(cols)}</div>
+	<footer class="folio"><span>The Utku Times</span><span>{esc(long_date(iso))}</span><span>A2</span></footer>
+</article>'''
+
+
+def render_front(c: dict, iso: str, issue_no: int, brief) -> str:
     lead = c["lead"]
     body = "".join(f"<p>{inline(p)}</p>" for p in lead["body"])
     box = ""
@@ -508,8 +397,8 @@ def render_front(c: dict, iso: str, issue_no: int) -> str:
     days = "".join(f'<tr><th>{esc(d["d"])}</th><td>{esc(d["c"])}</td><td>{esc(d["t"])}</td></tr>'
                    for d in wx.get("days", []))
     inside = "".join(
-        f'<li><b>{esc(i["page"])}</b><div><strong>{inline(i["head"])}</strong>'
-        f'<span>{inline(i.get("blurb", ""))}</span></div></li>' for i in c.get("inside", []))
+        f'<li><b>{esc(page)}</b><div><strong>{esc(head)}</strong><span>{esc(blurb)}</span></div></li>'
+        for page, head, blurb in inside_index(brief))
     stats = "".join(f'<div class="stat"><b>{esc(s["big"])}</b><span>{inline(s["text"])}</span></div>'
                     for s in c.get("stats", []))
     return f'''
@@ -546,7 +435,7 @@ def render_front(c: dict, iso: str, issue_no: int) -> str:
 </article>'''
 
 
-def render_back(c: dict, iso: str, sealed, cw_html: str, sd_html: str, key_html: str) -> str:
+def render_back(iso: str, sealed, sd_html: str, key_html: str, page_no: str) -> str:
     if sealed:
         priv = ('<section class="private" id="private" data-state="locked">'
                 '<div class="puz-head"><h3>For Utku&rsquo;s eyes only</h3><span>sealed &middot; unlocks in your browser</span></div>'
@@ -560,39 +449,33 @@ def render_back(c: dict, iso: str, sealed, cw_html: str, sd_html: str, key_html:
         priv = ('<section class="private"><div class="puz-head"><h3>For Utku&rsquo;s eyes only</h3>'
                 '<span>not published</span></div><p class="muted">No personal page was sealed for this edition.</p></section>')
     return f'''
-<article class="sheet back" id="a6">
-	<header class="back-head"><span class="mini-flag">The Utku Times</span><span>Puzzles &amp; planner</span><span>{esc(long_date(iso))}</span></header>
-	<div class="back-grid">
-		<div class="back-left">{cw_html}</div>
-		<div class="back-right">{sd_html}</div>
-	</div>
-	{priv}
+<article class="sheet back" id="a-back">
+	<header class="back-head"><span class="mini-flag">The Utku Times</span><span>Sudokus &amp; planner</span><span>{esc(long_date(iso))}</span></header>
+	<div class="puz-head"><h3>Sudoku</h3><span>no mercy</span></div>
+	<div class="sudoku-row">{sd_html}{priv}</div>
 	{key_html}
-	<footer class="folio"><span>The Utku Times</span><span>{esc(long_date(iso))}</span><span>A6</span></footer>
+	<footer class="folio"><span>The Utku Times</span><span>{esc(long_date(iso))}</span><span>{page_no}</span></footer>
 </article>'''
 
 
-def build_edition(path: pathlib.Path, root: pathlib.Path, passphrase, issue_no: int) -> dict:
+def build_edition(path: pathlib.Path, root: pathlib.Path, passphrase, issue_no: int, brief=None) -> dict:
     iso = path.stem.split(".")[0]
     c = json.loads(path.read_text(encoding="utf-8"))
 
-    cw = make_crossword(iso, c["crossword"]["entries"]) if c.get("crossword") else None
-    cw_html = crossword_html(cw, c["crossword"].get("title", "The Crossword")) if cw else ""
     s1, a1 = make_sudoku(iso, "hard", attempts=6)
-    s2, a2 = make_sudoku(iso, "devilish", attempts=18)
-    sd_html = (f'<div class="puz-head"><h3>Sudoku</h3><span>no mercy</span></div>'
-               + sudoku_html(s1, "Difficult", "needs more than singles")
-               + sudoku_html(s2, "Devilish", "the fewest givens we could find"))
-    key = ""
-    if cw:
-        key = (f'<details class="key"><summary>answer key</summary>'
-               f'<p><b>Crossword.</b> {esc(crossword_key(cw))}</p>'
-               f'<p><b>Sudoku, difficult.</b> {sudoku_key(a1)}</p>'
-               f'<p><b>Sudoku, devilish.</b> {sudoku_key(a2)}</p></details>')
+    s2, a2 = make_sudoku(iso, "devilish", attempts=14)
+    s3, a3 = make_sudoku(iso, "diabolical", attempts=30)
+    sd_html = (sudoku_html(s1, "Difficult", "needs more than singles")
+               + sudoku_html(s2, "Devilish", "few givens")
+               + sudoku_html(s3, "Diabolical", "the fewest givens we could find"))
+    key = ('<details class="key"><summary>answer key</summary>'
+           f'<p><b>Difficult.</b> {sudoku_key(a1)}</p>'
+           f'<p><b>Devilish.</b> {sudoku_key(a2)}</p>'
+           f'<p><b>Diabolical.</b> {sudoku_key(a3)}</p></details>')
     sealed = sealed_for(iso, root, passphrase)
-    page = render_front(c, iso, issue_no) + render_back(c, iso, sealed, cw_html, sd_html, key)
-    if cw and cw["dropped"]:
-        print(f"  ~ {iso}: {len(cw['dropped'])} crossword answer(s) did not fit: {', '.join(cw['dropped'])}")
+    page = (render_front(c, iso, issue_no, brief)
+            + (render_brief(brief, iso) if brief else "")
+            + render_back(iso, sealed, sd_html, key, "A3" if brief else "A2"))
     lead = c["lead"]
     plain_head = re.sub(r"[*\[\]]|\(https?://[^)]*\)", "", lead["headline"])
     return {"iso": iso, "issue": issue_no, "headline": plain_head, "page": page,
