@@ -67,6 +67,7 @@ planner. prints as exactly three a4 sheets (ctrl/cmd-p).
 | `paper/YYYY-MM-DD.json`           | public content: lead story, markets, weather, stats              |
 | `paper/YYYY-MM-DD.private.json`   | calendar + personal radar. **gitignored**, never committed       |
 | `paper/YYYY-MM-DD.sealed.json`    | the private page, encrypted. this is what gets committed         |
+| `print_paper.py`                  | prints the day's paper on a home computer at 07:00 (see below)   |
 | `paper_data.py`                   | real markets / weather / commons photo, so numbers aren't recalled from memory |
 | `times/*.html`                    | generated, like the rest                                         |
 
@@ -111,6 +112,36 @@ the daily routine does, after the brief: write `paper/…json` and `paper/…pri
 run `python3 generate.py` with `TIMES_PASSPHRASE` set, then commit `content/`, `paper/`, `times/` and
 `assets/times/` (never the `.private.json`). the personal profile (what to look for) lives
 in the routine's own prompt, not in this public repo.
+
+## print it every morning (7:00)
+
+`print_paper.py` runs on a home computer (not in the cloud), waits for the day's edition,
+decrypts the private planner locally with your passphrase, renders the three a4 sheets with
+headless chrome and sends them to the printer.
+
+```bash
+git clone https://github.com/mutkuoz/news && cd news
+echo 'your passphrase' > ~/.utku-times-passphrase && chmod 600 ~/.utku-times-passphrase
+python3 print_paper.py --no-print          # test: makes ~/utku-times/YYYY-MM-DD.pdf, prints nothing
+python3 print_paper.py --printer NAME      # real run; list printers with `lpstat -p`
+```
+
+flags: `--duplex`, `--public` (skip the private planner), `--wait 45` (minutes to wait for
+the routine to publish). needs chrome/chromium/edge, `openssl` (for the private page) and
+`lp` (mac/linux) or SumatraPDF (windows).
+
+schedule it for 07:00 local time:
+
+- **mac** — a launchd agent running `python3 /path/to/news/print_paper.py`
+  with `StartCalendarInterval` hour 7 / minute 0; keep it awake with
+  `sudo pmset repeat wakeorpoweron MTWRFSU 06:55:00`.
+- **linux / raspberry pi** — `crontab -e`:
+  `0 7 * * * cd ~/news && python3 print_paper.py >> ~/utku-times/print.log 2>&1`
+- **windows** — `schtasks /create /tn UtkuTimes /sc daily /st 07:00 /tr "python C:\path\to\news\print_paper.py"`
+  (openssl comes with git for windows).
+
+the passphrase file lives only on that computer. a printout of the unlocked planner shows
+your calendar and plans to anyone who picks it up.
 
 ## one-time setup (already done or in progress)
 
