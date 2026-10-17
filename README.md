@@ -57,13 +57,14 @@ then open `index.html`. never edit the generated html by hand — edit
 
 ## the utku times — a two-page paper (`/times/`)
 
-a print-style front page and a puzzles-and-planner back page, built by the same
-`generate.py` from `paper/*.json` (code lives in `times.py`, shell in `times.html`).
-prints as exactly two a4 sheets (ctrl/cmd-p).
+a three-page print-style paper, built by the same `generate.py` (code in `times.py`,
+shell in `times.html`): **a1** the front page, **a2** the whole daily brief (every story from
+`content/YYYY-MM-DD.md`, set in newspaper columns), **a3** three sudokus plus the sealed
+planner. prints as exactly three a4 sheets (ctrl/cmd-p).
 
 | path                              | what it is                                                       |
 | --------------------------------- | ---------------------------------------------------------------- |
-| `paper/YYYY-MM-DD.json`           | public content: lead story, markets, weather, crossword entries  |
+| `paper/YYYY-MM-DD.json`           | public content: lead story, markets, weather, stats              |
 | `paper/YYYY-MM-DD.private.json`   | calendar + personal radar. **gitignored**, never committed       |
 | `paper/YYYY-MM-DD.sealed.json`    | the private page, encrypted. this is what gets committed         |
 | `paper_data.py`                   | real markets / weather / commons photo, so numbers aren't recalled from memory |
@@ -85,18 +86,18 @@ leaves the panel out, and past editions keep their committed ciphertext.
             "box": { "title": "What Utku should do", "items": ["", ""] }, "source": "" },
   "secondary": [{ "kicker": "", "headline": "", "body": ["para"] }],
   "markets": [], "markets_note": "", "weather": {},
-  "inside": [{ "page": "A6", "head": "", "blurb": "" }],
-  "stats": [{ "big": "229%", "text": "" }],
-  "crossword": { "entries": [{ "answer": "WORD", "clue": "…" }] }
+  "stats": [{ "big": "229%", "text": "" }]
 }
 ```
 
-`image` is either a photo (`python3 paper_data.py image "<terms>"`, freely licensed from
-wikimedia commons) or `{"art": "skyline|columns|circuit", "caption": "…"}` for a generated
-engraving. `markets` and `weather` come straight from `paper_data.py markets|weather`.
-give the crossword 25–30 entries; the generator fits what it can and reports the rest.
-both sudokus are generated per date (unique solution; the "difficult" one needs more than
-singles) — nothing to write.
+`image` is, in order of preference: the story's own photo (`python3 paper_data.py
+article-image <article url>`, downloads the page's og:image and credits the publisher), a
+freely licensed wikimedia commons photo (`python3 paper_data.py image "<terms>"`), or
+`{"art": "skyline|columns|circuit", "caption": "…"}` for a generated engraving. write your own
+caption (the tools put the article headline there). `markets` and `weather` come straight
+from `paper_data.py markets|weather`.
+the inside index, page 2 and the three sudokus (unique solutions; difficult / devilish /
+diabolical, each needing more than singles) are generated per date — nothing to write.
 
 **private json** (`paper/YYYY-MM-DD.private.json`):
 
@@ -107,7 +108,7 @@ singles) — nothing to write.
 ```
 
 the daily routine does, after the brief: write `paper/…json` and `paper/…private.json`,
-run `python3 generate.py` with `TIMES_PASSPHRASE` set, then commit `paper/`, `times/` and
+run `python3 generate.py` with `TIMES_PASSPHRASE` set, then commit `content/`, `paper/`, `times/` and
 `assets/times/` (never the `.private.json`). the personal profile (what to look for) lives
 in the routine's own prompt, not in this public repo.
 
