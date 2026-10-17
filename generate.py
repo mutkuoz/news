@@ -15,12 +15,19 @@ content format (strict — the daily routine writes this):
   items         - one sentence per story — [source](https://…)
   inline        [text](url), **bold**, *italic*
 
-stdlib only. no dependencies.
+the utku times (paper/*.json → times/*.html) is built by times.py at the end
+of main(); see that module for its formats. set TIMES_PASSPHRASE to (re)seal
+the personal back page.
+
+stdlib only. no dependencies (the sealed page shells out to the openssl binary).
 """
 import html
+import os
 import pathlib
 import re
 import sys
+
+import times
 
 ROOT = pathlib.Path(__file__).resolve().parent
 SITE = "https://news.utku.space"
@@ -106,6 +113,40 @@ def meta_desc(ed: dict) -> str:
     return f"{n} stories in brief — {topics}. the {ed['title']} edition."
 
 
+def build_times(template_dir: pathlib.Path) -> None:
+    """the utku times: paper/YYYY-MM-DD.json → times/index.html + times/YYYY-MM-DD.html"""
+    files = sorted((p for p in (ROOT / "paper").glob("*.json")
+                    if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", p.name)), reverse=True)
+    if not files:
+        return
+    tpl = (template_dir / "times.html").read_text(encoding="utf-8")
+    numbers = times.issue_numbers(files)
+    passphrase = os.environ.get("TIMES_PASSPHRASE")
+    editions = [times.build_edition(p, ROOT, passphrase, numbers[p.stem]) for p in files]
+    out = ROOT / "times"
+    out.mkdir(exist_ok=True)
+
+    def previous(skip: str) -> str:
+        return "\n".join(
+            f'\t\t<a href="/times/{e["iso"]}.html"><span>{e["iso"]}</span><span>No. {e["issue"]}</span>'
+            f'<span>{html.escape(e["headline"], quote=False)}</span></a>'
+            for e in editions if e["iso"] != skip) or '\t\t<p class="muted">none yet &mdash; this is the first edition.</p>'
+
+    for i, e in enumerate(editions):
+        page = fill(
+            tpl,
+            PAGE_TITLE=f"The Utku Times &mdash; {times.long_date(e['iso'])}",
+            META_DESC=html.escape(e["desc"], quote=True),
+            CANONICAL=f"{SITE}/times/" if i == 0 else f"{SITE}/times/{e['iso']}.html",
+            PAGE=e["page"],
+            PREVIOUS=previous(e["iso"]),
+        )
+        (out / f"{e['iso']}.html").write_text(page, encoding="utf-8")
+        if i == 0:
+            (out / "index.html").write_text(page, encoding="utf-8")
+    print(f"built: times/index.html ({editions[0]['iso']}), {len(editions)} edition(s)")
+
+
 def main() -> None:
     template = (ROOT / "template.html").read_text(encoding="utf-8")
     files = sorted((ROOT / "content").glob("*.md"), reverse=True)
@@ -160,6 +201,8 @@ def main() -> None:
         PREVIOUS=prev_links(editions, latest["iso"], PREV_ON_INDEX),
         ARCHIVE_NOTE="you are reading the full archive.",
     ), encoding="utf-8")
+
+    build_times(template_dir=ROOT)
 
     n = sum(len(items) for _, items in latest["sections"])
     print(f"built: index.html ({latest['iso']}, {n} items), "

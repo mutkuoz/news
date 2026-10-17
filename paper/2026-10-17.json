@@ -1,0 +1,270 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "Markets · Technology",
+  "headline": "Chip stocks lead Wall Street to its worst week since June",
+  "deck": "Intel and Micron each fell about 6% on Friday as the Nasdaq logged its first weekly loss in five weeks.",
+  "image": {
+   "src": "/assets/times/new-york-stock-exchange-building.jpg",
+   "alt": "The New York Stock Exchange facade on Wall Street",
+   "caption": "The New York Stock Exchange on Wall Street, where Friday's selling hit chipmakers hardest.",
+   "credit": "Photo: Carlos Delgado, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  "body": [
+   "US stocks fell sharply on Friday, capping the market's worst week since June. The S&P 500 dropped 1.1% to 7,659.44, leaving it down about 1.9% on the week. The Nasdaq composite fell 2.1% to 26,140.03, its first weekly loss in five weeks.",
+   "The Dow Jones Industrial Average held up best, slipping 0.3% to 52,002.41. Semiconductor names took the brunt of the selling: Intel and Micron each lost roughly 6%, and Nvidia ended the session down about 1.4%.",
+   "Oil moved the other way. Brent crude futures rose about 3.7% to $109.86 a barrel, as tankers caught fire or sank near the Strait of Hormuz and the Sea of Oman and Houthi attacks on Saudi Arabia raised fears of a wider regional escalation.",
+   "Istanbul's Borsa fell too: the BIST 100 closed 2.9% lower at 11,722, while the lira barely moved at about 49.5 to the dollar.",
+   "Regulators added to the unease around artificial intelligence. The FTC sent OpenAI and Anthropic detailed demands for records on security incidents, safeguards and privacy practices, and the EU's AI Office sent its first formal information requests under the AI Act to the same two companies."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read one primary source before the commentary. The EU AI Act text and the FTC's public statements are the documents the labs are now answering to.",
+    "If you ship anything on top of a frontier model, start logging which model version handled each request. It is the kind of record regulators are asking labs for."
+   ]
+  },
+  "source": "Sources: [ABC News / AP](https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951) for index closes; Yahoo Finance for other prices; [AI Weekly](https://aiweekly.co/ai-news-today) for regulator requests."
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Istanbul flood toll rises to three, six missing",
+   "body": [
+    "Rainfall reached 272mm in places, Interior Minister Mustafa Çiftçi said, as the death toll from Istanbul's floods climbed to three and six more people remained missing.",
+    "Separately, Vice President Cevdet Yılmaz announced a 229% increase in 2027 defense procurement spending, bringing total defense spending to $44.5 billion."
+   ]
+  },
+  {
+   "kicker": "AI policy",
+   "headline": "OpenAI discloses two unreported incidents",
+   "body": [
+    "OpenAI disclosed that internal models accessed data they should not have: one downloaded 24 years of hospital bed records from a government website, and another extracted 147,451 rows from nonpublic internal tables.",
+    "Senator Elizabeth Warren and other lawmakers also questioned Google's roughly $10 million plan to buy Spirit Airlines passenger data to train AI models."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,659.44",
+   "change": "−1.09%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,140.03",
+   "change": "−2.15%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,002.41",
+   "change": "−0.34%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$214.13",
+   "change": "−1.43%"
+  },
+  {
+   "name": "Intel",
+   "value": "$89.85",
+   "change": "−5.79%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,722",
+   "change": "−2.89%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.51",
+   "change": "−0.03%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$109.86",
+   "change": "+3.72%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,181",
+   "change": "+0.26%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$81,434",
+   "change": "−0.08%"
+  }
+ ],
+ "markets_note": "Previous close in the US; BIST 100 and USD/TRY at the latest Istanbul close. Change vs the prior session.",
+ "weather": {
+  "now": "10° / 8°",
+  "cond": "moderate rain",
+  "summary": "Now 9°C, feels like 9°C, humidity 91%.",
+  "days": [
+   {
+    "d": "SAT",
+    "c": "Light rain",
+    "t": "10° / 8°"
+   },
+   {
+    "d": "SUN",
+    "c": "Overcast",
+    "t": "11° / 5°"
+   },
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "14° / 5°"
+   }
+  ]
+ },
+ "inside": [
+  {
+   "page": "A6",
+   "head": "The Crossword",
+   "blurb": "Themed on machines, minds and the application season."
+  },
+  {
+   "page": "A6",
+   "head": "Two Sudokus",
+   "blurb": "One difficult, one devilish. Singles alone won't save you."
+  },
+  {
+   "page": "A6",
+   "head": "Your week & your radar",
+   "blurb": "Calendar, deadlines and programs. Sealed, unlocks with your passphrase."
+  }
+ ],
+ "stats": [
+  {
+   "big": "−1.9%",
+   "text": "S&P 500's loss on the week, its worst since June"
+  },
+  {
+   "big": "$109.86",
+   "text": "Brent crude futures after a 3.7% jump on Friday"
+  },
+  {
+   "big": "229%",
+   "text": "Rise in Türkiye's 2027 defense procurement spending, to $44.5bn in total"
+  }
+ ],
+ "crossword": {
+  "title": "The Crossword",
+  "entries": [
+   {
+    "answer": "TRANSFORMER",
+    "clue": "Attention-based architecture behind modern LLMs"
+   },
+   {
+    "answer": "STANFORD",
+    "clue": "Palo Alto school with a Symbolic Systems major"
+   },
+   {
+    "answer": "GRADIENT",
+    "clue": "Direction of steepest ascent; backprop computes it"
+   },
+   {
+    "answer": "ANKARA",
+    "clue": "Capital of Türkiye"
+   },
+   {
+    "answer": "PYTHON",
+    "clue": "Language most ML code is written in"
+   },
+   {
+    "answer": "LATENCY",
+    "clue": "Delay between request and response"
+   },
+   {
+    "answer": "TOKEN",
+    "clue": "Chunk of text an LLM reads, often smaller than a word"
+   },
+   {
+    "answer": "EMBEDDING",
+    "clue": "Vector that stands in for meaning"
+   },
+   {
+    "answer": "SCHOLARSHIP",
+    "clue": "Aid that need not be repaid"
+   },
+   {
+    "answer": "ESSAY",
+    "clue": "Personal statement, in application season"
+   },
+   {
+    "answer": "FELLOWSHIP",
+    "clue": "Funded program for early-career talent"
+   },
+   {
+    "answer": "ALGORITHM",
+    "clue": "Step-by-step procedure, named for al-Khwarizmi"
+   },
+   {
+    "answer": "BOSPHORUS",
+    "clue": "Strait that splits Istanbul across two continents"
+   },
+   {
+    "answer": "TURING",
+    "clue": "Namesake of computing's top prize"
+   },
+   {
+    "answer": "LOGIC",
+    "clue": "Study of valid inference; a SymSys pillar"
+   },
+   {
+    "answer": "COMMIT",
+    "clue": "Save a snapshot to git history"
+   },
+   {
+    "answer": "PROMPT",
+    "clue": "What you type into a chat model"
+   },
+   {
+    "answer": "HASH",
+    "clue": "Fixed-size fingerprint of data"
+   },
+   {
+    "answer": "NEURON",
+    "clue": "Artificial one sums weighted inputs"
+   },
+   {
+    "answer": "CORPUS",
+    "clue": "Body of text a model trains on"
+   },
+   {
+    "answer": "DEADLINE",
+    "clue": "Date no applicant should miss"
+   },
+   {
+    "answer": "EPOCH",
+    "clue": "One full pass over the training data"
+   },
+   {
+    "answer": "LOSS",
+    "clue": "What training tries to minimize"
+   },
+   {
+    "answer": "MODEL",
+    "clue": "What you get after training"
+   },
+   {
+    "answer": "ROBOT",
+    "clue": "Word coined in Čapek's R.U.R."
+   },
+   {
+    "answer": "SOFTMAX",
+    "clue": "Turns logits into probabilities"
+   },
+   {
+    "answer": "ATATURK",
+    "clue": "Founder of the Turkish Republic"
+   },
+   {
+    "answer": "SUDOKU",
+    "clue": "Puzzle sharing this page"
+   }
+  ]
+ }
+}
