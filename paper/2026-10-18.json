@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "Economy · Artificial Intelligence",
+  "headline": "Fed chair calls the AI spending boom a \"shock\" for the economy",
+  "deck": "Kevin Warsh says chip and data center investment hits demand before supply, and promises to hold the line on prices.",
+  "image": {
+   "src": "/assets/times/kevin-warsh-warns-ai-shock-economy-story.jpg",
+   "alt": "Federal Reserve Chair Kevin Warsh at the IMF and World Bank meetings in Bangkok",
+   "caption": "Fed Chair Kevin Warsh at the IMF and World Bank annual meetings in Bangkok, where he spoke on AI and inflation.",
+   "credit": "Photo: abcnews.com"
+  },
+  "body": [
+   "Federal Reserve Chair Kevin Warsh warned on Friday that rising spending on artificial intelligence could shock the US economy. Speaking in Bangkok at a conference hosted by the International Monetary Fund, he told central bankers that \"you've got to recognize this as a shock.\"",
+   "His argument is about timing. Investment in chip manufacturing and data center construction could push consumer prices up unless new supply of goods and services keeps pace. \"It's obviously hitting the demand side of the economy before it's hitting the supply side of the economy,\" he said. AI spending has helped lift the US economy in recent quarters.",
+   "Warsh stayed optimistic about the long run, saying AI should ultimately boost productivity and create wealth. But he cautioned that \"the path from where we are to there is likely to be a very bumpy one,\" and asked a question the industry has not answered: \"Who's going to be making the money?\"",
+   "The backdrop is already tense. Prices rose 3.7% in September, according to the Bureau of Labor Statistics, more than a full percentage point above the Fed's 2% target, as the Iran war kept gasoline prices high. The Fed raised rates by a quarter point in September, its first hike since 2023.",
+   "Warsh declined to say what comes next. Investors read his stance as a sign the Fed may hold steady: CME's FedWatch tool put the chance of unchanged rates at about 86% on Friday morning, up from about 55% on Wednesday. The next Fed meeting is October 28."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the Anthropic employment study (anthropic.com/research/employment-at-anthropic) alongside Warsh's remarks: it is a primary-source look at how AI changes who gets hired, which is the supply side he says is lagging.",
+    "Watch the October 28 Fed decision and the AI-stock earnings outlook. If you build with paid APIs, assume compute prices are not guaranteed to keep falling while demand surges."
+   ]
+  },
+  "source": "Sources: [ABC News](https://abcnews.com/Business/fed-chair-kevin-warsh-warns-ai-shock-economy/story?id=137315708) for Warsh's remarks and inflation data; [Anthropic](https://www.anthropic.com/research/employment-at-anthropic)."
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Gulf war pushes up Turkish shipping costs",
+   "body": [
+    "Container shipping costs from Türkiye to the Gulf have risen to about $10,000, Türkiye Today reported, even as Turkish carpet exports passed $2 billion.",
+    "Separately, Turkish Aerospace said it is aiming for 1,500 platforms by 2035 as its KAAN fighter jet nears a new flight."
+   ]
+  },
+  {
+   "kicker": "AI policy",
+   "headline": "California orders review of AI \"kill switches\"",
+   "body": [
+    "Governor Gavin Newsom ordered independent verification of AI models and created an expert committee to study kill switches for AI agents, reviving ideas from a bill he vetoed in 2024.",
+    "The state's emergency services office must send AI regulation recommendations by November 15, and Newsom could call a special legislative session before he leaves office."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,659.44",
+   "change": "−1.09%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,140.03",
+   "change": "−2.15%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,002.41",
+   "change": "−0.34%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$214.13",
+   "change": "−1.43%"
+  },
+  {
+   "name": "Intel",
+   "value": "$89.85",
+   "change": "−5.79%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,722",
+   "change": "−2.89%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.51",
+   "change": "−0.03%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$109.86",
+   "change": "+3.72%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,181",
+   "change": "+0.26%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$81,757",
+   "change": "+0.31%"
+  }
+ ],
+ "markets_note": "Latest closes from Friday's sessions; weekend values for Bitcoin. Change vs the prior session.",
+ "weather": {
+  "now": "12° / 5°",
+  "cond": "patchy rain nearby",
+  "summary": "Now 6°C, feels like 2°C, humidity 84%.",
+  "days": [
+   {
+    "d": "SUN",
+    "c": "Sunny",
+    "t": "12° / 5°"
+   },
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "13° / 5°"
+   },
+   {
+    "d": "TUE",
+    "c": "Cloudy",
+    "t": "17° / 6°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "3.7%",
+   "text": "US inflation in September, over a point above the Fed's 2% target"
+  },
+  {
+   "big": "86%",
+   "text": "Chance of unchanged Fed rates, per CME FedWatch on Friday"
+  },
+  {
+   "big": "$109.86",
+   "text": "Brent crude after a 3.7% jump on Friday"
+  }
+ ]
+}
