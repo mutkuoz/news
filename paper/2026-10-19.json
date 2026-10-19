@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "Artificial Intelligence · Business",
+  "headline": "Anthropic sets aside 5% of its shares for a public benefit fund",
+  "deck": "The new fund, with a further 2% for every 50% rise in value, brings roughly one-fifth of the company's shares dedicated to the public good.",
+  "image": {
+   "src": "/assets/times/news-public-benefit-fund.jpg",
+   "alt": "Anthropic illustration accompanying its Public Benefit Fund announcement",
+   "caption": "Anthropic's announcement of a public benefit fund, which will hold 5% of the company's shares.",
+   "credit": "Photo: anthropic.com"
+  },
+  "body": [
+   "Anthropic announced on Sunday that it will commit 5% of its shares to a new Anthropic Public Benefit Fund, subject to stockholder approval. The company says the fund gives it more room to pursue its mission beyond the activities it runs itself.",
+   "The commitment can grow. Under the plan, the board may add 2% for every 50% increase in company value above a set baseline. Anthropic said it will share more about the fund's structure, governance and valuation milestones in the coming months and will publish a public benefit report on its progress.",
+   "The fund is set up as a wholly-owned LLC rather than a 501(c)(3). Anthropic said none of its equity in the fund will be used for lobbying or political giving, in the US or abroad. Examples of what it might do include large donations to traditional nonprofits and direct distributions to specific populations.",
+   "Labor is a named focus. Anthropic has already committed $200 million to studying AI's effects on workers, and said the fund may support bolder approaches to the issue. The company also noted that its co-founders pledged 80% of their equity at founding, and that about half of employees take part in an equity donation match program.",
+   "Counting those earlier pledges, Anthropic says roughly 20% of its shares will be dedicated to the public good, plus any extra percentage from the valuation milestones. The announcement came days after Anthropic said it had given the nonprofit evaluator METR employee-like access to its systems, with METR free to publish its own risk assessments."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the original post at anthropic.com/news/public-benefit-fund and note which details are still open (governance, valuation milestones): they will be spelled out in the coming months.",
+    "Read the October 15 post on independent evaluators next to it. Both show how an AI lab describes accountability, a useful lens if you build or write about AI systems."
+   ]
+  },
+  "source": "Sources: [Anthropic](https://www.anthropic.com/news/public-benefit-fund) for the fund; [Anthropic](https://www.anthropic.com/news/an-update-on-independent-evaluators) for the METR access."
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Türkiye's new constitution must go to a referendum, adviser says",
+   "body": [
+    "Presidential chief adviser Mehmet Ucum said Türkiye's new constitution process began on October 1 with Erdogan's speech to parliament, and that voters must approve any new charter even if every lawmaker backs it.",
+    "He suggested the parliament seated after the 2028 elections could adopt a text in 2029 and put it to a national vote. He said the drafts he reviewed keep the two-term presidential limit, while parties remain divided over presidential, parliamentary and semi-presidential systems."
+   ]
+  },
+  {
+   "kicker": "AI safety",
+   "headline": "Anthropic gives METR employee-like access to its systems",
+   "body": [
+    "Anthropic has given a team from METR, a nonprofit that evaluates frontier AI models, employee-like access to its systems, and METR will publish its own risk assessments. SecureBio and Accenture are also evaluators, and talks are under way with others, including Hugging Face.",
+    "Anthropic can require redaction of sensitive categories such as customer data and model architectures, but cannot veto what METR publishes."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,659.44",
+   "change": "−1.09%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,140.03",
+   "change": "−2.15%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,002.41",
+   "change": "−0.34%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$214.13",
+   "change": "−1.43%"
+  },
+  {
+   "name": "Intel",
+   "value": "$89.85",
+   "change": "−5.79%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,722",
+   "change": "−2.89%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.55",
+   "change": "+0.05%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$107.88",
+   "change": "−1.80%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,200",
+   "change": "+0.45%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$82,496",
+   "change": "+1.37%"
+  }
+ ],
+ "markets_note": "Latest closes from Friday's sessions; weekend values for Bitcoin. Change vs the prior session.",
+ "weather": {
+  "now": "13° / 4°",
+  "cond": "clear",
+  "summary": "Now 5°C, feels like 2°C, humidity 67%.",
+  "days": [
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "13° / 4°"
+   },
+   {
+    "d": "TUE",
+    "c": "Overcast",
+    "t": "16° / 6°"
+   },
+   {
+    "d": "WED",
+    "c": "Sunny",
+    "t": "17° / 7°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "5%",
+   "text": "of Anthropic's shares committed to the new public benefit fund"
+  },
+  {
+   "big": "20%",
+   "text": "of its shares dedicated to the public good once earlier pledges are counted"
+  },
+  {
+   "big": "$200M",
+   "text": "already committed to studying AI's effects on workers"
+  }
+ ]
+}
