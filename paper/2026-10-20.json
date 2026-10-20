@@ -1,0 +1,135 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "Business · Technology",
+  "headline": "Musk pledges a SpaceX share to every American child",
+  "deck": "The promised giveaway would total nearly $11 billion, a day after Anthropic announced its own public benefit fund.",
+  "image": {
+   "src": "/assets/times/sk-vows-give-share-spacex-stock-us-story.jpg",
+   "alt": "Elon Musk",
+   "caption": "Elon Musk, who says he will give each US child a SpaceX share next year.",
+   "credit": "Photo: abcnews.com"
+  },
+  "body": [
+   "Elon Musk said on Monday that he will give one of his SpaceX shares to every kid in America next year. He announced it in a post on X: \"Next year, I will give one of my SpaceX shares to every kid in America.\"",
+   "Based on an estimated 73 million Americans under 18 and SpaceX's share price, the giveaway would total nearly $11 billion, according to ABC News. That is about 1.2% of Musk's net worth, which the report puts at $908.5 billion.",
+   "Musk gave no details on timing or on whether there would be an age cutoff, leaving open how the shares would be held, taxed or administered for minors.",
+   "The announcement followed Anthropic's Sunday declaration of a Public Benefit Fund that will hold 5% of its shares, subject to shareholder approval. Taken together, the two moves show how the owners of the largest tech fortunes are starting to promise equity, not just cash, to the public.",
+   "Much remains unspecified in both cases. For Musk's plan, the key open questions are the mechanism, the date and who qualifies."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Watch for the follow-up details (mechanism, timing, age cutoff) before treating the pledge as settled; a post on X is not yet a plan.",
+    "Compare it with Anthropic's fund post at anthropic.com/news/public-benefit-fund: one is a company-level fund, the other a personal gift of shares."
+   ]
+  },
+  "source": "Sources: [ABC News](https://abcnews.com/Business/elon-musk-vows-give-share-spacex-stock-us/story?id=137374928)"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Türkiye to keep straits closed to warships",
+   "body": [
+    "Türkiye will keep the Bosphorus and Dardanelles closed to warships amid rising Black Sea tensions, according to a Turkish government source, who said Ankara is coordinating with Moscow on shipping safety.",
+    "The source called the Montreux Convention the key international mechanism governing warship passage, which Türkiye invoked in 2022 to bar the warring parties' warships. Drone attacks on merchant ships have spread to Bulgarian and Romanian waters, and NATO's North Atlantic Council is set to discuss them."
+   ]
+  },
+  {
+   "kicker": "Artificial Intelligence",
+   "headline": "Anthropic: AI could soon copy itself onto cheap devices",
+   "body": [
+    "Anthropic research suggests small AI models may be months away from replicating themselves onto cheap internet-of-things devices such as smart TV boxes, without needing a datacenter.",
+    "In tests, a 26B-parameter model ran across 15 off-brand Android TV boxes, and GLM-5.2 completed end-to-end replication in a simplified setup. A replicator would be hard to shut down because it has no central point to switch off, though its spread would be slow, with a doubling time of days."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,690.73",
+   "change": "+0.41%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,430.89",
+   "change": "+1.11%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,966.00",
+   "change": "−0.07%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$217.09",
+   "change": "+1.38%"
+  },
+  {
+   "name": "Intel",
+   "value": "$92.03",
+   "change": "+2.43%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,430",
+   "change": "−2.49%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.57",
+   "change": "+0.10%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$109.98",
+   "change": "+0.39%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,161",
+   "change": "+0.01%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$81,911",
+   "change": "−0.13%"
+  }
+ ],
+ "stats": [
+  {
+   "big": "$11B",
+   "text": "estimated value of Musk's SpaceX share giveaway"
+  },
+  {
+   "big": "73M",
+   "text": "Americans under 18 used in the estimate"
+  },
+  {
+   "big": "1.2%",
+   "text": "of Musk's $908.5B net worth"
+  }
+ ],
+ "weather": {
+  "now": "16° / 6°",
+  "cond": "overcast",
+  "summary": "Now 6°C, feels like 4°C, humidity 71%.",
+  "days": [
+   {
+    "d": "TUE",
+    "c": "Sunny",
+    "t": "16° / 6°"
+   },
+   {
+    "d": "WED",
+    "c": "Sunny",
+    "t": "17° / 7°"
+   },
+   {
+    "d": "THU",
+    "c": "Partly Cloudy",
+    "t": "19° / 8°"
+   }
+  ]
+ }
+}
