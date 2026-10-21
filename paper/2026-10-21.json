@@ -1,0 +1,135 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "Business · Technology",
+  "headline": "SpaceX revenue jumps 161% as its AI unit turns profitable",
+  "deck": "A $4.40 billion quarterly profit, a Starlink spectrum purchase and a first operating profit at xAI mark SpaceX's second earnings report since its June IPO.",
+  "image": {
+   "src": "/assets/times/evenue-soars-161-ai-business-grows-story.jpg",
+   "alt": "SpaceX",
+   "caption": "SpaceX, whose September-quarter revenue jumped 161%.",
+   "credit": "Photo: abcnews.com"
+  },
+  "body": [
+   "SpaceX reported on Tuesday that its revenue grew 161% in the three months ending September compared with a year earlier, with a net profit of $4.40 billion against a loss of $1.05 billion a year before. It was the company's second quarterly report since its June IPO, and it marked a return to profit after a loss in the June quarter.",
+   "The connectivity segment, which includes Starlink, brought in $5.2 billion, up 69% year over year, and is described as the main driver of profits. Earlier this month Starlink acquired nationwide low-band spectrum, which Macquarie analyst Paul Golding said suggests it may compete with US mobile carriers.",
+   "The bigger swing came from the AI unit, which houses xAI and its chatbot. It posted $431 million in operating income in the September quarter after a $1.26 billion operating loss in the June quarter, when AI spending more than doubled from the prior quarter. SpaceX has also spent heavily on data centers.",
+   "Shares rose nearly 4% after hours to about $153.30, after slipping to about $148 on Tuesday afternoon, leaving the company valued at nearly $1.95 trillion. The report came a day after Elon Musk pledged to give one SpaceX share to every US child next year, a gift estimated near $11 billion.",
+   "The article also notes that AI spending has boosted the US economy, while some economists warn it could raise inflation and hurt some workers' job prospects."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the segment split (connectivity vs AI) in SpaceX's own filing, not only the headline growth number: it shows whether AI is profitable or just cheaper than last quarter.",
+    "Track whether the AI unit stays positive next quarter; one quarter after a $1.26 billion loss is a data point, not a trend."
+   ]
+  },
+  "source": "Sources: [ABC News](https://abcnews.com/Business/spacex-revenue-soars-161-ai-business-grows/story?id=137408509)"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Libya's parliament approves maritime deal with Türkiye",
+   "body": [
+    "Libya's eastern-based House of Representatives unanimously approved the 2019 maritime boundary memorandum with Türkiye on Tuesday, reversing its earlier rejection. The memorandum was signed by Türkiye and the former Government of National Accord and divides Mediterranean maritime jurisdiction areas.",
+    "Lawmakers also repealed two 2020 resolutions, one rejecting ratification of two agreements with Türkiye and another calling for severing political ties with Ankara. The vote strengthens the legal standing of a deal that supports Türkiye's claims in the Eastern Mediterranean."
+   ]
+  },
+  {
+   "kicker": "Artificial Intelligence",
+   "headline": "Claude designs binders against scorpion toxins",
+   "body": [
+    "Anthropic says Claude designed protein binders against five scorpion neurotoxins in a 64-hour campaign, generating 318,484 designs and selecting 180 for testing, with 31 more added later. Of the 211 designs lab-tested by Adaptyv Bio and Twist Bioscience, 17 met the binding criteria.",
+    "The two strongest binders reached single-digit nanomolar affinity. Scorpion stings affect more than 1.2 million people yearly, but the binders have not been tested for neutralization in cells or animals, so Anthropic does not claim an antivenom."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,712.57",
+   "change": "+0.28%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,424.82",
+   "change": "−0.02%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,495.88",
+   "change": "+1.02%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$216.47",
+   "change": "−0.29%"
+  },
+  {
+   "name": "Intel",
+   "value": "$91.69",
+   "change": "−0.37%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,798",
+   "change": "+3.22%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.60",
+   "change": "+0.06%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$110.34",
+   "change": "+1.42%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,139",
+   "change": "−0.09%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$82,680",
+   "change": "+1.01%"
+  }
+ ],
+ "weather": {
+  "now": "17° / 7°",
+  "cond": "clear",
+  "summary": "Now 8°C, feels like 5°C, humidity 55%.",
+  "days": [
+   {
+    "d": "WED",
+    "c": "Sunny",
+    "t": "17° / 7°"
+   },
+   {
+    "d": "THU",
+    "c": "Overcast",
+    "t": "19° / 8°"
+   },
+   {
+    "d": "FRI",
+    "c": "Sunny",
+    "t": "21° / 10°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "161%",
+   "text": "SpaceX revenue growth, September quarter"
+  },
+  {
+   "big": "$4.40B",
+   "text": "SpaceX net profit, versus a $1.05B loss a year earlier"
+  },
+  {
+   "big": "$431M",
+   "text": "operating income at SpaceX's AI unit, after a $1.26B loss"
+  }
+ ]
+}
