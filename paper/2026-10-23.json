@@ -1,0 +1,133 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "Markets · AI",
+  "headline": "Nasdaq sinks 2.6% as AI spending fears hit chip stocks",
+  "deck": "The chip index fell 6.7% in a day and Meta dropped 7% after reporting its first cash outflow in over a decade, as investors began to question the cost of the AI build-out.",
+  "image": {
+   "src": "/assets/times/as-ai-spending-fears-spark-tech-selloff.jpg",
+   "alt": "Stock market coverage",
+   "caption": "Wall Street on Thursday, when tech stocks led a broad selloff.",
+   "credit": "Photo: staradvertiser.com"
+  },
+  "body": [
+   "The Nasdaq Composite fell 694 points, or 2.6%, to 26,008.86 on Thursday, its steepest daily drop since early June. The S&P 500 lost 1.21% to 7,663.43, while the Dow edged up 0.02% to 52,867.98, held up by stocks outside technology.",
+   "The damage was concentrated in chips. The Philadelphia Semiconductor Index plunged 6.7%, its biggest one-day fall since June 23, leaving it more than 26% below its June record close, though still up 51.5% for the year. Intel, AMD, Sandisk and Marvell each fell more than 8%.",
+   "Meta was the spark. Its results beat analyst expectations, but the stock dropped 7% after the company posted its first cash outflow in more than a decade, driven by AI-related spending. Meta also plans a two-for-one split using non-voting shares to raise capital for AI. Tesla fell 3.1% even after unexpectedly posting positive free cash flow.",
+   "Not everything fell. Spotify rose 11.1% after forecasting a fourth-quarter profit above estimates, betting on AI-powered features, and Lockheed Martin gained 7% after raising its forecast. Strategist Paul Nolte of Murphy & Sylvest said technology was the only sector really suffering and that investors are seeing some holes in the AI story.",
+   "The backdrop is tense. Houthi strikes on Saudi targets pushed crude to a five-month high, and markets are pricing roughly a 25-basis-point Fed rate hike before year-end. Of the 111 S&P 500 companies that have reported third-quarter results, 83% beat expectations."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read one company's cash-flow statement, such as Meta's, and write three lines on how much of its spending is AI infrastructure. It is the quickest way to see what the selloff is about.",
+    "If you build on paid AI APIs, track your per-request cost this week. Spending pressure on big labs tends to show up as pricing and rate-limit changes."
+   ]
+  },
+  "source": "Reuters via Honolulu Star-Advertiser"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye · Economy",
+   "headline": "Central bank cuts rate to 36%, first cut since January",
+   "body": [
+    "The Central Bank of the Republic of Türkiye cut its policy rate by 100 basis points from 37% to 36% on Thursday, after five straight holds. The statement stayed cautious, saying the committee is highly attentive to upside risks on inflation. Reserves fell to $169.1 billion gross, and the next meeting is on December 10."
+   ]
+  },
+  {
+   "kicker": "AI · Research",
+   "headline": "Claude proves 123 open-source libraries cannot crash",
+   "body": [
+    "Anthropic said Claude wrote machine-checked Rocq proofs showing 123 open-source libraries never crash on inputs under 64 MB, finding hundreds of bugs along the way. The proofs total about 180 million lines. Anthropic notes that formally verified does not mean bug-free, since the underlying models and checker are still trusted."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,663.43",
+   "change": "−1.21%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,008.86",
+   "change": "−2.60%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,867.98",
+   "change": "+0.02%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$212.21",
+   "change": "−4.40%"
+  },
+  {
+   "name": "Intel",
+   "value": "$85.49",
+   "change": "−8.04%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,220",
+   "change": "−3.08%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.73",
+   "change": "+0.22%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$113.61",
+   "change": "+0.39%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,034",
+   "change": "−0.66%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$81,729",
+   "change": "−2.72%"
+  }
+ ],
+ "weather": {
+  "now": "21° / 7°",
+  "cond": "clear",
+  "summary": "Now 7°C, feels like 5°C, humidity 69%.",
+  "days": [
+   {
+    "d": "FRI",
+    "c": "Sunny",
+    "t": "21° / 7°"
+   },
+   {
+    "d": "SAT",
+    "c": "Partly Cloudy",
+    "t": "20° / 8°"
+   },
+   {
+    "d": "SUN",
+    "c": "Partly Cloudy",
+    "t": "21° / 8°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "-2.6%",
+   "text": "Nasdaq's one-day drop, its worst since early June"
+  },
+  {
+   "big": "6.7%",
+   "text": "fall in the Philadelphia chip index"
+  },
+  {
+   "big": "36%",
+   "text": "Türkiye's new policy rate after a 100-point cut"
+  }
+ ]
+}
