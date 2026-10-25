@@ -1,0 +1,135 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "AI · Business",
+  "headline": "Two Claude Code builders leave Anthropic as its record IPO nears",
+  "deck": "Thariq Shihipar and Anthony Morris announced their exits within a day of each other, weeks before a listing reportedly targeted for mid-November at up to $2 trillion.",
+  "image": {
+   "src": "/assets/times/e-leaving-anthropic-weeks-before-its-ipo.jpg",
+   "alt": "Illustration from the OfficeChai report on the Claude Code departures",
+   "caption": "The departures were reported on Saturday by OfficeChai, weeks before Anthropic's reported listing.",
+   "credit": "Photo: officechai.com"
+  },
+  "body": [
+   "Two engineers closely tied to Claude Code, Anthropic's agentic coding tool, said on Saturday that they are leaving the company. Thariq Shihipar announced his departure after what he called more than a year of watching the tool scale larger than he ever imagined. Anthony Morris said his last day was the day before his announcement. Neither shared what comes next.",
+   "Shihipar joined as a member of technical staff and worked on the skills system, context engineering and agent workflows. He was also the most visible public voice of Claude Code on X. Morris said he created the tool's desktop application, which aimed to make coding accessible to people who are not engineers.",
+   "The timing is what drew attention. According to the OfficeChai report, Anthropic confidentially filed for a US IPO in June and reportedly targets a listing as early as mid-November, at a valuation of $1.8 trillion to $2 trillion. That would make it the largest public offering ever, ahead of the $75 billion SpaceX raised earlier this year.",
+   "The report notes that Anthropic has had one of the lowest voluntary attrition rates among major AI labs, which commentators partly credit to tighter limits on employee share liquidity, and that it is the only major lab with its founding team intact. It suggests an IPO gives employees a path to sell equity and so these exits could be early signs of more. That reading is the outlet's interpretation, and Anthropic had not commented in the article.",
+   "The same report says Anthropic uses Claude to write nearly all of its own code, which makes the people who shaped that tooling an unusual kind of talent for a company about to go public."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the skills and context-engineering documentation for Claude Code, then build one small skill of your own. It is the part of the tool these two engineers worked on.",
+    "Once Anthropic's public IPO filing appears, read its risk factors and compute commitments. Primary filings are the best free lesson in how an AI lab really spends money."
+   ]
+  },
+  "source": "https://officechai.com/ai/thariq-shihipar-anthony-morris-announce-theyre-leaving-anthropic-weeks-before-its-ipo/"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye · Economy",
+   "headline": "Central bank cuts rate to 36% as the fund turmoil lingers",
+   "body": [
+    "The Central Bank of the Republic of Türkiye cut its policy rate by 100 basis points to 36% on Thursday, its first easing since January. It had held at 37% for a fifth straight meeting in September, and it said it remains highly attentive to upside inflation risks and would tighten if the outlook worsened significantly and persistently.",
+    "The move comes after several investment funds failed to meet redemptions in September. The Capital Markets Board ordered 131 funds liquidated, affecting more than 455,000 investors. Net international reserves fell 6.2 billion dollars in the week to 16 October, to 51.5 billion dollars. The next rate meeting is on 10 December."
+   ]
+  },
+  {
+   "kicker": "AI · Science",
+   "headline": "Claude designs protein binders against scorpion toxins",
+   "body": [
+    "Anthropic said an internal Claude model generated 318,484 protein designs and picked 180 for testing within about 64 hours; with 31 added, 211 were tested by two outside labs. Seventeen bound a single toxin under strict criteria, and the best, against the Cn2 toxin, reached single-digit nanomolar affinity.",
+    "Anthropic does not claim an antivenom: the designs have not been tested for neutralization in cells or animals. Scorpion stings cause over 1.2 million injuries and more than 3,250 deaths a year, mostly among children, and all designs and data have been released publicly."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,623.68",
+   "change": "−0.52%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,955.34",
+   "change": "−0.21%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,215.16",
+   "change": "−1.23%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$210.96",
+   "change": "−0.59%"
+  },
+  {
+   "name": "Intel",
+   "value": "$86.96",
+   "change": "+1.72%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,117",
+   "change": "−0.92%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.69",
+   "change": "−0.08%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$116.72",
+   "change": "+3.14%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,008",
+   "change": "−1.29%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$80,820",
+   "change": "−0.31%"
+  }
+ ],
+ "weather": {
+  "now": "21° / 8°",
+  "cond": "clear",
+  "summary": "Now 8°C, feels like 7°C, humidity 81%.",
+  "days": [
+   {
+    "d": "SUN",
+    "c": "Sunny",
+    "t": "21° / 8°"
+   },
+   {
+    "d": "MON",
+    "c": "Overcast",
+    "t": "21° / 8°"
+   },
+   {
+    "d": "TUE",
+    "c": "Patchy rain nearby",
+    "t": "17° / 10°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$1.8–2T",
+   "text": "Reported valuation Anthropic is targeting for a mid-November IPO"
+  },
+  {
+   "big": "36%",
+   "text": "Türkiye's new policy rate after a 100-basis-point cut"
+  },
+  {
+   "big": "17 of 211",
+   "text": "Claude-designed proteins that bound a scorpion toxin in lab tests"
+  }
+ ]
+}
