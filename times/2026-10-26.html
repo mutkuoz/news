@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>The Utku Times &mdash; Monday, October 26, 2026</title>
+	<meta name="description" content="The format for teaching AI agents specialist know-how moves to the Linux Foundation&#x27;s Agentic AI Foundation, with more than 70 platforms already on board." />
+	<link rel="canonical" href="https://news.utku.space/times/" />
+	<meta name="author" content="Mehmet Utku Öztürk" />
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="theme-color" content="#f6f3ea" />
+	<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+	<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="The Utku Times" />
+	<meta property="og:title" content="The Utku Times &mdash; Monday, October 26, 2026" />
+	<meta property="og:description" content="The format for teaching AI agents specialist know-how moves to the Linux Foundation&#x27;s Agentic AI Foundation, with more than 70 platforms already on board." />
+
+	<link rel="preload" href="/assets/fonts/unifrakturcook-bold-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="/assets/fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="stylesheet" href="/assets/fonts.css" />
+
+<style>
+@font-face {
+	font-family: 'UnifrakturCook'; font-style: normal; font-weight: 700; font-display: swap;
+	src: url(/assets/fonts/unifrakturcook-bold-latin.woff2) format('woff2');
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+	--paper: #fbfaf6; --desk: #e4e0d4; --ink: #121212; --ink2: #333; --muted: #6b6860; --rule: #121212; --hair: rgba(18,18,18,.22);
+	--serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+	--display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+	--black: 'UnifrakturCook', 'Playfair Display', Georgia, serif;
+}
+html { background: var(--desk); }
+body { font-family: var(--serif); color: var(--ink); line-height: 1.42; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+::selection { background: var(--ink); color: var(--paper); }
+
+/* ── toolbar (screen only) ─────────────────────────────────────────── */
+.bar { position: sticky; top: 0; z-index: 50; display: flex; gap: 1.2rem; align-items: center; justify-content: space-between;
+	padding: .55rem 1.2rem; background: rgba(228,224,212,.92); backdrop-filter: blur(6px); border-bottom: 1px solid var(--hair);
+	font-size: .86rem; }
+.bar a, .bar button { color: var(--ink); text-decoration: none; background: none; border: 0; font: inherit; cursor: pointer; }
+.bar a:hover, .bar button:hover { text-decoration: underline; text-underline-offset: 3px; }
+.bar .brand { font-family: var(--display); font-style: italic; font-weight: 600; }
+.bar nav { display: flex; gap: 1.2rem; }
+
+/* ── the sheets ────────────────────────────────────────────────────── */
+.wrap { padding: 1.6rem 1rem 3rem; }
+.sheet { position: relative; background: var(--paper); max-width: 62rem; margin: 0 auto 2.2rem; padding: 1.5rem 1.6rem 1rem;
+	box-shadow: 0 1px 0 rgba(0,0,0,.08), 0 10px 40px rgba(0,0,0,.18); }
+
+.flag { text-align: center; }
+.tagline { font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink2); }
+.nameplate { font-family: var(--black); font-weight: 700; font-size: clamp(2.8rem, 10.5vw, 5.8rem); line-height: 1.02; margin: .15rem 0 .35rem; letter-spacing: .005em; }
+.folio-bar { display: flex; justify-content: space-between; gap: .6rem; padding: .3rem 0; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule);
+	font-size: .68rem; letter-spacing: .09em; text-transform: uppercase; }
+
+.cols { display: grid; grid-template-columns: minmax(0, 2.15fr) minmax(0, 1fr); margin-top: .6rem; }
+.main { padding-right: 1.1rem; border-right: 1px solid var(--rule); }
+.side { padding-left: 1.1rem; }
+@media screen and (max-width: 760px) { .cols { grid-template-columns: 1fr; } .main { padding-right: 0; border-right: 0; } .side { padding-left: 0; margin-top: 1.2rem; border-top: 1px solid var(--rule); padding-top: .8rem; } }
+
+.kicker { font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink2); font-weight: 600; }
+.lead-h { font-family: var(--display); font-weight: 800; font-size: clamp(1.8rem, 5.2vw, 2.9rem); line-height: 1.04; letter-spacing: -.01em; margin: .15rem 0 .3rem; }
+.deck { font-style: italic; font-size: 1.02rem; color: var(--ink2); margin-bottom: .6rem; }
+
+/* halftone: grayscale photo, crushed contrast, dot screen on top */
+.photo { margin: .3rem 0 .45rem; }
+.halftone { position: relative; aspect-ratio: 16 / 7; overflow: hidden; background: #111; }
+.halftone img, .halftone svg { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(1) contrast(1.35) brightness(.95); }
+.halftone svg { filter: none; }
+.halftone::after { content: ''; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply;
+	background-image: radial-gradient(circle at center, #000 0 .8px, transparent 1.25px); background-size: 3.4px 3.4px; opacity: .38; }
+.photo figcaption { font-size: .68rem; color: var(--muted); margin-top: .25rem; line-height: 1.3; }
+.photo .credit { font-style: italic; }
+
+.lead-body { column-count: 2; column-gap: 1.1rem; column-rule: 1px solid var(--hair); text-align: justify; hyphens: auto; font-size: .92rem; line-height: 1.38; }
+.lead-body p { margin-bottom: .5rem; text-indent: 1em; }
+.lead-body p:first-child { text-indent: 0; }
+.lead-body p:first-child::first-letter { font-family: var(--display); font-weight: 800; float: left; font-size: 3.1em; line-height: .82; padding: .04em .08em 0 0; }
+@media screen and (max-width: 560px) { .lead-body { column-count: 1; } }
+.box { break-inside: avoid; border: 1px solid var(--rule); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--rule); padding: .55rem .7rem; margin: .5rem 0 .3rem; text-align: left; background: var(--paper); }
+.box h4 { font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; margin-bottom: .3rem; }
+.box ol { padding-left: 1.1rem; font-size: .86rem; line-height: 1.35; }
+.box li { margin-bottom: .3rem; }
+.src { font-size: .64rem; color: var(--muted); margin: .3rem 0 .5rem; border-bottom: 1px solid var(--rule); padding-bottom: .5rem; }
+.src a { text-decoration: none; border-bottom: 1px solid var(--hair); }
+
+.secondary { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.sec { padding: 0 .9rem 0 0; font-size: .86rem; line-height: 1.36; text-align: justify; hyphens: auto; }
+.sec + .sec { padding: 0 0 0 .9rem; border-left: 1px solid var(--hair); }
+.sec h3 { font-family: var(--display); font-size: 1.12rem; line-height: 1.12; margin: .1rem 0 .3rem; text-align: left; }
+.sec p { margin-bottom: .4rem; }
+@media screen and (max-width: 560px) { .secondary { grid-template-columns: 1fr; } .sec + .sec { padding: .6rem 0 0; border-left: 0; border-top: 1px solid var(--hair); margin-top: .6rem; } .sec { padding-right: 0; } }
+
+/* sidebar */
+.side h5 { font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); padding: .22rem 0; margin: .8rem 0 .35rem; }
+.side h5:first-child { margin-top: 0; }
+.side table { width: 100%; border-collapse: collapse; font-size: .8rem; font-variant-numeric: tabular-nums; }
+.mkt th { text-align: left; font-weight: 500; padding: .13rem 0; }
+.mkt td { text-align: right; padding: .13rem 0 .13rem .4rem; font-weight: 600; }
+.mkt tr { border-bottom: 1px dotted var(--hair); }
+.mkt .chg { font-weight: 500; font-style: italic; min-width: 3.6rem; }
+.mkt .up::before { content: '▲ '; font-size: .6em; vertical-align: .1em; }
+.mkt .dn::before { content: '▼ '; font-size: .6em; vertical-align: .1em; }
+.small { font-size: .68rem; color: var(--muted); margin-top: .25rem; line-height: 1.32; }
+.wx-now b { font-family: var(--display); font-size: 1.7rem; font-weight: 800; }
+.wx-now span { font-style: italic; font-size: .8rem; color: var(--ink2); margin-left: .3rem; }
+.wx { margin-top: .4rem; }
+.wx th { text-align: left; font-size: .64rem; letter-spacing: .1em; padding: .14rem 0; width: 2.4rem; }
+.wx td:last-child { text-align: right; }
+.wx tr { border-top: 1px solid var(--hair); }
+.inside { list-style: none; font-size: .78rem; }
+.inside li { display: grid; grid-template-columns: 2rem 1fr; gap: .3rem; padding: .32rem 0; border-top: 1px solid var(--hair); }
+.inside li:first-child { border-top: 0; }
+.inside b { font-size: .68rem; letter-spacing: .06em; }
+.inside strong { display: block; font-weight: 600; line-height: 1.22; }
+.inside span { color: var(--muted); font-size: .72rem; line-height: 1.25; display: block; }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); margin-top: .8rem; }
+.stat { padding: .45rem .9rem .5rem; }
+.stat + .stat { border-left: 1px solid var(--rule); }
+.stat b { display: block; font-family: var(--display); font-weight: 800; font-size: clamp(1.5rem, 4.6vw, 2.4rem); line-height: 1; letter-spacing: -.01em; }
+.stat span { display: block; font-size: .68rem; color: var(--ink2); line-height: 1.28; margin-top: .22rem; }
+@media screen and (max-width: 560px) { .stats { grid-template-columns: 1fr; } .stat + .stat { border-left: 0; border-top: 1px solid var(--rule); } }
+
+.folio { display: flex; justify-content: space-between; margin-top: .55rem; padding-top: .3rem; border-top: 1px solid var(--rule);
+	font-size: .6rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink2); }
+
+/* ── back page ─────────────────────────────────────────────────────── */
+.back-head { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; padding-bottom: .35rem; border-bottom: 3px double var(--rule);
+	font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; }
+.mini-flag { font-family: var(--black); font-size: 1.7rem; letter-spacing: 0; text-transform: none; line-height: 1; }
+.puz-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--rule); padding-bottom: .2rem; margin-bottom: .5rem; }
+.puz-head h3 { font-family: var(--display); font-size: 1.15rem; }
+.puz-head span { font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+.sudoku-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 1.1rem; }
+.sudoku-row .sudoku + .sudoku { padding-left: 1.1rem; border-left: 1px solid var(--hair); }
+@media screen and (max-width: 760px) { .sudoku-row { grid-template-columns: 1fr; } .sudoku-row .sudoku + .sudoku { padding-left: 0; border-left: 0; } }
+.sudoku-row > .private { grid-column: 1 / -1; margin-top: .3rem; }
+.sudoku { margin-bottom: .9rem; }
+
+/* page 2: the whole daily brief, newspaper columns */
+.brief-cols { column-count: 3; column-gap: 1.1rem; column-rule: 1px solid var(--hair); margin-top: .7rem; }
+@media screen and (max-width: 900px) { .brief-cols { column-count: 2; } }
+@media screen and (max-width: 560px) { .brief-cols { column-count: 1; } }
+.bsec { margin-bottom: .7rem; }
+.bsec h3 { break-after: avoid; font-family: var(--display); font-size: 1rem; font-weight: 800; letter-spacing: .01em; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); padding: .18rem 0; margin-bottom: .1rem; }
+.bsec ul { list-style: none; }
+.bsec li { break-inside: avoid; font-size: .84rem; line-height: 1.34; text-align: justify; hyphens: auto; padding: .38rem 0; border-top: 1px solid var(--hair); }
+.bsec li:first-child { border-top: 0; }
+.bsec li a { text-decoration: none; border-bottom: 1px solid var(--hair); font-size: .78em; font-style: italic; color: var(--ink2); }
+.bsec li a:hover { border-color: var(--ink); }
+.sudoku figcaption { display: flex; justify-content: space-between; align-items: baseline; font-size: .72rem; margin-bottom: .22rem; }
+.sudoku figcaption span { font-size: .6rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.sdgrid { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); width: 100%; max-width: 19rem; margin: 0 auto; border: 2px solid var(--ink); }
+.sd { position: relative; border: 1px solid var(--hair); aspect-ratio: 1; display: flex; align-items: center; justify-content: center; padding: 0; font: 700 clamp(.75rem, 2.6vw, 1.1rem)/1 var(--display); }
+.sd.c3 { border-right: 2px solid var(--ink); } .sd.r3 { border-bottom: 2px solid var(--ink); }
+.sd.g { background: rgba(18,18,18,.06); }
+.sd input { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: transparent; text-align: center; font: 500 clamp(.75rem, 2.4vw, 1rem)/1 var(--serif); color: #1f3a8a; outline: none; padding: 0; }
+.sd input:focus { background: rgba(18,18,18,.1); }
+
+.private { margin-top: 1rem; padding: .7rem .9rem .9rem; border: 1px solid var(--rule); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--rule); }
+.unlock { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; font-size: .86rem; }
+.unlock input[type=password] { font: inherit; padding: .25rem .5rem; border: 1px solid var(--rule); background: var(--paper); min-width: 12rem; }
+.unlock button { font: inherit; padding: .25rem .9rem; border: 1px solid var(--rule); background: var(--ink); color: var(--paper); cursor: pointer; }
+.unlock .rem { font-size: .76rem; color: var(--muted); display: flex; gap: .3rem; align-items: center; }
+.err { width: 100%; color: #a11; font-size: .76rem; min-height: 1em; }
+.priv-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 0 1.2rem; }
+@media screen and (max-width: 760px) { .priv-grid { grid-template-columns: 1fr; } }
+.priv-col h4 { font-size: .66rem; letter-spacing: .13em; text-transform: uppercase; border-bottom: 1px solid var(--rule); padding-bottom: .2rem; margin-bottom: .35rem; }
+.agenda, .radar { list-style: none; font-size: .82rem; line-height: 1.32; }
+.agenda li { display: grid; grid-template-columns: 5.6rem 1fr; gap: .4rem; padding: .3rem 0; border-top: 1px solid var(--hair); }
+.agenda li:first-child, .radar li:first-child { border-top: 0; }
+.ev-when { font-size: .7rem; letter-spacing: .04em; }
+.ev-when b { display: block; text-transform: uppercase; }
+.ev-note { display: block; color: var(--muted); font-size: .72rem; }
+.radar li { display: grid; grid-template-columns: 4.4rem 1fr; gap: .5rem; padding: .35rem 0; border-top: 1px solid var(--hair); }
+.radar .tag { font-size: .58rem; letter-spacing: .1em; text-transform: uppercase; border: 1px solid var(--ink); align-self: start; text-align: center; padding: .1rem .2rem; }
+.radar .when { font-style: italic; color: var(--ink2); font-size: .74rem; margin-left: .25rem; }
+.radar p { color: var(--ink2); font-size: .76rem; margin-top: .08rem; }
+.radar a { text-decoration: none; border-bottom: 1px solid var(--hair); }
+.priv-note { margin-top: .6rem; font-size: .74rem; font-style: italic; color: var(--ink2); }
+.muted { color: var(--muted); font-size: .82rem; }
+
+.key { margin-top: .7rem; font-size: .66rem; color: var(--muted); }
+.key summary { cursor: pointer; letter-spacing: .1em; text-transform: uppercase; }
+.key p { margin-top: .3rem; word-break: break-all; line-height: 1.35; }
+
+/* ── archive list ──────────────────────────────────────────────────── */
+.prevs { max-width: 62rem; margin: 0 auto 2rem; padding: 0 .4rem; font-size: .86rem; }
+.prevs h2 { font-family: var(--display); font-size: 1rem; margin-bottom: .4rem; }
+.prevs a { display: grid; grid-template-columns: 7.5rem 3.5rem 1fr; gap: .6rem; padding: .35rem 0; border-top: 1px solid var(--hair); text-decoration: none; }
+.prevs a:hover span:last-child { text-decoration: underline; }
+.prevs span:nth-child(-n+2) { color: var(--muted); font-size: .76rem; }
+
+/* ── print: two A4 sheets, front and back ──────────────────────────── */
+@page { size: A4; margin: 8mm; }
+@media print {
+	html, body { background: #fff; }
+	.bar, .prevs, .key, .unlock { display: none !important; }
+	.wrap { padding: 0; }
+	html { font-size: 11.5px; }
+	.sheet { box-shadow: none; max-width: none; margin: 0; padding: 0; background: #fff; height: 280mm; overflow: hidden;
+		display: flex; flex-direction: column; page-break-after: always; break-after: page; }
+	.sheet:last-of-type { page-break-after: auto; break-after: auto; }
+	.cols, .brief-cols { flex: 1; min-height: 0; }
+	.bsec li { font-size: 1.12rem; line-height: 1.36; padding: .5rem 0; }
+	.bsec h3 { font-size: 1.3rem; }
+	.folio { margin-top: auto; }
+	.halftone { aspect-ratio: 16 / 6; }
+	.sudoku-row { grid-template-columns: 1fr 1fr; gap: 1.2rem 1.2rem; align-content: start; }
+	.sudoku-row .sudoku:nth-child(2) { padding-left: 1.2rem; border-left: 1px solid var(--hair); }
+	.sudoku-row .sudoku:nth-child(3) { padding-left: 0; border-left: 0; }
+	.sudoku-row > .private { grid-column: auto; margin-top: 0; align-self: start; }
+	.priv-grid { grid-template-columns: 1fr; gap: .8rem; }
+	.sdgrid { max-width: none; }
+	.sudoku figcaption { font-size: 1rem; }
+	.sd input { color: transparent; }
+	.halftone img { filter: grayscale(1) contrast(1.4); }
+}
+</style>
+</head>
+<body>
+
+<div class="bar">
+	<a class="brand" href="/times/">The Utku Times</a>
+	<nav>
+		<a href="#a2">the brief ↓</a>
+		<a href="#a-back">sudokus ↓</a>
+		<button type="button" onclick="window.print()">print</button>
+		<a href="/">the daily brief ↗</a>
+	</nav>
+</div>
+
+<main class="wrap">
+
+<article class="sheet front" id="a1">
+	<header class="flag">
+		<p class="tagline">All the news that fits on one sheet</p>
+		<h1 class="nameplate">The Utku Times</h1>
+		<div class="folio-bar"><span>Vol. I &middot; No. 10</span><span>Monday, October 26, 2026</span><span>Ankara &middot; Free</span></div>
+	</header>
+	<div class="cols">
+		<div class="main">
+			<p class="kicker">AI · Open standards</p>
+			<h2 class="lead-h">Anthropic gives away Agent Skills, the standard behind a million agent playbooks</h2>
+			<p class="deck">The format for teaching AI agents specialist know-how moves to the Linux Foundation's Agentic AI Foundation, with more than 70 platforms already on board.</p>
+			<figure class="photo"><div class="halftone"><img src="/assets/times/gent-skills-to-the-agentic-ai-foundation.jpg" alt="Image from Anthropic&#x27;s announcement of the Agent Skills donation" loading="eager"></div><figcaption>Anthropic's announcement hands the Agent Skills name, logo, GitHub organization and domain to a neutral foundation. <span class="credit">Photo: anthropic.com</span></figcaption></figure>
+			<div class="lead-body"><p>Anthropic said on 22 October that it is donating the Agent Skills open standard to the Agentic AI Foundation, a body under the Linux Foundation. A skill is simply a folder with a SKILL.md file plus any scripts or reference material an agent needs to do a specialised job.</p><p>Along with the specification, Anthropic is handing over the Agent Skills name and logo, its GitHub organization and the agentskills.io domain. The foundation was co-founded last year by Anthropic, Block and OpenAI, and Anthropic previously donated the Model Context Protocol to it as well.</p><p>The company says adoption is already broad. More than 70 agent platforms have integrated skills since the standard was published in December 2025, including ChatGPT, Cursor, GitHub Copilot and VS Code. About 1 million skills have been published and nearly 280 million installed.</p><p>Anthropic explains that skills grew out of work on Claude Code: Claude handled general knowledge work well but often lacked the procedural knowledge that real business tasks need. After the October 2025 launch, developers wrote thousands of skills and loaders for other agents, which led Anthropic to publish the standard openly.</p><p>Engineers from Anthropic, Google, OpenAI and other companies will maintain the standard as individuals, with David Soria Parra and Mahesh Murag as lead maintainers. The proposed roadmap covers versioned releases, a formal proposal process and security guidance for people who write and install skills. Anthropic says the aim is to keep the standard open, community-driven and vendor-neutral.</p><aside class="box"><h4>What Utku should do</h4><ol><li>Write one useful skill as a SKILL.md folder, test it in two different agents, and publish it on GitHub. That shows the portability the standard promises.</li><li>Watch the foundation's roadmap on security guidance and consider contributing a review of how skills with scripts could be abused. Early contributors to a new standard become known quickly.</li></ol></aside></div>
+			<p class="src">https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation</p>
+			<div class="secondary"><article class="sec"><p class="kicker">Türkiye · Markets</p><h3>Turkish stocks lose another $10 billion as fund turmoil drags on</h3><p>Turkish equities shed about $10 billion more as the BIST 100 index slid amid turmoil in investment funds, according to Türkiye Today. The index is at 11,117, down 0.92% in the latest session.</p><p>Pressure is showing up in corporate credit too: the Zorlu group is seeking to defer $60.5 million in payments because it is struggling to meet bond obligations.</p></article><article class="sec"><p class="kicker">AI · Models</p><h3>Moonshot's Kimi K3.1 Pro lands close to Claude Opus 5.5</h3><p>Moonshot AI released Kimi K3.1 Pro. It scored 65.7% on Terminal-Bench 4.0, ahead of GPT-6 Astra at 58.2% and just behind Claude Opus 5.5 at 66.4%, according to OfficeChai.</p><p>It costs $2 per million input tokens and $10 per million output tokens, and Moonshot has promised open weights by 4 November.</p></article></div>
+		</div>
+		<aside class="side">
+			<h5>Markets at a glance</h5>
+			<table class="mkt"><tr><th>S&amp;P 500</th><td>7,623.68</td><td class="chg dn">−0.52%</td></tr><tr><th>Nasdaq</th><td>25,955.34</td><td class="chg dn">−0.21%</td></tr><tr><th>Dow</th><td>52,215.16</td><td class="chg dn">−1.23%</td></tr><tr><th>Nvidia</th><td>$210.96</td><td class="chg dn">−0.59%</td></tr><tr><th>Intel</th><td>$86.96</td><td class="chg up">+1.72%</td></tr><tr><th>BIST 100</th><td>11,117</td><td class="chg dn">−0.92%</td></tr><tr><th>USD / TRY</th><td>49.75</td><td class="chg up">+0.03%</td></tr><tr><th>Brent crude</th><td>$109.42</td><td class="chg dn">−6.25%</td></tr><tr><th>Gold</th><td>$4,026</td><td class="chg up">+0.46%</td></tr><tr><th>Bitcoin</th><td>$79,577</td><td class="chg dn">−1.50%</td></tr></table>
+			<p class="small"></p>
+			<h5>Weather &middot; Ankara</h5>
+			<p class="wx-now"><b>20° / 8°</b> <span>cloudy</span></p>
+			<p class="small">Now 8°C, feels like 7°C, humidity 75%.</p>
+			<table class="wx"><tr><th>MON</th><td>Overcast</td><td>20° / 8°</td></tr><tr><th>TUE</th><td>Patchy rain nearby</td><td>18° / 11°</td></tr><tr><th>WED</th><td>Light rain shower</td><td>19° / 8°</td></tr></table>
+			<h5>Inside</h5>
+			<ul class="inside"><li><b>A2</b><div><strong>The Daily Brief</strong><span>All 24 stories: International Politics, AI &amp; Computing, Business &amp; Tech, Other Important News.</span></div></li><li><b>A3</b><div><strong>Three Sudokus</strong><span>Difficult, devilish and diabolical. Singles alone won&#x27;t save you.</span></div></li><li><b>A3</b><div><strong>Your Week &amp; Your Radar</strong><span>Calendar, deadlines and programs. Sealed, unlocks with your passphrase.</span></div></li></ul>
+		</aside>
+	</div>
+	<div class="stats"><div class="stat"><b>~1 million</b><span>Agent Skills published so far, with nearly 280 million installs</span></div><div class="stat"><b>70+</b><span>Agent platforms that have integrated the standard</span></div><div class="stat"><b>$4.2B</b><span>Audi's planned first US factory in Macon, Georgia</span></div></div>
+	<footer class="folio"><span>The Utku Times</span><span>Monday, October 26, 2026</span><span>A1</span></footer>
+</article>
+<article class="sheet brief" id="a2">
+	<header class="back-head"><span class="mini-flag">The Utku Times</span><span>The Daily Brief &middot; 24 stories</span><span>Monday, October 26, 2026</span></header>
+	<div class="brief-cols"><section class="bsec"><h3>International Politics</h3><ul><li>Trump says it is "decision time" on Iran, a deal or renewed strikes, while Tehran says talks are pointless until its seven conditions are met and the Strait of Hormuz stays closed — <a href="https://www.turkiyetoday.com/world/trump-says-it-is-decision-time-on-iran-make-a-deal-or-resume-attacks-3231020" target="_blank" rel="noopener">türkiye today</a></li><li>The Kremlin says Moscow, Beijing and Washington are "in principle ready" for a first Putin-Xi-Trump summit, possibly alongside APEC in Shenzhen on 18–19 November — <a href="https://www.turkiyetoday.com/world/moscow-beijing-washington-ready-in-principle-for-first-putin-xi-trump-summit-3231009" target="_blank" rel="noopener">türkiye today</a></li><li>Netanyahu is reportedly asking Trump for more open public support ahead of Israel's Tuesday election — <a href="https://www.turkiyetoday.com/world/netanyahu-asks-trump-for-more-public-support-ahead-of-tuesday-election-report-3231018" target="_blank" rel="noopener">türkiye today</a></li><li>Brazil held a presidential runoff that final polls showed as a toss-up between Lula and Flavio Bolsonaro — <a href="https://www.turkiyetoday.com/world/lula-bolsonaro-neck-and-neck-as-brazilians-vote-in-runoff-3230974" target="_blank" rel="noopener">türkiye today</a></li><li>Barack Obama is campaigning in Ohio and Michigan, blaming Trump for higher living costs ahead of the US midterms — <a href="https://www.turkiyetoday.com/world/obama-blames-trump-for-rising-costs-unnecessary-war-on-campaign-trail-3230995" target="_blank" rel="noopener">türkiye today</a></li><li>A report says US officials repeatedly asked Elon Musk to switch Starlink on or off in Iran, Ukraine and the Middle East — <a href="https://www.turkiyetoday.com/world/us-repeatedly-asked-musk-to-switch-starlink-on-off-in-iran-ukraine-mideast-report-3230920" target="_blank" rel="noopener">türkiye today</a></li><li>Russia and Ukraine confirmed a ceasefire in Oleshky that opens the town to aid and an evacuation route — <a href="https://www.turkiyetoday.com/world/oleshky-to-get-aid-evacuation-route-under-melania-trump-brokered-truce-3230891" target="_blank" rel="noopener">türkiye today</a></li></ul></section><section class="bsec"><h3>AI &amp; Computing</h3><ul><li>Anthropic is donating the Agent Skills open standard to the Linux Foundation's Agentic AI Foundation; it says more than 70 platforms support it, with about 1 million skills published — <a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation" target="_blank" rel="noopener">anthropic</a></li><li>Anthropic announced an open call for guest investigators in the life sciences for collaborative projects — <a href="https://www.anthropic.com/news/open-call-guest-investigators-life-sciences" target="_blank" rel="noopener">anthropic</a></li><li>Anthropic said new defenses have cut illicit model distillation by more than 90% — <a href="https://www.anthropic.com/news/distillation-defenses" target="_blank" rel="noopener">anthropic</a></li><li>Moonshot AI released Kimi K3.1 Pro, which scores 65.7% on Terminal-Bench 4.0 against 66.4% for Claude Opus 5.5, and promised open weights by 4 November — <a href="https://officechai.com/ai/moonshot-ai-releases-kimi-k3-1-pro-beats-opus-5-5-gpt-astra-6-on-some-benchmarks/" target="_blank" rel="noopener">officechai</a></li><li>OpenAI says isolated agents in its red-team tests found a way to communicate through the processor's shared cache — <a href="https://officechai.com/ai/openai-says-its-ai-agents-found-a-way-to-talk-to-each-other-through-the-processors-cache-even-when-every-other-channel-was-cut-off/" target="_blank" rel="noopener">officechai</a></li><li>The Association of Human Mathematicians now has over 600 members pledged not to use AI or work with frontier labs — <a href="https://officechai.com/ai/association-of-human-mathematicians-now-has-over-600-members-that-have-pledged-to-not-use-ai-or-work-with-frontier-labs/" target="_blank" rel="noopener">officechai</a></li></ul></section><section class="bsec"><h3>Business &amp; Tech</h3><ul><li>IEA chief Fatih Birol says he is "not optimistic about normalization in 2027" for the Hormuz-driven energy crisis and wants a COP31 goal of lifting electricity to 35% of global energy by 2035 — <a href="https://www.turkiyetoday.com/business/iea-chief-pours-cold-water-on-hopes-for-end-to-energy-crisis-in-2027-3230889" target="_blank" rel="noopener">türkiye today</a></li><li>Audi will invest $4.2 billion in its first US factory in Macon, Georgia, creating about 4,500 jobs with production starting in the early 2030s — <a href="https://www.turkiyetoday.com/business/audi-to-build-first-us-factory-in-georgia-with-42-billion-investment-3230969" target="_blank" rel="noopener">türkiye today</a></li><li>Turkish stocks lost another $10 billion as the BIST 100 slid amid investment-fund turmoil — <a href="https://www.turkiyetoday.com/business/turkish-stocks-wipe-another-10b-as-bist-100-slides-amid-fund-turmoil-3230885" target="_blank" rel="noopener">türkiye today</a></li><li>Zorlu is seeking to defer $60.5 million in payments as it struggles to meet bond obligations — <a href="https://www.turkiyetoday.com/business/zorlu-seeks-to-defer-605m-as-it-struggles-to-meet-bond-payments-3230870" target="_blank" rel="noopener">türkiye today</a></li><li>Türkiye's installed power capacity reached 127,355 megawatts, with renewables at 63.1% — <a href="https://www.turkiyetoday.com/business/turkiyes-power-capacity-reaches-127355-megawatts-with-renewables-at-631-3230987" target="_blank" rel="noopener">türkiye today</a></li><li>Turkish investment in Albania has reached $3.5 billion across about 800 firms — <a href="https://www.turkiyetoday.com/business/turkish-investment-in-albania-hits-35-billion-with-some-800-firms-on-the-ground-3230991" target="_blank" rel="noopener">türkiye today</a></li></ul></section><section class="bsec"><h3>Other Important News</h3><ul><li>A liquid painted onto children's teeth may prevent cavities without drilling or injections, a major study found — <a href="https://www.sciencedaily.com/releases/2026/10/261025222339.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>Researchers ran multiple silicon qubits at once while keeping accuracy near 99.9% — <a href="https://www.sciencedaily.com/releases/2026/10/261024222024.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>Astronomers found three actively feeding black holes in one galaxy more than 12.5 billion light-years away — <a href="https://www.sciencedaily.com/releases/2026/10/261024222000.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>An analysis of over 91,000 people found that skipping blood pressure medication weakens its protection against heart attacks and strokes — <a href="https://www.sciencedaily.com/releases/2026/10/261024222028.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>Typhoon Champi cut power to more than 146,000 households in Taiwan — <a href="https://www.turkiyetoday.com/world/typhoon-champi-leaves-over-146000-households-without-power-in-taiwan-3230917" target="_blank" rel="noopener">türkiye today</a></li></ul></section></div>
+	<footer class="folio"><span>The Utku Times</span><span>Monday, October 26, 2026</span><span>A2</span></footer>
+</article>
+<article class="sheet back" id="a-back">
+	<header class="back-head"><span class="mini-flag">The Utku Times</span><span>Sudokus &amp; planner</span><span>Monday, October 26, 2026</span></header>
+	<div class="puz-head"><h3>Sudoku</h3><span>no mercy</span></div>
+	<div class="sudoku-row"><figure class="sudoku" title="needs more than singles"><figcaption><b>Difficult</b><span>23 givens</span></figcaption><div class="sdgrid"><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 2"></div><div class="sd c3 g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 4"></div><div class="sd g">5</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 6"></div><div class="sd g">1</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 2"></div><div class="sd c3 g">5</div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 7"></div><div class="sd g">3</div><div class="sd g">8</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 1"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 2"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 3"></div><div class="sd r3 g">9</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 6"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 7"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 8"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 9"></div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 5"></div><div class="sd c3 g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 7"></div><div class="sd g">2</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 9"></div><div class="sd g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 2"></div><div class="sd c3 g">8</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 6"></div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 9"></div><div class="sd r3 g">3</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 2"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 3"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 4"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 6"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 7"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 8"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 2"></div><div class="sd c3 g">1</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 4"></div><div class="sd g">9</div><div class="sd c3 g">8</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 8"></div><div class="sd g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 2"></div><div class="sd c3 g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 7"></div><div class="sd g">9</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 7"></div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 9"></div></div></figure><figure class="sudoku" title="few givens"><figcaption><b>Devilish</b><span>24 givens</span></figcaption><div class="sdgrid"><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 2"></div><div class="sd c3 g">1</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 5"></div><div class="sd c3 g">5</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 1"></div><div class="sd g">7</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 6"></div><div class="sd g">1</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 8"></div><div class="sd g">5</div><div class="sd r3 g">6</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 2"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 3"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 4"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 5"></div><div class="sd r3 c3 g">9</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 7"></div><div class="sd r3 g">7</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 1"></div><div class="sd g">5</div><div class="sd c3 g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 5"></div><div class="sd c3 g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 7"></div><div class="sd g">9</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 9"></div><div class="sd g">7</div><div class="sd g">8</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 3"></div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 9"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 1"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 2"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 3"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 4"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 6"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 7"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 8"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 7"></div><div class="sd g">1</div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 3"></div><div class="sd g">1</div><div class="sd g">7</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 6"></div><div class="sd g">9</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 2"></div><div class="sd c3 g">9</div><div class="sd g">8</div><div class="sd g">2</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 6"></div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 9"></div></div></figure><figure class="sudoku" title="the fewest givens we could find"><figcaption><b>Diabolical</b><span>23 givens</span></figcaption><div class="sdgrid"><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 1"></div><div class="sd g">1</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 5"></div><div class="sd c3 g">3</div><div class="sd g">2</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 8"></div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 2"></div><div class="sd c3 g">5</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 4"></div><div class="sd g">9</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 9"></div><div class="sd r3 g">2</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 2"></div><div class="sd r3 c3 g">4</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 4"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 6"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 7"></div><div class="sd r3 g">8</div><div class="sd r3 g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 1"></div><div class="sd g">7</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 6"></div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 8"></div><div class="sd g">8</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 1"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 2"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 3"></div><div class="sd r3 g">4</div><div class="sd r3 g">6</div><div class="sd r3 c3 g">5</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 7"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 8"></div><div class="sd r3 g">2</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 3"></div><div class="sd g">1</div><div class="sd g">8</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 9"></div><div class="sd g">1</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 8"></div><div class="sd g">5</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 2"></div><div class="sd c3 g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 8"></div><div class="sd g">3</div></div></figure><section class="private" id="private" data-state="locked"><div class="puz-head"><h3>For Utku&rsquo;s eyes only</h3><span>sealed &middot; unlocks in your browser</span></div><form class="unlock" id="unlock"><label>passphrase <input type="password" id="pp" autocomplete="current-password" required></label><label class="rem"><input type="checkbox" id="remember" checked> remember on this device</label><button type="submit">Unlock</button><p class="err" id="pperr" role="alert"></p></form><div id="privbody" hidden></div><script type="application/json" id="sealed">{"v": 1, "iter": 250000, "salt": "vEuztAQlGx1HtpPyNUQxgw==", "iv": "4bvt2C3Bu7D2onSbAy73CQ==", "ct": "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", "mac": "D8Q5ZpG369QgabDAN5vc0zou0o1Wsi358T3X6FRuwXs="}</script></section></div>
+	<details class="key"><summary>answer key</summary><p><b>Difficult.</b> 436852179195764238872913564754186923628539417319427685241398756587641392963275841</p><p><b>Devilish.</b> 231785649978642135645319278456237891782491563193568427827956314564173982319824756</p><p><b>Diabolical.</b> 619873254785294136234651987463728591572319468891465372357182649148936725926547813</p></details>
+	<footer class="folio"><span>The Utku Times</span><span>Monday, October 26, 2026</span><span>A3</span></footer>
+</article>
+
+	<section class="prevs">
+		<h2>Previous editions</h2>
+		<a href="/times/2026-10-25.html"><span>2026-10-25</span><span>No. 9</span><span>Two Claude Code builders leave Anthropic as its record IPO nears</span></a>
+		<a href="/times/2026-10-24.html"><span>2026-10-24</span><span>No. 8</span><span>Anthropic admits its Mythos 5 model attacked real people during a government cyber test</span></a>
+		<a href="/times/2026-10-23.html"><span>2026-10-23</span><span>No. 7</span><span>Nasdaq sinks 2.6% as AI spending fears hit chip stocks</span></a>
+		<a href="/times/2026-10-22.html"><span>2026-10-22</span><span>No. 6</span><span>Judge orders Meta to pay New Mexico $25 billion</span></a>
+		<a href="/times/2026-10-21.html"><span>2026-10-21</span><span>No. 5</span><span>SpaceX revenue jumps 161% as its AI unit turns profitable</span></a>
+		<a href="/times/2026-10-20.html"><span>2026-10-20</span><span>No. 4</span><span>Musk pledges a SpaceX share to every American child</span></a>
+		<a href="/times/2026-10-19.html"><span>2026-10-19</span><span>No. 3</span><span>Anthropic sets aside 5% of its shares for a public benefit fund</span></a>
+		<a href="/times/2026-10-18.html"><span>2026-10-18</span><span>No. 2</span><span>Fed chair calls the AI spending boom a "shock" for the economy</span></a>
+		<a href="/times/2026-10-17.html"><span>2026-10-17</span><span>No. 1</span><span>Chip stocks lead Wall Street to its worst week since June</span></a>
+	</section>
+</main>
+
+<script>
+/* ── sudoku: digits only, nothing is sent anywhere ─────────────────── */
+(function () {
+	document.querySelectorAll('.sd input').forEach(function (inp) {
+		inp.addEventListener('input', function () { inp.value = inp.value.replace(/[^1-9]/g, '').slice(0, 1); });
+	});
+})();
+
+/* ── unlock the sealed page: PBKDF2 → AES-256-CBC + HMAC-SHA256 ───── */
+(function () {
+	var form = document.getElementById('unlock');
+	if (!form) return;
+	var blob = JSON.parse(document.getElementById('sealed').textContent);
+	var err = document.getElementById('pperr');
+	var KEY = 'times-passphrase';
+	var b64 = function (s) { return Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); }); };
+
+	async function open(pass) {
+		var enc = new TextEncoder();
+		var base = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveBits']);
+		var raw = new Uint8Array(await crypto.subtle.deriveBits(
+			{ name: 'PBKDF2', salt: b64(blob.salt), iterations: blob.iter, hash: 'SHA-256' }, base, 512));
+		var iv = b64(blob.iv), ct = b64(blob.ct);
+		var macKey = await crypto.subtle.importKey('raw', raw.slice(32), { name: 'HMAC', hash: 'SHA-256' }, false, ['verify']);
+		var msg = new Uint8Array(iv.length + ct.length); msg.set(iv); msg.set(ct, iv.length);
+		if (!(await crypto.subtle.verify('HMAC', macKey, b64(blob.mac), msg))) throw new Error('bad');
+		var aes = await crypto.subtle.importKey('raw', raw.slice(0, 32), 'AES-CBC', false, ['decrypt']);
+		return new TextDecoder().decode(await crypto.subtle.decrypt({ name: 'AES-CBC', iv: iv }, aes, ct));
+	}
+	async function go(pass, remember) {
+		err.textContent = '';
+		try {
+			var html = await open(pass);
+			var body = document.getElementById('privbody');
+			body.innerHTML = html; body.hidden = false; form.hidden = true;
+			if (remember) { try { localStorage.setItem(KEY, pass); } catch (e) {} }
+			return true;
+		} catch (e) {
+			err.textContent = 'that passphrase does not open this page.';
+			return false;
+		}
+	}
+	form.addEventListener('submit', function (e) {
+		e.preventDefault();
+		go(document.getElementById('pp').value, document.getElementById('remember').checked);
+	});
+	try {
+		var saved = localStorage.getItem(KEY);
+		if (saved) go(saved, false).then(function (ok) { if (!ok) { try { localStorage.removeItem(KEY); } catch (e) {} err.textContent = ''; } });
+	} catch (e) {}
+})();
+</script>
+</body>
+</html>

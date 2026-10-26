@@ -1,0 +1,135 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "AI · Open standards",
+  "headline": "Anthropic gives away Agent Skills, the standard behind a million agent playbooks",
+  "deck": "The format for teaching AI agents specialist know-how moves to the Linux Foundation's Agentic AI Foundation, with more than 70 platforms already on board.",
+  "image": {
+   "src": "/assets/times/gent-skills-to-the-agentic-ai-foundation.jpg",
+   "alt": "Image from Anthropic's announcement of the Agent Skills donation",
+   "caption": "Anthropic's announcement hands the Agent Skills name, logo, GitHub organization and domain to a neutral foundation.",
+   "credit": "Photo: anthropic.com"
+  },
+  "body": [
+   "Anthropic said on 22 October that it is donating the Agent Skills open standard to the Agentic AI Foundation, a body under the Linux Foundation. A skill is simply a folder with a SKILL.md file plus any scripts or reference material an agent needs to do a specialised job.",
+   "Along with the specification, Anthropic is handing over the Agent Skills name and logo, its GitHub organization and the agentskills.io domain. The foundation was co-founded last year by Anthropic, Block and OpenAI, and Anthropic previously donated the Model Context Protocol to it as well.",
+   "The company says adoption is already broad. More than 70 agent platforms have integrated skills since the standard was published in December 2025, including ChatGPT, Cursor, GitHub Copilot and VS Code. About 1 million skills have been published and nearly 280 million installed.",
+   "Anthropic explains that skills grew out of work on Claude Code: Claude handled general knowledge work well but often lacked the procedural knowledge that real business tasks need. After the October 2025 launch, developers wrote thousands of skills and loaders for other agents, which led Anthropic to publish the standard openly.",
+   "Engineers from Anthropic, Google, OpenAI and other companies will maintain the standard as individuals, with David Soria Parra and Mahesh Murag as lead maintainers. The proposed roadmap covers versioned releases, a formal proposal process and security guidance for people who write and install skills. Anthropic says the aim is to keep the standard open, community-driven and vendor-neutral."
+  ],
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Write one useful skill as a SKILL.md folder, test it in two different agents, and publish it on GitHub. That shows the portability the standard promises.",
+    "Watch the foundation's roadmap on security guidance and consider contributing a review of how skills with scripts could be abused. Early contributors to a new standard become known quickly."
+   ]
+  },
+  "source": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye · Markets",
+   "headline": "Turkish stocks lose another $10 billion as fund turmoil drags on",
+   "body": [
+    "Turkish equities shed about $10 billion more as the BIST 100 index slid amid turmoil in investment funds, according to Türkiye Today. The index is at 11,117, down 0.92% in the latest session.",
+    "Pressure is showing up in corporate credit too: the Zorlu group is seeking to defer $60.5 million in payments because it is struggling to meet bond obligations."
+   ]
+  },
+  {
+   "kicker": "AI · Models",
+   "headline": "Moonshot's Kimi K3.1 Pro lands close to Claude Opus 5.5",
+   "body": [
+    "Moonshot AI released Kimi K3.1 Pro. It scored 65.7% on Terminal-Bench 4.0, ahead of GPT-6 Astra at 58.2% and just behind Claude Opus 5.5 at 66.4%, according to OfficeChai.",
+    "It costs $2 per million input tokens and $10 per million output tokens, and Moonshot has promised open weights by 4 November."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,623.68",
+   "change": "−0.52%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,955.34",
+   "change": "−0.21%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,215.16",
+   "change": "−1.23%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$210.96",
+   "change": "−0.59%"
+  },
+  {
+   "name": "Intel",
+   "value": "$86.96",
+   "change": "+1.72%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,117",
+   "change": "−0.92%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.75",
+   "change": "+0.03%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$109.42",
+   "change": "−6.25%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,026",
+   "change": "+0.46%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$79,577",
+   "change": "−1.50%"
+  }
+ ],
+ "weather": {
+  "now": "20° / 8°",
+  "cond": "cloudy",
+  "summary": "Now 8°C, feels like 7°C, humidity 75%.",
+  "days": [
+   {
+    "d": "MON",
+    "c": "Overcast",
+    "t": "20° / 8°"
+   },
+   {
+    "d": "TUE",
+    "c": "Patchy rain nearby",
+    "t": "18° / 11°"
+   },
+   {
+    "d": "WED",
+    "c": "Light rain shower",
+    "t": "19° / 8°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "~1 million",
+   "text": "Agent Skills published so far, with nearly 280 million installs"
+  },
+  {
+   "big": "70+",
+   "text": "Agent platforms that have integrated the standard"
+  },
+  {
+   "big": "$4.2B",
+   "text": "Audi's planned first US factory in Macon, Georgia"
+  }
+ ]
+}
