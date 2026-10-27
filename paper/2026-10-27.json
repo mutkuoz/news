@@ -1,0 +1,135 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "AI · Markets",
+  "headline": "Anthropic files to go public, with more than half a trillion dollars of compute on the books",
+  "deck": "The S-1 filed on 26 October plans a Nasdaq listing under \"ANT\" and lays out $542–567 billion in compute commitments against fast-rising revenue.",
+  "body": [
+   "Anthropic announced on 26 October that it has filed a Form S-1 registration statement with the U.S. Securities and Exchange Commission for a proposed initial public offering of its Class A common stock. It plans to list on the Nasdaq Global Select Market under the symbol \"ANT\", with Goldman Sachs and Morgan Stanley named as sources for the preliminary prospectus. The number of shares and the price range have not been set, and the registration is not yet effective.",
+   "The filing's biggest number is the bill for computing power. According to OfficeChai's reading of the document, Anthropic has $542 billion to $567 billion of compute and infrastructure commitments, including at least $110 billion owed to Amazon through April 2036 and at least $114.5 billion to Google through July 2033, both described as owed regardless of actual usage. Broadcom accounts for roughly $161 billion and Microsoft for $44.9 billion.",
+   "Set against that is a steep improvement in how much revenue each compute dollar brings in. The S-1 shows revenue per compute dollar rising from $0.40 in the first quarter of 2025 to $2.08 in the second quarter of 2026, about 5.2 times, with quarterly revenue of $11.6 billion against $5.6 billion of compute costs. OfficeChai notes that the ratio leaves out other spending, including long-term infrastructure contracts running into the tens of billions of dollars.",
+   "The report says the company was last valued privately at $965 billion in May, and that Chief Executive Dario Amodei told investors Anthropic planned for 10 times growth but saw 80 times annualized growth in a single quarter. To spread supply risk, Anthropic now buys across four chip architectures: AWS Trainium, Google TPUs, NVIDIA GPUs and AMD GPUs.",
+   "For investors the question is whether revenue can keep outrunning commitments that last up to 20 years. For everyone else, the filing is the first detailed public look at the economics of running a frontier AI lab at scale."
+  ],
+  "image": {
+   "src": "/assets/times/e-nearly-half-its-last-private-valuation.webp",
+   "alt": "Illustration from OfficeChai's coverage of Anthropic's S-1 filing",
+   "caption": "OfficeChai's illustration for its coverage of the compute commitments in Anthropic's S-1.",
+   "credit": "Photo: officechai.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the S-1's risk-factor and compute sections yourself once it is on SEC EDGAR, and write a one-page summary of the unit economics. Few people your age will have read a primary filing.",
+    "Notice the diversification across four chip types and consider testing a small project on more than one accelerator or framework backend. Portability across hardware is becoming a real skill."
+   ]
+  },
+  "source": "https://officechai.com/ai/anthropic-is-betting-567-billion-on-compute-nearly-half-its-last-private-valuation/"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye · Trade",
+   "headline": "Turkish steel exports to the EU fall 6.7% as quotas and carbon rules bite",
+   "body": [
+    "Türkiye's iron and steel exports to the European Union fell 6.7% in January–September 2026, while shipments to non-EU destinations rose 10%, according to Türkiye Today. The EU cut its steel import quotas by 50% from 1 July, and its Carbon Border Adjustment Mechanism took effect at the start of the year.",
+    "Trade Minister Ömer Bolat criticized the measures, warning that unilateral restrictions could raise exporters' costs and disrupt low-carbon steel supply. The EU still takes 42.3% of Türkiye's steel exports, and about 78% of Turkish steelmaking capacity already uses scrap-based electric arc furnaces."
+   ]
+  },
+  {
+   "kicker": "AI · Governance",
+   "headline": "Who would control Anthropic after the IPO",
+   "body": [
+    "According to OfficeChai's reading of the S-1, a founder LLC whose members are seven co-founders would hold a single Class F share carrying 50.1% of voting power on most shareholder matters. That power ends if fewer than three of the seven remain in the LLC for 90 consecutive days.",
+    "The Long-Term Benefit Trust, created in 2023 with five financially disinterested trustees, could elect and remove three of the five board directors. Anthropic says it will qualify as a controlled company under Nasdaq rules but use the exemption only for its nominating and governance committee. Public Class A shareholders would get economic exposure but little say over strategy."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,676.77",
+   "change": "+0.70%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,169.38",
+   "change": "+0.82%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,361.60",
+   "change": "+0.28%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$216.00",
+   "change": "+2.39%"
+  },
+  {
+   "name": "Intel",
+   "value": "$90.47",
+   "change": "+4.04%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,152",
+   "change": "+0.31%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.78",
+   "change": "+0.09%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$109.84",
+   "change": "−5.15%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,024",
+   "change": "−0.36%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$79,787",
+   "change": "−0.30%"
+  }
+ ],
+ "weather": {
+  "now": "16° / 10°",
+  "cond": "light rain shower",
+  "summary": "Now 11°C, feels like 9°C, humidity 79%.",
+  "days": [
+   {
+    "d": "TUE",
+    "c": "Light drizzle",
+    "t": "16° / 10°"
+   },
+   {
+    "d": "WED",
+    "c": "Light rain shower",
+    "t": "19° / 9°"
+   },
+   {
+    "d": "THU",
+    "c": "Light drizzle",
+    "t": "15° / 9°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$567B",
+   "text": "upper end of Anthropic's compute and infrastructure commitments in its S-1"
+  },
+  {
+   "big": "5.2x",
+   "text": "rise in revenue per compute dollar, Q1 2025 to Q2 2026"
+  },
+  {
+   "big": "-6.7%",
+   "text": "fall in Turkish steel exports to the EU, January–September"
+  }
+ ]
+}
