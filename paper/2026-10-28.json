@@ -1,0 +1,129 @@
+{
+  "tagline": "All the news that fits on one sheet",
+  "lead": {
+    "kicker": "AI · Mathematics",
+    "headline": "Two AI labs say they broke a 30-year-old complexity conjecture on the same day",
+    "deck": "OpenAI and Anthropic each report that a model disproved the Exponential Time Hypothesis, with Lean proofs to back the claims.",
+    "body": [
+      "OpenAI said this week that one of its internal models refuted the Exponential Time Hypothesis, a conjecture in computational complexity theory that is nearly 30 years old. Hours later Anthropic published a paper titled \"A 2^o(n) Time Algorithm for 3-SAT\", listing the author as \"Claude, Anthropic\". According to OfficeChai, both labs appear to have reached the result independently, without knowing what the other was doing.",
+      "The hypothesis says that Boolean satisfiability cannot be solved much faster than brute-force search as the number of variables grows. Researchers have used it as a working assumption in hundreds of papers, deriving conditional hardness results in graph theory, computational biology, databases and computational geometry. Anthropic says Claude's literature search found more than 800 papers whose results depend on it or on a related hypothesis, so a confirmed disproof would force some of them onto new foundations.",
+      "The timelines are close. OpenAI says its model produced a natural-language disproof on October 16 and a Lean formalization followed a day later; Anthropic says its core algorithm was also found on October 16, by an internal Claude research model that used 14 million output tokens. Anthropic's proof is formalized in Lean 4 across 1,050 modules and checked by Lean's kernel and an independent checker called nanoda. Its own appendix cautions that the Lean development was written by AI models and reviewed by other instances of the same models, and that no person is known to have checked it.",
+      "OpenAI took a more structured route to verification. It asked outside experts to act as shepherds, with a group led by Russell Impagliazzo and Ramamohan Paturi of UC San Diego, two of the three researchers who proposed the hypothesis, and Ryan Williams of MIT. OpenAI agreed to make all raw data public and will fund a conference on what the result means. The approach contrasts with its October 6 math release, which drew criticism from mathematicians including Terence Tao over claims published without structured verification.",
+      "The result is purely asymptotic. Anthropic's paper says the bound does not beat brute force until formulas have more than roughly 10 to the 10,000th power variables, and that it says nothing about solving formulas in practice. It does not advance P versus NP. What it does show is that frontier models are now producing machine-checkable results in theoretical computer science, and that the field's verification habits are being tested."
+    ],
+    "image": {
+      "src": "/assets/times/ime-hypothesis-on-the-same-day-as-openai.jpg",
+      "alt": "Illustration from OfficeChai's coverage of the Exponential Time Hypothesis claims",
+      "caption": "OfficeChai's image for its report on Anthropic's and OpenAI's Exponential Time Hypothesis claims.",
+      "credit": "Photo: officechai.com"
+    },
+    "box": {
+      "title": "What Utku should do",
+      "items": [
+        "Skim the 3-SAT paper's introduction and the Lean appendix once it is posted, and note how the authors separate what was machine-checked from what was not. That distinction is the real lesson.",
+        "Try writing a tiny DPLL-style 3-SAT solver and time it against brute force on 20 to 40 variables. It makes the asymptotics in the story concrete."
+      ]
+    },
+    "source": "https://officechai.com/ai/anthropic-says-claude-too-independently-disproved-exponential-time-hypothesis-on-the-same-day-as-openai/"
+  },
+  "secondary": [
+    {
+      "kicker": "Türkiye · Energy",
+      "headline": "Akkuyu nuclear plant weeks from first fuel as Ankara courts Eni",
+      "body": [
+        "Energy Minister Alparslan Bayraktar said the Akkuyu nuclear plant should receive its first nuclear fuel in one or two weeks, calling it the final stage with intensive testing under way. More than 1,000 tests are required before operation, and the plant's electricity would enter the grid from 2027.",
+        "Separately, Bayraktar said Türkiye expects to announce a \"big project\" oil partnership with Italy's Eni soon. State producer TPAO now produces about 300,000 barrels of oil equivalent a day and is planning 550,000 to 600,000 by 2028, against a goal of 1 million."
+      ]
+    },
+    {
+      "kicker": "AI · Mathematics",
+      "headline": "Startup says AI rewrote a 15,000-page proof of the classification of finite simple groups",
+      "body": [
+        "San Francisco startup Axiom says it used AI agents to rewrite the roughly 15,000-page Classification of Finite Simple Groups in Lean, a language that software can check line by line. It describes the result as the first fully machine-verified version.",
+        "The effort reportedly found 34 serious problems in the published proof, one of which required new mathematics to repair."
+      ]
+    }
+  ],
+  "markets": [
+ {
+  "name": "S&P 500",
+  "value": "7,722.60",
+  "change": "+0.60%"
+ },
+ {
+  "name": "Nasdaq",
+  "value": "26,477.81",
+  "change": "+1.18%"
+ },
+ {
+  "name": "Dow",
+  "value": "52,377.60",
+  "change": "+0.03%"
+ },
+ {
+  "name": "Nvidia",
+  "value": "$217.94",
+  "change": "+0.90%"
+ },
+ {
+  "name": "Intel",
+  "value": "$93.74",
+  "change": "+3.61%"
+ },
+ {
+  "name": "BIST 100",
+  "value": "11,151",
+  "change": "−0.01%"
+ },
+ {
+  "name": "USD / TRY",
+  "value": "49.82",
+  "change": "+0.07%"
+ },
+ {
+  "name": "Brent crude",
+  "value": "$110.73",
+  "change": "−2.77%"
+ },
+ {
+  "name": "Gold",
+  "value": "$4,059",
+  "change": "−0.39%"
+ },
+ {
+  "name": "Bitcoin",
+  "value": "$81,099",
+  "change": "+1.37%"
+ }
+]
+,
+  "markets_note": "",
+  "weather": {
+ "now": "19° / 9°",
+ "cond": "patchy rain nearby",
+ "summary": "Now 9°C, feels like 8°C, humidity 94%.",
+ "days": [
+  {
+   "d": "WED",
+   "c": "Light rain shower",
+   "t": "19° / 9°"
+  },
+  {
+   "d": "THU",
+   "c": "Light rain",
+   "t": "13° / 8°"
+  },
+  {
+   "d": "FRI",
+   "c": "Patchy rain nearby",
+   "t": "15° / 8°"
+  }
+ ]
+}
+,
+  "stats": [
+    {"big": "14M", "text": "output tokens Claude's research model used to find its 3-SAT algorithm"},
+    {"big": "800+", "text": "papers whose results depend on the Exponential Time Hypothesis or a relative"},
+    {"big": "1,050", "text": "Lean modules in Anthropic's formalized proof"}
+  ]
+}
