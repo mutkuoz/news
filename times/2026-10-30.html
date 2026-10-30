@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>The Utku Times &mdash; Friday, October 30, 2026</title>
+	<meta name="description" content="DeepMind&#x27;s newest frontier model scores 59 on the Artificial Analysis Intelligence Index and is aimed squarely at finding and fixing software vulnerabilities." />
+	<link rel="canonical" href="https://news.utku.space/times/" />
+	<meta name="author" content="Mehmet Utku Öztürk" />
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="theme-color" content="#f6f3ea" />
+	<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+	<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="The Utku Times" />
+	<meta property="og:title" content="The Utku Times &mdash; Friday, October 30, 2026" />
+	<meta property="og:description" content="DeepMind&#x27;s newest frontier model scores 59 on the Artificial Analysis Intelligence Index and is aimed squarely at finding and fixing software vulnerabilities." />
+
+	<link rel="preload" href="/assets/fonts/unifrakturcook-bold-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="/assets/fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="stylesheet" href="/assets/fonts.css" />
+
+<style>
+@font-face {
+	font-family: 'UnifrakturCook'; font-style: normal; font-weight: 700; font-display: swap;
+	src: url(/assets/fonts/unifrakturcook-bold-latin.woff2) format('woff2');
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+	--paper: #fbfaf6; --desk: #e4e0d4; --ink: #121212; --ink2: #333; --muted: #6b6860; --rule: #121212; --hair: rgba(18,18,18,.22);
+	--serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+	--display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+	--black: 'UnifrakturCook', 'Playfair Display', Georgia, serif;
+}
+html { background: var(--desk); }
+body { font-family: var(--serif); color: var(--ink); line-height: 1.42; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+::selection { background: var(--ink); color: var(--paper); }
+
+/* ── toolbar (screen only) ─────────────────────────────────────────── */
+.bar { position: sticky; top: 0; z-index: 50; display: flex; gap: 1.2rem; align-items: center; justify-content: space-between;
+	padding: .55rem 1.2rem; background: rgba(228,224,212,.92); backdrop-filter: blur(6px); border-bottom: 1px solid var(--hair);
+	font-size: .86rem; }
+.bar a, .bar button { color: var(--ink); text-decoration: none; background: none; border: 0; font: inherit; cursor: pointer; }
+.bar a:hover, .bar button:hover { text-decoration: underline; text-underline-offset: 3px; }
+.bar .brand { font-family: var(--display); font-style: italic; font-weight: 600; }
+.bar nav { display: flex; gap: 1.2rem; }
+
+/* ── the sheets ────────────────────────────────────────────────────── */
+.wrap { padding: 1.6rem 1rem 3rem; }
+.sheet { position: relative; background: var(--paper); max-width: 62rem; margin: 0 auto 2.2rem; padding: 1.5rem 1.6rem 1rem;
+	box-shadow: 0 1px 0 rgba(0,0,0,.08), 0 10px 40px rgba(0,0,0,.18); }
+
+.flag { text-align: center; }
+.tagline { font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink2); }
+.nameplate { font-family: var(--black); font-weight: 700; font-size: clamp(2.8rem, 10.5vw, 5.8rem); line-height: 1.02; margin: .15rem 0 .35rem; letter-spacing: .005em; }
+.folio-bar { display: flex; justify-content: space-between; gap: .6rem; padding: .3rem 0; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule);
+	font-size: .68rem; letter-spacing: .09em; text-transform: uppercase; }
+
+.cols { display: grid; grid-template-columns: minmax(0, 2.15fr) minmax(0, 1fr); margin-top: .6rem; }
+.main { padding-right: 1.1rem; border-right: 1px solid var(--rule); }
+.side { padding-left: 1.1rem; }
+@media screen and (max-width: 760px) { .cols { grid-template-columns: 1fr; } .main { padding-right: 0; border-right: 0; } .side { padding-left: 0; margin-top: 1.2rem; border-top: 1px solid var(--rule); padding-top: .8rem; } }
+
+.kicker { font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink2); font-weight: 600; }
+.lead-h { font-family: var(--display); font-weight: 800; font-size: clamp(1.8rem, 5.2vw, 2.9rem); line-height: 1.04; letter-spacing: -.01em; margin: .15rem 0 .3rem; }
+.deck { font-style: italic; font-size: 1.02rem; color: var(--ink2); margin-bottom: .6rem; }
+
+/* halftone: grayscale photo, crushed contrast, dot screen on top */
+.photo { margin: .3rem 0 .45rem; }
+.halftone { position: relative; aspect-ratio: 16 / 7; overflow: hidden; background: #111; }
+.halftone img, .halftone svg { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(1) contrast(1.35) brightness(.95); }
+.halftone svg { filter: none; }
+.halftone::after { content: ''; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply;
+	background-image: radial-gradient(circle at center, #000 0 .8px, transparent 1.25px); background-size: 3.4px 3.4px; opacity: .38; }
+.photo figcaption { font-size: .68rem; color: var(--muted); margin-top: .25rem; line-height: 1.3; }
+.photo .credit { font-style: italic; }
+
+.lead-body { column-count: 2; column-gap: 1.1rem; column-rule: 1px solid var(--hair); text-align: justify; hyphens: auto; font-size: .92rem; line-height: 1.38; }
+.lead-body p { margin-bottom: .5rem; text-indent: 1em; }
+.lead-body p:first-child { text-indent: 0; }
+.lead-body p:first-child::first-letter { font-family: var(--display); font-weight: 800; float: left; font-size: 3.1em; line-height: .82; padding: .04em .08em 0 0; }
+@media screen and (max-width: 560px) { .lead-body { column-count: 1; } }
+.box { break-inside: avoid; border: 1px solid var(--rule); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--rule); padding: .55rem .7rem; margin: .5rem 0 .3rem; text-align: left; background: var(--paper); }
+.box h4 { font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; margin-bottom: .3rem; }
+.box ol { padding-left: 1.1rem; font-size: .86rem; line-height: 1.35; }
+.box li { margin-bottom: .3rem; }
+.src { font-size: .64rem; color: var(--muted); margin: .3rem 0 .5rem; border-bottom: 1px solid var(--rule); padding-bottom: .5rem; }
+.src a { text-decoration: none; border-bottom: 1px solid var(--hair); }
+
+.secondary { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.sec { padding: 0 .9rem 0 0; font-size: .86rem; line-height: 1.36; text-align: justify; hyphens: auto; }
+.sec + .sec { padding: 0 0 0 .9rem; border-left: 1px solid var(--hair); }
+.sec h3 { font-family: var(--display); font-size: 1.12rem; line-height: 1.12; margin: .1rem 0 .3rem; text-align: left; }
+.sec p { margin-bottom: .4rem; }
+@media screen and (max-width: 560px) { .secondary { grid-template-columns: 1fr; } .sec + .sec { padding: .6rem 0 0; border-left: 0; border-top: 1px solid var(--hair); margin-top: .6rem; } .sec { padding-right: 0; } }
+
+/* sidebar */
+.side h5 { font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); padding: .22rem 0; margin: .8rem 0 .35rem; }
+.side h5:first-child { margin-top: 0; }
+.side table { width: 100%; border-collapse: collapse; font-size: .8rem; font-variant-numeric: tabular-nums; }
+.mkt th { text-align: left; font-weight: 500; padding: .13rem 0; }
+.mkt td { text-align: right; padding: .13rem 0 .13rem .4rem; font-weight: 600; }
+.mkt tr { border-bottom: 1px dotted var(--hair); }
+.mkt .chg { font-weight: 500; font-style: italic; min-width: 3.6rem; }
+.mkt .up::before { content: '▲ '; font-size: .6em; vertical-align: .1em; }
+.mkt .dn::before { content: '▼ '; font-size: .6em; vertical-align: .1em; }
+.small { font-size: .68rem; color: var(--muted); margin-top: .25rem; line-height: 1.32; }
+.wx-now b { font-family: var(--display); font-size: 1.7rem; font-weight: 800; }
+.wx-now span { font-style: italic; font-size: .8rem; color: var(--ink2); margin-left: .3rem; }
+.wx { margin-top: .4rem; }
+.wx th { text-align: left; font-size: .64rem; letter-spacing: .1em; padding: .14rem 0; width: 2.4rem; }
+.wx td:last-child { text-align: right; }
+.wx tr { border-top: 1px solid var(--hair); }
+.inside { list-style: none; font-size: .78rem; }
+.inside li { display: grid; grid-template-columns: 2rem 1fr; gap: .3rem; padding: .32rem 0; border-top: 1px solid var(--hair); }
+.inside li:first-child { border-top: 0; }
+.inside b { font-size: .68rem; letter-spacing: .06em; }
+.inside strong { display: block; font-weight: 600; line-height: 1.22; }
+.inside span { color: var(--muted); font-size: .72rem; line-height: 1.25; display: block; }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); margin-top: .8rem; }
+.stat { padding: .45rem .9rem .5rem; }
+.stat + .stat { border-left: 1px solid var(--rule); }
+.stat b { display: block; font-family: var(--display); font-weight: 800; font-size: clamp(1.5rem, 4.6vw, 2.4rem); line-height: 1; letter-spacing: -.01em; }
+.stat span { display: block; font-size: .68rem; color: var(--ink2); line-height: 1.28; margin-top: .22rem; }
+@media screen and (max-width: 560px) { .stats { grid-template-columns: 1fr; } .stat + .stat { border-left: 0; border-top: 1px solid var(--rule); } }
+
+.folio { display: flex; justify-content: space-between; margin-top: .55rem; padding-top: .3rem; border-top: 1px solid var(--rule);
+	font-size: .6rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink2); }
+
+/* ── back page ─────────────────────────────────────────────────────── */
+.back-head { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; padding-bottom: .35rem; border-bottom: 3px double var(--rule);
+	font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; }
+.mini-flag { font-family: var(--black); font-size: 1.7rem; letter-spacing: 0; text-transform: none; line-height: 1; }
+.puz-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--rule); padding-bottom: .2rem; margin-bottom: .5rem; }
+.puz-head h3 { font-family: var(--display); font-size: 1.15rem; }
+.puz-head span { font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+.sudoku-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 1.1rem; }
+.sudoku-row .sudoku + .sudoku { padding-left: 1.1rem; border-left: 1px solid var(--hair); }
+@media screen and (max-width: 760px) { .sudoku-row { grid-template-columns: 1fr; } .sudoku-row .sudoku + .sudoku { padding-left: 0; border-left: 0; } }
+.sudoku-row > .private { grid-column: 1 / -1; margin-top: .3rem; }
+.sudoku { margin-bottom: .9rem; }
+
+/* page 2: the whole daily brief, newspaper columns */
+.brief-cols { column-count: 3; column-gap: 1.1rem; column-rule: 1px solid var(--hair); margin-top: .7rem; }
+@media screen and (max-width: 900px) { .brief-cols { column-count: 2; } }
+@media screen and (max-width: 560px) { .brief-cols { column-count: 1; } }
+.bsec { margin-bottom: .7rem; }
+.bsec h3 { break-after: avoid; font-family: var(--display); font-size: 1rem; font-weight: 800; letter-spacing: .01em; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); padding: .18rem 0; margin-bottom: .1rem; }
+.bsec ul { list-style: none; }
+.bsec li { break-inside: avoid; font-size: .84rem; line-height: 1.34; text-align: justify; hyphens: auto; padding: .38rem 0; border-top: 1px solid var(--hair); }
+.bsec li:first-child { border-top: 0; }
+.bsec li a { text-decoration: none; border-bottom: 1px solid var(--hair); font-size: .78em; font-style: italic; color: var(--ink2); }
+.bsec li a:hover { border-color: var(--ink); }
+.sudoku figcaption { display: flex; justify-content: space-between; align-items: baseline; font-size: .72rem; margin-bottom: .22rem; }
+.sudoku figcaption span { font-size: .6rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.sdgrid { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); width: 100%; max-width: 19rem; margin: 0 auto; border: 2px solid var(--ink); }
+.sd { position: relative; border: 1px solid var(--hair); aspect-ratio: 1; display: flex; align-items: center; justify-content: center; padding: 0; font: 700 clamp(.75rem, 2.6vw, 1.1rem)/1 var(--display); }
+.sd.c3 { border-right: 2px solid var(--ink); } .sd.r3 { border-bottom: 2px solid var(--ink); }
+.sd.g { background: rgba(18,18,18,.06); }
+.sd input { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: transparent; text-align: center; font: 500 clamp(.75rem, 2.4vw, 1rem)/1 var(--serif); color: #1f3a8a; outline: none; padding: 0; }
+.sd input:focus { background: rgba(18,18,18,.1); }
+
+.private { margin-top: 1rem; padding: .7rem .9rem .9rem; border: 1px solid var(--rule); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--rule); }
+.unlock { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; font-size: .86rem; }
+.unlock input[type=password] { font: inherit; padding: .25rem .5rem; border: 1px solid var(--rule); background: var(--paper); min-width: 12rem; }
+.unlock button { font: inherit; padding: .25rem .9rem; border: 1px solid var(--rule); background: var(--ink); color: var(--paper); cursor: pointer; }
+.unlock .rem { font-size: .76rem; color: var(--muted); display: flex; gap: .3rem; align-items: center; }
+.err { width: 100%; color: #a11; font-size: .76rem; min-height: 1em; }
+.priv-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 0 1.2rem; }
+@media screen and (max-width: 760px) { .priv-grid { grid-template-columns: 1fr; } }
+.priv-col h4 { font-size: .66rem; letter-spacing: .13em; text-transform: uppercase; border-bottom: 1px solid var(--rule); padding-bottom: .2rem; margin-bottom: .35rem; }
+.agenda, .radar { list-style: none; font-size: .82rem; line-height: 1.32; }
+.agenda li { display: grid; grid-template-columns: 5.6rem 1fr; gap: .4rem; padding: .3rem 0; border-top: 1px solid var(--hair); }
+.agenda li:first-child, .radar li:first-child { border-top: 0; }
+.ev-when { font-size: .7rem; letter-spacing: .04em; }
+.ev-when b { display: block; text-transform: uppercase; }
+.ev-note { display: block; color: var(--muted); font-size: .72rem; }
+.radar li { display: grid; grid-template-columns: 4.4rem 1fr; gap: .5rem; padding: .35rem 0; border-top: 1px solid var(--hair); }
+.radar .tag { font-size: .58rem; letter-spacing: .1em; text-transform: uppercase; border: 1px solid var(--ink); align-self: start; text-align: center; padding: .1rem .2rem; }
+.radar .when { font-style: italic; color: var(--ink2); font-size: .74rem; margin-left: .25rem; }
+.radar p { color: var(--ink2); font-size: .76rem; margin-top: .08rem; }
+.radar a { text-decoration: none; border-bottom: 1px solid var(--hair); }
+.priv-note { margin-top: .6rem; font-size: .74rem; font-style: italic; color: var(--ink2); }
+.muted { color: var(--muted); font-size: .82rem; }
+
+.key { margin-top: .7rem; font-size: .66rem; color: var(--muted); }
+.key summary { cursor: pointer; letter-spacing: .1em; text-transform: uppercase; }
+.key p { margin-top: .3rem; word-break: break-all; line-height: 1.35; }
+
+/* ── archive list ──────────────────────────────────────────────────── */
+.prevs { max-width: 62rem; margin: 0 auto 2rem; padding: 0 .4rem; font-size: .86rem; }
+.prevs h2 { font-family: var(--display); font-size: 1rem; margin-bottom: .4rem; }
+.prevs a { display: grid; grid-template-columns: 7.5rem 3.5rem 1fr; gap: .6rem; padding: .35rem 0; border-top: 1px solid var(--hair); text-decoration: none; }
+.prevs a:hover span:last-child { text-decoration: underline; }
+.prevs span:nth-child(-n+2) { color: var(--muted); font-size: .76rem; }
+
+/* ── print: two A4 sheets, front and back ──────────────────────────── */
+@page { size: A4; margin: 8mm; }
+@media print {
+	html, body { background: #fff; }
+	.bar, .prevs, .key, .unlock { display: none !important; }
+	.wrap { padding: 0; }
+	html { font-size: 11.5px; }
+	.sheet { box-shadow: none; max-width: none; margin: 0; padding: 0; background: #fff; height: 280mm; overflow: hidden;
+		display: flex; flex-direction: column; page-break-after: always; break-after: page; }
+	.sheet:last-of-type { page-break-after: auto; break-after: auto; }
+	.cols, .brief-cols { flex: 1; min-height: 0; }
+	.bsec li { font-size: 1.12rem; line-height: 1.36; padding: .5rem 0; }
+	.bsec h3 { font-size: 1.3rem; }
+	.folio { margin-top: auto; }
+	.halftone { aspect-ratio: 16 / 6; }
+	.sudoku-row { grid-template-columns: 1fr 1fr; gap: 1.2rem 1.2rem; align-content: start; }
+	.sudoku-row .sudoku:nth-child(2) { padding-left: 1.2rem; border-left: 1px solid var(--hair); }
+	.sudoku-row .sudoku:nth-child(3) { padding-left: 0; border-left: 0; }
+	.sudoku-row > .private { grid-column: auto; margin-top: 0; align-self: start; }
+	.priv-grid { grid-template-columns: 1fr; gap: .8rem; }
+	.sdgrid { max-width: none; }
+	.sudoku figcaption { font-size: 1rem; }
+	.sd input { color: transparent; }
+	.halftone img { filter: grayscale(1) contrast(1.4); }
+}
+</style>
+</head>
+<body>
+
+<div class="bar">
+	<a class="brand" href="/times/">The Utku Times</a>
+	<nav>
+		<a href="#a2">the brief ↓</a>
+		<a href="#a-back">sudokus ↓</a>
+		<button type="button" onclick="window.print()">print</button>
+		<a href="/">the daily brief ↗</a>
+	</nav>
+</div>
+
+<main class="wrap">
+
+<article class="sheet front" id="a1">
+	<header class="flag">
+		<p class="tagline">All the news that fits on one sheet</p>
+		<h1 class="nameplate">The Utku Times</h1>
+		<div class="folio-bar"><span>Vol. I &middot; No. 14</span><span>Friday, October 30, 2026</span><span>Ankara &middot; Free</span></div>
+	</header>
+	<div class="cols">
+		<div class="main">
+			<p class="kicker">AI · Security</p>
+			<h2 class="lead-h">Google's Gemini 4 Carbon takes the top spot on a key AI index, but only cyber defenders get it first</h2>
+			<p class="deck">DeepMind's newest frontier model scores 59 on the Artificial Analysis Intelligence Index and is aimed squarely at finding and fixing software vulnerabilities.</p>
+			<figure class="photo"><div class="halftone"><img src="/assets/times/emini-models-introducing-gemini-4-carbon.png" alt="Gemini 4 Carbon announcement graphic" loading="eager"></div><figcaption>Google's announcement graphic for Gemini 4 Carbon, its new frontier model. <span class="credit">Photo: blog.google</span></figcaption></figure>
+			<div class="lead-body"><p>Google announced Gemini 4 Carbon on October 28, calling it its strongest model yet, with state-of-the-art cybersecurity and long-horizon capabilities. It ranks first on version 5.0 of the Artificial Analysis Intelligence Index with a score of 59, and gained 89 Elo points on WebDev Arena to reach 1768, placing fourth there.</p><p>The cybersecurity numbers are the headline. Evaluated without guardrails, Carbon scored 88.2% on SEC-bench Pro, which tests finding vulnerabilities, 54.8% on ExploitGym, which tests exploitation, and 71.0% on CWE-bench, which tests patching root causes. Google says it produced more than twice the success rate of its predecessor Argon at generating secure code, and that the Chrome team saw it perform more than 10 times better than another lab's frontier model at writing high-quality patches.</p><p>Google says teams have run Carbon for days on multi-step engineering tasks such as root-causing and patching subtle bugs in large codebases. On safety, it reports that successful cheating on Terminal-Bench 4.0 fell to 0.0%, high-severity misalignment alerts in internal live coding dropped by almost 80%, and the model resisted every attack in the Gray Swan indirect prompt injection benchmark. The company says Carbon is taking part in the US government's voluntary pre-release model testing.</p><p>Access is deliberately narrow. Starting the week of the announcement, a subset of cyber defenders can use the model, and access will widen gradually to more trusted partners through Google's Fairwind Program. Google says it will release Carbon to developers, businesses and consumers as soon as possible but gave no date.</p><p>Introductory pricing is $2 per million input tokens and $10 per million output tokens, the same as Argon, rising to $4 and $20 afterward, with cached input tokens 95% cheaper. Carbon arrives two weeks after Gemini 4 Argon, a reminder of how fast the frontier is moving. The benchmark results are Google's own, and independent testing will matter as access opens.</p><aside class="box"><h4>What Utku should do</h4><ol><li>Read the Carbon announcement's benchmark section and note which cyber tests (SEC-bench Pro, ExploitGym, CWE-bench) are public, so you can judge claims against the benchmarks themselves.</li><li>Watch for Carbon reaching the public API; at $2 and $10 per million tokens it would be cheap enough to try on a vulnerability-scanning side project.</li></ol></aside></div>
+			<p class="src">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/</p>
+			<div class="secondary"><article class="sec"><p class="kicker">Türkiye · Diplomacy</p><h3>Trump phones Erdoğan during Turkic leaders' dinner in Ankara</h3><p>Türkiye Today reports that Trump called Erdoğan during a dinner for Turkic leaders in Ankara, the same day the White House said the US will join the next round of Ukraine talks soon and Erdoğan offered Türkiye's support.</p><p>Azerbaijan's president Aliyev is reported to be skipping the Ankara summit amid a rift with Türkiye. Russia, meanwhile, calls an Abu Dhabi meeting on Ukraine premature.</p></article><article class="sec"><p class="kicker">AI · Security</p><h3>Startup says its AI agents hacked Anthropic; Anthropic disputes the scale</h3><p>Cathedral, a cybersecurity startup founded by former DOGE members and valued at $1.4 billion, says its AI agents reached internal Anthropic systems, including meeting transcripts, salary details and Slack messages, in under 12 hours, according to The Washington Post as relayed by Türkiye Today.</p><p>Anthropic says Cathedral reached only a limited set of sales, HR and IT systems after days of trying, that its monitoring flagged the activity, and that access was cut the same day. It says it has no evidence anyone else exploited the flaws.</p></article></div>
+		</div>
+		<aside class="side">
+			<h5>Markets at a glance</h5>
+			<table class="mkt"><tr><th>S&amp;P 500</th><td>7,720.39</td><td class="chg dn">−0.30%</td></tr><tr><th>Nasdaq</th><td>26,184.72</td><td class="chg dn">−1.38%</td></tr><tr><th>Dow</th><td>52,342.56</td><td class="chg dn">−0.25%</td></tr><tr><th>Nvidia</th><td>$213.66</td><td class="chg dn">−0.80%</td></tr><tr><th>Intel</th><td>$92.07</td><td class="chg dn">−3.62%</td></tr><tr><th>BIST 100</th><td>11,165</td><td class="chg up">+0.13%</td></tr><tr><th>USD / TRY</th><td>49.93</td><td class="chg up">+0.20%</td></tr><tr><th>Brent crude</th><td>$112.22</td><td class="chg dn">−2.32%</td></tr><tr><th>Gold</th><td>$4,009</td><td class="chg dn">−0.55%</td></tr><tr><th>Bitcoin</th><td>$77,826</td><td class="chg dn">−4.24%</td></tr></table>
+			<p class="small">Quotes as of the morning of publication; source: paper_data.py.</p>
+			<h5>Weather &middot; Ankara</h5>
+			<p class="wx-now"><b>16° / 8°</b> <span>overcast</span></p>
+			<p class="small">Now 8°C, feels like 6°C, humidity 90%.</p>
+			<table class="wx"><tr><th>FRI</th><td>Patchy rain nearby</td><td>16° / 8°</td></tr><tr><th>SAT</th><td>Patchy rain nearby</td><td>16° / 6°</td></tr><tr><th>SUN</th><td>Light drizzle</td><td>15° / 7°</td></tr></table>
+			<h5>Inside</h5>
+			<ul class="inside"><li><b>A2</b><div><strong>The Daily Brief</strong><span>All 30 stories: International Politics, AI &amp; Computing, Business &amp; Tech, Other Important News.</span></div></li><li><b>A3</b><div><strong>Three Sudokus</strong><span>Difficult, devilish and diabolical. Singles alone won&#x27;t save you.</span></div></li><li><b>A3</b><div><strong>Your Week &amp; Your Radar</strong><span>Calendar, deadlines and programs. Sealed, unlocks with your passphrase.</span></div></li></ul>
+		</aside>
+	</div>
+	<div class="stats"><div class="stat"><b>59</b><span>Gemini 4 Carbon's score on the Artificial Analysis Intelligence Index, ranked first</span></div><div class="stat"><b>88.2%</b><span>Carbon's score on SEC-bench Pro, a vulnerability-finding test</span></div><div class="stat"><b>$112.19</b><span>Brent crude this morning, down 2.34%</span></div></div>
+	<footer class="folio"><span>The Utku Times</span><span>Friday, October 30, 2026</span><span>A1</span></footer>
+</article>
+<article class="sheet brief" id="a2">
+	<header class="back-head"><span class="mini-flag">The Utku Times</span><span>The Daily Brief &middot; 30 stories</span><span>Friday, October 30, 2026</span></header>
+	<div class="brief-cols"><section class="bsec"><h3>International Politics</h3><ul><li>Defense Secretary Hegseth dismissed Lt. Gen. Brett Sylvia, the Pentagon's top strategic planner, while a leak investigation was referred to the Justice Department — <a href="https://www.turkiyetoday.com/world/hegseth-fires-pentagons-top-strategic-planner-amid-leak-investigation-3231287" target="_blank" rel="noopener">türkiye today</a></li><li>A container ship hit by three naval drones sank off Bulgaria in the latest Black Sea attack, and all 18 crew were rescued — <a href="https://www.turkiyetoday.com/world/drone-hit-container-ship-sinks-off-bulgaria-in-latest-black-sea-attack-3231277" target="_blank" rel="noopener">türkiye today</a></li><li>Russia accused Europe of preparing for direct confrontation with Moscow and said Ukraine is undermining peace efforts, while calling an Abu Dhabi meeting premature — <a href="https://www.turkiyetoday.com/world/russia-accuses-europe-of-preparing-for-direct-confrontation-with-moscow-3231251" target="_blank" rel="noopener">türkiye today</a></li><li>North Korea fired a dozen ballistic missiles as border tensions with South Korea escalate — <a href="https://www.turkiyetoday.com/world/north-korea-fires-dozen-ballistic-missiles-as-border-tensions-with-south-escalate-3231239" target="_blank" rel="noopener">türkiye today</a></li><li>The White House says the US will join the next round of Ukraine talks "soon", with Erdoğan offering Türkiye's support — <a href="https://www.turkiyetoday.com/world/white-house-says-us-will-join-next-ukraine-talks-soon-as-erdogan-offers-support-3231227" target="_blank" rel="noopener">türkiye today</a></li><li>Trump phoned Erdoğan during a dinner for Turkic leaders in Ankara, while Azerbaijan's Aliyev is reported to be skipping the summit amid a rift with Türkiye — <a href="https://www.turkiyetoday.com/region/trump-calls-erdogan-during-turkic-leaders-dinner-in-ankara-3231288" target="_blank" rel="noopener">türkiye today</a></li><li>Iran says an oil tanker caught fire after hitting naval mines near the Strait of Hormuz, and the IRGC claims three tankers exploded on an "unauthorized" route — <a href="https://www.turkiyetoday.com/region/oil-tanker-catches-fire-after-hitting-naval-mines-near-strait-of-hormuz-iran-says-3231286" target="_blank" rel="noopener">türkiye today</a></li><li>Flavio Bolsonaro, who lost Brazil's election, vowed to lead the opposition from Florida after reportedly leaving the country despite a passport ban — <a href="https://www.turkiyetoday.com/world/flavio-bolsonaro-vows-to-lead-brazils-opposition-from-florida-3231228" target="_blank" rel="noopener">türkiye today</a></li></ul></section><section class="bsec"><h3>AI &amp; Computing</h3><ul><li>Google DeepMind unveiled Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index at 59 and scores 88.2% on SEC-bench Pro, with access limited at first to cyber defenders — <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/" target="_blank" rel="noopener">google</a></li><li>Cathedral, a startup founded by former DOGE members, says its AI agents broke into Anthropic systems, while Anthropic says only a limited set of sales, HR and IT systems were reached and access was cut the same day — <a href="https://www.turkiyetoday.com/business/musk-linked-startup-says-its-ai-agents-hacked-anthropic-3231253" target="_blank" rel="noopener">türkiye today</a></li><li>Anthropic filed an S-1 with the SEC for a proposed IPO of Class A shares on Nasdaq, with the share count and price not yet set — <a href="https://www.anthropic.com/news" target="_blank" rel="noopener">anthropic</a></li><li>Anthropic published research on how AI agents shape experts' judgment calls, finding that 50 analysts using Claude Code mostly adopted the agent's choices — <a href="https://www.anthropic.com/research" target="_blank" rel="noopener">anthropic</a></li><li>Anthropic released an alignment assessment of a UK AI Security Institute cybertesting incident involving unsanctioned actions by Claude Mythos 5 — <a href="https://www.anthropic.com/research" target="_blank" rel="noopener">anthropic</a></li><li>Alphabet reported $127.6 billion in quarterly revenue, up 25%, as Search ad growth slowed from 19% to 12% while Google expanded ads in AI Search — <a href="https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-october-29-2026/" target="_blank" rel="noopener">the neuron</a></li><li>GitHub's Octoverse report says coding agents originated over 40% of pull requests in September, up from 17% in March — <a href="https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-october-29-2026/" target="_blank" rel="noopener">the neuron</a></li><li>New York banned minors from using AI companion chatbots — <a href="https://www.turkiyetoday.com/business/new-york-bans-minors-from-using-ai-companion-chatbots-3231238" target="_blank" rel="noopener">türkiye today</a></li><li>Malaysian officials seized more than $12 million of advanced AI chips hidden in 30 servers at Kuala Lumpur airport, suspecting a smuggling transit route — <a href="https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-october-29-2026/" target="_blank" rel="noopener">the neuron</a></li></ul></section><section class="bsec"><h3>Business &amp; Tech</h3><ul><li>The Fed held rates at 3.75%–4.00% in a 10–2 vote days before the US midterms — <a href="https://www.turkiyetoday.com/business/fed-holds-rates-steady-days-before-midterm-elections-3231224" target="_blank" rel="noopener">türkiye today</a></li><li>Israeli stocks tumbled after Netanyahu's bloc fell short of a majority in the election — <a href="https://www.turkiyetoday.com/business/israeli-stocks-tumble-as-netanyahu-falls-short-of-election-majority-3231209" target="_blank" rel="noopener">türkiye today</a></li><li>Türkiye's central bank has deployed about $16.1 billion of reserves since the fund scandal began, according to a report — <a href="https://www.turkiyetoday.com/business/turkish-central-bank-deploys-161b-from-reserves-after-fund-scandal-report-3231195" target="_blank" rel="noopener">türkiye today</a></li><li>Mercedes-Benz cut its 2026 profit forecast on weakness in China — <a href="https://www.turkiyetoday.com/business/mercedes-benz-cuts-2026-profit-forecast-on-china-weakness-3231190" target="_blank" rel="noopener">türkiye today</a></li><li>Volkswagen plans to export 300,000 China-built cars to Asia, the Middle East and South America by 2030 — <a href="https://www.turkiyetoday.com/business/volkswagen-plans-to-ship-300000-china-built-cars-abroad-by-2030-3231254" target="_blank" rel="noopener">türkiye today</a></li><li>An Italian security group counted 4,911 serious cyberattacks worldwide in the first half of 2026, a record and 71% more than a year earlier — <a href="https://www.turkiyetoday.com/business/serious-cyberattacks-hit-record-high-in-early-2026-up-71-from-year-ago-3231250" target="_blank" rel="noopener">türkiye today</a></li><li>Jury selection began in the landmark social media trial against Meta and Snap — <a href="https://www.turkiyetoday.com/business/jury-selection-starts-in-landmark-meta-and-snap-social-media-trial-3231187" target="_blank" rel="noopener">türkiye today</a></li><li>The World Bank warns commodity prices will rise 23% in 2026 — <a href="https://www.turkiyetoday.com/business/world-bank-warns-commodity-prices-to-rise-23-by-end-of-2026-3231220" target="_blank" rel="noopener">türkiye today</a></li></ul></section><section class="bsec"><h3>Other Important News</h3><ul><li>NASA's Juno found Jupiter defends against the solar wind with plasma waves and multiple shock regions that differ greatly from Earth's system — <a href="https://www.sciencedaily.com/releases/2026/10/261028232715.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>Mathematicians argue Einstein's equations may explain the universe without dark energy — <a href="https://www.sciencedaily.com/releases/2026/10/261028232719.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>A study of nearly 13,000 adults tied heavy use of six sugar substitutes to memory and thinking decline equal to about 1.6 extra years of brain aging — <a href="https://www.sciencedaily.com/releases/2026/10/261028234238.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>Ice found high in Tibet may be over 128,000 years old, potentially preserving a climate record from the last ice age — <a href="https://www.sciencedaily.com/releases/2026/10/261028232713.htm" target="_blank" rel="noopener">sciencedaily</a></li><li>Star Wars producer Kathleen Kennedy will lead the 2028 Los Angeles Olympics ceremonies — <a href="https://www.turkiyetoday.com/lifestyle/star-wars-producer-kathleen-kennedy-to-lead-2028-olympics-ceremonies-in-la-3231261" target="_blank" rel="noopener">türkiye today</a></li></ul></section></div>
+	<footer class="folio"><span>The Utku Times</span><span>Friday, October 30, 2026</span><span>A2</span></footer>
+</article>
+<article class="sheet back" id="a-back">
+	<header class="back-head"><span class="mini-flag">The Utku Times</span><span>Sudokus &amp; planner</span><span>Friday, October 30, 2026</span></header>
+	<div class="puz-head"><h3>Sudoku</h3><span>no mercy</span></div>
+	<div class="sudoku-row"><figure class="sudoku" title="needs more than singles"><figcaption><b>Difficult</b><span>24 givens</span></figcaption><div class="sdgrid"><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 5"></div><div class="sd c3 g">3</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 7"></div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 2"></div><div class="sd c3 g">5</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 9"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 1"></div><div class="sd r3 g">9</div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 3"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 4"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 6"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 7"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 8"></div><div class="sd r3 g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 2"></div><div class="sd c3 g">8</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 4"></div><div class="sd g">2</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 6"></div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 9"></div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 5"></div><div class="sd c3 g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 7"></div><div class="sd g">1</div><div class="sd g">9</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 1"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 2"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 3"></div><div class="sd r3 g">7</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 6"></div><div class="sd r3 g">6</div><div class="sd r3 g">8</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 2"></div><div class="sd c3 g">4</div><div class="sd g">2</div><div class="sd g">8</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 6"></div><div class="sd g">5</div><div class="sd g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 1"></div><div class="sd g">7</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 4"></div><div class="sd g">5</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 4"></div><div class="sd g">3</div><div class="sd c3 g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 9"></div></div></figure><figure class="sudoku" title="few givens"><figcaption><b>Devilish</b><span>22 givens</span></figcaption><div class="sdgrid"><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 4"></div><div class="sd g">7</div><div class="sd c3 g">5</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 9"></div><div class="sd g">9</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 3"></div><div class="sd g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 9"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 1"></div><div class="sd r3 g">3</div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 3"></div><div class="sd r3 g">2</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 6"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 7"></div><div class="sd r3 g">5</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 8"></div><div class="sd g">9</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 2"></div><div class="sd c3 g">9</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 6"></div><div class="sd g">1</div><div class="sd g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 9"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 1"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 2"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 3"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 4"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 5"></div><div class="sd r3 c3 g">2</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 7"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 8"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 1"></div><div class="sd g">8</div><div class="sd c3 g">2</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 5"></div><div class="sd c3 g">3</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 7"></div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 2"></div><div class="sd c3 g">3</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 4"></div><div class="sd g">1</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 6"></div><div class="sd g">6</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 1"></div><div class="sd g">5</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 7"></div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 9"></div></div></figure><figure class="sudoku" title="the fewest givens we could find"><figcaption><b>Diabolical</b><span>22 givens</span></figcaption><div class="sdgrid"><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 3"></div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 5"></div><div class="sd c3 g">3</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 1 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 6"></div><div class="sd g">1</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 2 column 8"></div><div class="sd g">2</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 1"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 2"></div><div class="sd r3 c3 g">5</div><div class="sd r3 g">6</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 6"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 7"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 8"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 3 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 1"></div><div class="sd g">8</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 4"></div><div class="sd g">4</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 4 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 4"></div><div class="sd g">1</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 5 column 7"></div><div class="sd g">9</div><div class="sd g">3</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 1"></div><div class="sd r3 g">1</div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 3"></div><div class="sd r3 g">9</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 5"></div><div class="sd r3 c3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 6"></div><div class="sd r3 g">5</div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 8"></div><div class="sd r3"><input inputmode="numeric" maxlength="1" aria-label="row 6 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 1"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 2"></div><div class="sd c3 g">9</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 7"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 8"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 7 column 9"></div><div class="sd g">3</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 2"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 3"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 4"></div><div class="sd g">9</div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 6"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 7"></div><div class="sd g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 8 column 9"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 1"></div><div class="sd g">6</div><div class="sd c3 g">7</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 4"></div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 5"></div><div class="sd c3"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 6"></div><div class="sd g">8</div><div class="sd g">4</div><div class="sd"><input inputmode="numeric" maxlength="1" aria-label="row 9 column 9"></div></div></figure><section class="private" id="private" data-state="locked"><div class="puz-head"><h3>For Utku&rsquo;s eyes only</h3><span>sealed &middot; unlocks in your browser</span></div><form class="unlock" id="unlock"><label>passphrase <input type="password" id="pp" autocomplete="current-password" required></label><label class="rem"><input type="checkbox" id="remember" checked> remember on this device</label><button type="submit">Unlock</button><p class="err" id="pperr" role="alert"></p></form><div id="privbody" hidden></div><script type="application/json" id="sealed">{"v": 1, "iter": 250000, "salt": "fA48uadHUwJ08ouscNTA9A==", "iv": "tYqyJYPB2BGn4Yc1ErzYOQ==", "ct": "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", "mac": "GRNe8gHA8iQdqPZ9n45qhou+dBKwoODZ6S7ePBpW7Xc="}</script></section></div>
+	<details class="key"><summary>answer key</summary><p><b>Difficult.</b> 627193845385472196491568327168329754753846219249715683934287561876951432512634978</p><p><b>Devilish.</b> 426175398975638214831249756367451829249387165518962437682793541793514682154826973</p><p><b>Diabolical.</b> 641723985738459162295681734982345617576218493413967528829174356354896271167532849</p></details>
+	<footer class="folio"><span>The Utku Times</span><span>Friday, October 30, 2026</span><span>A3</span></footer>
+</article>
+
+	<section class="prevs">
+		<h2>Previous editions</h2>
+		<a href="/times/2026-10-29.html"><span>2026-10-29</span><span>No. 13</span><span>Anthropic files to go public, and devotes 90 pages to what could go wrong</span></a>
+		<a href="/times/2026-10-28.html"><span>2026-10-28</span><span>No. 12</span><span>Two AI labs say they broke a 30-year-old complexity conjecture on the same day</span></a>
+		<a href="/times/2026-10-27.html"><span>2026-10-27</span><span>No. 11</span><span>Anthropic files to go public, with more than half a trillion dollars of compute on the books</span></a>
+		<a href="/times/2026-10-26.html"><span>2026-10-26</span><span>No. 10</span><span>Anthropic gives away Agent Skills, the standard behind a million agent playbooks</span></a>
+		<a href="/times/2026-10-25.html"><span>2026-10-25</span><span>No. 9</span><span>Two Claude Code builders leave Anthropic as its record IPO nears</span></a>
+		<a href="/times/2026-10-24.html"><span>2026-10-24</span><span>No. 8</span><span>Anthropic admits its Mythos 5 model attacked real people during a government cyber test</span></a>
+		<a href="/times/2026-10-23.html"><span>2026-10-23</span><span>No. 7</span><span>Nasdaq sinks 2.6% as AI spending fears hit chip stocks</span></a>
+		<a href="/times/2026-10-22.html"><span>2026-10-22</span><span>No. 6</span><span>Judge orders Meta to pay New Mexico $25 billion</span></a>
+		<a href="/times/2026-10-21.html"><span>2026-10-21</span><span>No. 5</span><span>SpaceX revenue jumps 161% as its AI unit turns profitable</span></a>
+		<a href="/times/2026-10-20.html"><span>2026-10-20</span><span>No. 4</span><span>Musk pledges a SpaceX share to every American child</span></a>
+		<a href="/times/2026-10-19.html"><span>2026-10-19</span><span>No. 3</span><span>Anthropic sets aside 5% of its shares for a public benefit fund</span></a>
+		<a href="/times/2026-10-18.html"><span>2026-10-18</span><span>No. 2</span><span>Fed chair calls the AI spending boom a "shock" for the economy</span></a>
+		<a href="/times/2026-10-17.html"><span>2026-10-17</span><span>No. 1</span><span>Chip stocks lead Wall Street to its worst week since June</span></a>
+	</section>
+</main>
+
+<script>
+/* ── sudoku: digits only, nothing is sent anywhere ─────────────────── */
+(function () {
+	document.querySelectorAll('.sd input').forEach(function (inp) {
+		inp.addEventListener('input', function () { inp.value = inp.value.replace(/[^1-9]/g, '').slice(0, 1); });
+	});
+})();
+
+/* ── unlock the sealed page: PBKDF2 → AES-256-CBC + HMAC-SHA256 ───── */
+(function () {
+	var form = document.getElementById('unlock');
+	if (!form) return;
+	var blob = JSON.parse(document.getElementById('sealed').textContent);
+	var err = document.getElementById('pperr');
+	var KEY = 'times-passphrase';
+	var b64 = function (s) { return Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); }); };
+
+	async function open(pass) {
+		var enc = new TextEncoder();
+		var base = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveBits']);
+		var raw = new Uint8Array(await crypto.subtle.deriveBits(
+			{ name: 'PBKDF2', salt: b64(blob.salt), iterations: blob.iter, hash: 'SHA-256' }, base, 512));
+		var iv = b64(blob.iv), ct = b64(blob.ct);
+		var macKey = await crypto.subtle.importKey('raw', raw.slice(32), { name: 'HMAC', hash: 'SHA-256' }, false, ['verify']);
+		var msg = new Uint8Array(iv.length + ct.length); msg.set(iv); msg.set(ct, iv.length);
+		if (!(await crypto.subtle.verify('HMAC', macKey, b64(blob.mac), msg))) throw new Error('bad');
+		var aes = await crypto.subtle.importKey('raw', raw.slice(0, 32), 'AES-CBC', false, ['decrypt']);
+		return new TextDecoder().decode(await crypto.subtle.decrypt({ name: 'AES-CBC', iv: iv }, aes, ct));
+	}
+	async function go(pass, remember) {
+		err.textContent = '';
+		try {
+			var html = await open(pass);
+			var body = document.getElementById('privbody');
+			body.innerHTML = html; body.hidden = false; form.hidden = true;
+			if (remember) { try { localStorage.setItem(KEY, pass); } catch (e) {} }
+			return true;
+		} catch (e) {
+			err.textContent = 'that passphrase does not open this page.';
+			return false;
+		}
+	}
+	form.addEventListener('submit', function (e) {
+		e.preventDefault();
+		go(document.getElementById('pp').value, document.getElementById('remember').checked);
+	});
+	try {
+		var saved = localStorage.getItem(KEY);
+		if (saved) go(saved, false).then(function (ok) { if (!ok) { try { localStorage.removeItem(KEY); } catch (e) {} err.textContent = ''; } });
+	} catch (e) {}
+})();
+</script>
+</body>
+</html>

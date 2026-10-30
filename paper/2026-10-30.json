@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "AI · Security",
+  "headline": "Google's Gemini 4 Carbon takes the top spot on a key AI index, but only cyber defenders get it first",
+  "deck": "DeepMind's newest frontier model scores 59 on the Artificial Analysis Intelligence Index and is aimed squarely at finding and fixing software vulnerabilities.",
+  "body": [
+   "Google announced Gemini 4 Carbon on October 28, calling it its strongest model yet, with state-of-the-art cybersecurity and long-horizon capabilities. It ranks first on version 5.0 of the Artificial Analysis Intelligence Index with a score of 59, and gained 89 Elo points on WebDev Arena to reach 1768, placing fourth there.",
+   "The cybersecurity numbers are the headline. Evaluated without guardrails, Carbon scored 88.2% on SEC-bench Pro, which tests finding vulnerabilities, 54.8% on ExploitGym, which tests exploitation, and 71.0% on CWE-bench, which tests patching root causes. Google says it produced more than twice the success rate of its predecessor Argon at generating secure code, and that the Chrome team saw it perform more than 10 times better than another lab's frontier model at writing high-quality patches.",
+   "Google says teams have run Carbon for days on multi-step engineering tasks such as root-causing and patching subtle bugs in large codebases. On safety, it reports that successful cheating on Terminal-Bench 4.0 fell to 0.0%, high-severity misalignment alerts in internal live coding dropped by almost 80%, and the model resisted every attack in the Gray Swan indirect prompt injection benchmark. The company says Carbon is taking part in the US government's voluntary pre-release model testing.",
+   "Access is deliberately narrow. Starting the week of the announcement, a subset of cyber defenders can use the model, and access will widen gradually to more trusted partners through Google's Fairwind Program. Google says it will release Carbon to developers, businesses and consumers as soon as possible but gave no date.",
+   "Introductory pricing is $2 per million input tokens and $10 per million output tokens, the same as Argon, rising to $4 and $20 afterward, with cached input tokens 95% cheaper. Carbon arrives two weeks after Gemini 4 Argon, a reminder of how fast the frontier is moving. The benchmark results are Google's own, and independent testing will matter as access opens."
+  ],
+  "image": {
+   "src": "/assets/times/emini-models-introducing-gemini-4-carbon.png",
+   "alt": "Gemini 4 Carbon announcement graphic",
+   "caption": "Google's announcement graphic for Gemini 4 Carbon, its new frontier model.",
+   "credit": "Photo: blog.google"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the Carbon announcement's benchmark section and note which cyber tests (SEC-bench Pro, ExploitGym, CWE-bench) are public, so you can judge claims against the benchmarks themselves.",
+    "Watch for Carbon reaching the public API; at $2 and $10 per million tokens it would be cheap enough to try on a vulnerability-scanning side project."
+   ]
+  },
+  "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye · Diplomacy",
+   "headline": "Trump phones Erdoğan during Turkic leaders' dinner in Ankara",
+   "body": [
+    "Türkiye Today reports that Trump called Erdoğan during a dinner for Turkic leaders in Ankara, the same day the White House said the US will join the next round of Ukraine talks soon and Erdoğan offered Türkiye's support.",
+    "Azerbaijan's president Aliyev is reported to be skipping the Ankara summit amid a rift with Türkiye. Russia, meanwhile, calls an Abu Dhabi meeting on Ukraine premature."
+   ]
+  },
+  {
+   "kicker": "AI · Security",
+   "headline": "Startup says its AI agents hacked Anthropic; Anthropic disputes the scale",
+   "body": [
+    "Cathedral, a cybersecurity startup founded by former DOGE members and valued at $1.4 billion, says its AI agents reached internal Anthropic systems, including meeting transcripts, salary details and Slack messages, in under 12 hours, according to The Washington Post as relayed by Türkiye Today.",
+    "Anthropic says Cathedral reached only a limited set of sales, HR and IT systems after days of trying, that its monitoring flagged the activity, and that access was cut the same day. It says it has no evidence anyone else exploited the flaws."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,720.39",
+   "change": "−0.30%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "26,184.72",
+   "change": "−1.38%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,342.56",
+   "change": "−0.25%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$213.66",
+   "change": "−0.80%"
+  },
+  {
+   "name": "Intel",
+   "value": "$92.07",
+   "change": "−3.62%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,165",
+   "change": "+0.13%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.93",
+   "change": "+0.20%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$112.22",
+   "change": "−2.32%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,009",
+   "change": "−0.55%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$77,826",
+   "change": "−4.24%"
+  }
+ ],
+ "markets_note": "Quotes as of the morning of publication; source: paper_data.py.",
+ "weather": {
+  "now": "16° / 8°",
+  "cond": "overcast",
+  "summary": "Now 8°C, feels like 6°C, humidity 90%.",
+  "days": [
+   {
+    "d": "FRI",
+    "c": "Patchy rain nearby",
+    "t": "16° / 8°"
+   },
+   {
+    "d": "SAT",
+    "c": "Patchy rain nearby",
+    "t": "16° / 6°"
+   },
+   {
+    "d": "SUN",
+    "c": "Light drizzle",
+    "t": "15° / 7°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "59",
+   "text": "Gemini 4 Carbon's score on the Artificial Analysis Intelligence Index, ranked first"
+  },
+  {
+   "big": "88.2%",
+   "text": "Carbon's score on SEC-bench Pro, a vulnerability-finding test"
+  },
+  {
+   "big": "$112.19",
+   "text": "Brent crude this morning, down 2.34%"
+  }
+ ]
+}
