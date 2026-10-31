@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "Markets · AI",
+  "headline": "Nasdaq slides as doubts about AI spending hit Intel, Amazon and Alphabet",
+  "deck": "A broad Wall Street sell-off deepened on Friday as weak tech earnings revived questions about returns on huge AI investments, while rising energy prices pushed gold lower.",
+  "body": [
+   "Wall Street's sell-off intensified on Friday after weak tech earnings revived doubts about whether the huge sums poured into AI infrastructure, such as data centers and computing capacity, will earn adequate returns. Midday in US trading the Nasdaq Composite was down 3.3%, the S&P 500 down 2.1% and the Dow down 1.1%, according to Türkiye Today.",
+   "Intel was the worst hit. Its shares plunged nearly 29% after the chipmaker warned it would burn cash this year. Amazon also came under pressure as investors weighed its earnings against aggressive AI spending plans, and together Intel and Amazon were set to lose about $200 billion in market value.",
+   "It followed a record sell-off in Alphabet on Thursday, when its shares fell about 13% and the company lost nearly $500 billion in market value, which the article calls the second-largest single-day loss in stock market history. The Nasdaq-100 was on track to lose just over $1 trillion on Friday, with October losses expected to exceed $2 trillion.",
+   "Amazon's own numbers show why the picture is mixed. Its third-quarter sales rose 12% to $201.9 billion and AWS grew 39.3% to $46 billion, the fastest pace in nearly five years, but it reiterated about $220 billion of capital spending in 2026, mainly on AI infrastructure. Higher borrowing costs could make data centers and chips more expensive to finance, adding pressure on companies to show stronger earnings and cash flow.",
+   "Elsewhere, rising energy prices added to inflation worries. Gold fell below $3,900 an ounce on expectations of higher US interest rates, while Brent crude climbed toward $118 a barrel on tensions around Iran and concerns about shipments through the Strait of Hormuz. Türkiye's BIST 100 closed down 3.64% at 10,759.56."
+  ],
+  "image": {
+   "src": "/assets/times/om-falters-gold-falls-below-3900-3231366.jpg",
+   "alt": "Illustration for the Nasdaq sell-off story",
+   "caption": "Türkiye Today's photo for its report on Friday's tech-led sell-off, which hit Intel, Amazon and the Nasdaq.",
+   "credit": "Photo: turkiyetoday.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read Amazon's and Alphabet's earnings releases and compare AI capex against cloud revenue growth, so you can judge for yourself whether the AI boom is paying off.",
+    "Treat the sell-off as a reason to track a few AI companies' cash flow rather than headlines; note which ones fund spending from profit and which from borrowing."
+   ]
+  },
+  "source": "https://www.turkiyetoday.com/business/nasdaq-crashes-as-ai-boom-falters-gold-falls-below-3900-3231366"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye · Crypto",
+   "headline": "Binance TR pauses crypto withdrawals after record $6.3 billion hack",
+   "body": [
+    "Binance TR, the Türkiye-based arm of Binance, suspended crypto withdrawals as a precaution and says all user assets are secure. Trading, Turkish lira deposits and withdrawals, and crypto deposits continue.",
+    "Binance says the incident may have started with a compromised laptop belonging to a DevOps engineer and that it found no evidence wallet private keys leaked. Blockchain firm TRM estimates about $6.3 billion was stolen and attributes it with high confidence to North Korea's TraderTraitor unit, which is not yet confirmed."
+   ]
+  },
+  {
+   "kicker": "AI · Cloud",
+   "headline": "AWS growth hits 39% as Amazon bets $220 billion on AI infrastructure",
+   "body": [
+    "Amazon said AWS sales grew 39.3% to $46 billion, with operating income up 56% to $17.8 billion. CEO Andy Jassy projected AWS growth above 40% in both 2027 and 2028.",
+    "Total third-quarter net sales rose 12% to $201.9 billion, and Amazon guided fourth-quarter sales to $240 billion to $247 billion."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,580.07",
+   "change": "−1.82%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,437.00",
+   "change": "−2.86%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,770.31",
+   "change": "−1.09%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$204.64",
+   "change": "−4.22%"
+  },
+  {
+   "name": "Intel",
+   "value": "$65.76",
+   "change": "−28.58%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "10,760",
+   "change": "−3.63%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.94",
+   "change": "+0.23%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$112.33",
+   "change": "−2.22%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,885",
+   "change": "−3.63%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$77,046",
+   "change": "−0.94%"
+  }
+ ],
+ "markets_note": "",
+ "weather": {
+  "now": "16° / 7°",
+  "cond": "patchy rain nearby",
+  "summary": "Now 7°C, feels like 6°C, humidity 94%.",
+  "days": [
+   {
+    "d": "SAT",
+    "c": "Patchy rain nearby",
+    "t": "16° / 7°"
+   },
+   {
+    "d": "SUN",
+    "c": "Light rain shower",
+    "t": "17° / 6°"
+   },
+   {
+    "d": "MON",
+    "c": "Overcast",
+    "t": "17° / 8°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "28.6%",
+   "text": "Intel's share-price drop after warning it would burn cash this year"
+  },
+  {
+   "big": "$220B",
+   "text": "Amazon's planned 2026 capital spending, mainly on AI infrastructure"
+  },
+  {
+   "big": "~$500B",
+   "text": "market value Alphabet lost on Thursday, a record sell-off"
+  }
+ ]
+}
