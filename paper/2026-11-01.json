@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits on one sheet",
+ "lead": {
+  "kicker": "AI · Markets",
+  "headline": "Anthropic files to go public, targeting a Nasdaq listing as \"ANT\"",
+  "deck": "The AI lab filed its S-1 with the SEC on October 26, a first formal step toward an IPO, just as Wall Street's confidence in AI spending is being tested.",
+  "body": [
+   "Anthropic announced that it filed a registration statement on Form S-1 with the US Securities and Exchange Commission on October 26 for a proposed initial public offering of its Class A common stock. It intends to list on the Nasdaq Global Select Market under the symbol \"ANT.\"",
+   "Almost everything that matters to investors is still blank. The number of shares and the price range have not been determined, and the statement is not yet effective, which means no shares can be sold and no offers to buy can be accepted. Goldman Sachs and Morgan Stanley are named as sources for the preliminary prospectus.",
+   "Anthropic describes itself as a Public Benefit Corporation whose mission is to \"ensure the world safely makes the transition through transformative AI.\" Its news page shows a run of governance announcements in the same fortnight: on October 18 it said it is committing a portion of its shares to the Anthropic Public Benefit Fund, and on October 21 physicist Christopher Stubbs joined its Long-Term Benefit Trust.",
+   "The timing is awkward. Türkiye Today reports that the Nasdaq crashed on Friday as the AI boom faltered, and market data shows the Nasdaq down 2.86%, Nvidia down 4.22% and Intel down 28.58%. Yet Amazon reported that AWS growth reached about 39% in the third quarter, a reminder that demand for AI computing is still growing even as investors question the returns.",
+   "The announcement itself carries no financial figures, so the revenue, spending and risk disclosures that will define the offering are yet to be read. Until the registration statement becomes effective, the listing remains a plan rather than a trade."
+  ],
+  "image": {
+   "src": "/assets/times/news-s1-sec.jpg",
+   "alt": "Anthropic announcement graphic for its S-1 filing",
+   "caption": "Anthropic's announcement of its S-1 filing, which proposes a Nasdaq listing under the ticker ANT.",
+   "credit": "Photo: anthropic.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "When the full prospectus is public, skim its business and risk-factor sections on SEC EDGAR: it is a rare first-hand account of how a frontier AI lab describes its costs, compute needs and safety governance.",
+    "Treat \"ANT\" as a placeholder: no shares can be bought until the registration is effective, so ignore any site or message offering early access."
+   ]
+  },
+  "source": "anthropic.com"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye · Diplomacy",
+   "headline": "Washington reviews Türkiye's plan to restart Black Sea grain shipments",
+   "body": [
+    "US Secretary of State Marco Rubio said on October 31 that Washington is reviewing ideas for reviving Black Sea grain exports, including one submitted by Türkiye and another from India. He acknowledged that such an arrangement would not end the war, saying it \"doesn't solve the war, but at least it solves a unique aspect of it.\"",
+    "The Black Sea Grain Initiative, brokered by Türkiye and the UN in 2022, collapsed when Russia withdrew in July 2023. Separately, the US is considering Istanbul or Doha as venues for Iran talks, and Poland has called for a Black Sea truce."
+   ]
+  },
+  {
+   "kicker": "AI · Research",
+   "headline": "Analysts followed the AI agent's lead, and rarely said why",
+   "body": [
+    "In a new Anthropic study of 50 professional analysts using Claude Code, the agent was randomly set to favor one of two defensible options at key decisions. The analysts mostly went with the agent's choice and rarely cited the agent as a reason.",
+    "The finding suggests that people may be influenced by AI agents in judgment calls without noticing it, a point Anthropic published on October 27 alongside separate work on drug development partnerships with six medicine developers."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,580.07",
+   "change": "−1.82%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,437.00",
+   "change": "−2.86%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,770.31",
+   "change": "−1.09%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$204.64",
+   "change": "−4.22%"
+  },
+  {
+   "name": "Intel",
+   "value": "$65.76",
+   "change": "−28.58%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "10,760",
+   "change": "−3.63%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.94",
+   "change": "+0.23%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$117.64",
+   "change": "+2.40%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,899",
+   "change": "−3.29%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$77,700",
+   "change": "+0.65%"
+  }
+ ],
+ "markets_note": "Figures are Friday's closing levels; markets reopen Monday.",
+ "stats": [
+  {
+   "big": "39%",
+   "text": "AWS growth in Amazon's third quarter, on sales of $201.9 billion."
+  },
+  {
+   "big": "−28.6%",
+   "text": "Intel's one-day share-price fall on Friday."
+  },
+  {
+   "big": "$117.64",
+   "text": "Brent crude per barrel, up 2.4% on fears of renewed US-Iran conflict."
+  }
+ ],
+ "weather": {
+  "now": "18° / 6°",
+  "cond": "cloudy",
+  "summary": "Now 6°C, feels like 5°C, humidity 87%.",
+  "days": [
+   {
+    "d": "SUN",
+    "c": "Overcast",
+    "t": "18° / 6°"
+   },
+   {
+    "d": "MON",
+    "c": "Patchy rain nearby",
+    "t": "18° / 8°"
+   },
+   {
+    "d": "TUE",
+    "c": "Patchy rain nearby",
+    "t": "18° / 8°"
+   }
+  ]
+ }
+}
