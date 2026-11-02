@@ -1,0 +1,130 @@
+{
+ "tagline": "Apple picks a Chinese model for its AI, and the midterms arrive.",
+ "lead": {
+  "kicker": "AI & Business",
+  "headline": "Apple Taps Alibaba's Qwen to Power Its AI in China",
+  "deck": "Siri, Writing Tools and Visual Intelligence will run on a Chinese model for iPhones in the mainland, with testing starting November 4.",
+  "body": [
+   "Alibaba Group has partnered with Apple to bring its Qwen large language models into Apple Intelligence for the Chinese market, according to a Saturday report by the state-run Xinhua news agency.",
+   "Qwen will power several Apple Intelligence features: Siri, Writing Tools and Visual Intelligence. Testing begins in the iOS developer beta on November 4, and the feature launches with the official iOS 27.3 release in December, per Alibaba.",
+   "Users can choose whether to enable the integration and what information to share. Alibaba says user requests and generated responses will not be used to train its AI models. The feature is available on compatible iPhones whose device location and Apple Account region are both set to China.",
+   "Alibaba CEO Eddie Wu said the partnership will bring new AI-powered services to Chinese users. Wang Xiaojie, an AI expert at Beijing University of Posts and Telecommunications, called it the first time a major global consumer hardware maker has adopted a Chinese large language model as its primary system-level AI backbone in the Chinese market."
+  ],
+  "image": {
+   "src": "/assets/times/e-intelligence-features-in-china-3231456.jpg",
+   "alt": "Illustration accompanying the report on Alibaba's Qwen and Apple Intelligence",
+   "caption": "Apple and Alibaba's Qwen team up for iPhones sold in China.",
+   "credit": "Photo: turkiyetoday.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Try Qwen models directly through Alibaba's own tools to see what will sit behind Siri in China, and compare them with the models you already use.",
+    "Note the design pattern: one phone, a different model backbone per region. It is a good case study for any project that swaps models behind a stable interface."
+   ]
+  },
+  "source": "https://www.turkiyetoday.com/business/alibabas-qwen-ai-to-power-apple-intelligence-features-in-china-3231456"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "New Market Regulator Named as Fund Scandal Deepens",
+   "body": [
+    "Türkiye appointed Muhsin Atci, head of the Tax Inspection Board, as chairman of the Capital Markets Board by presidential decision. He replaces Mahmut Sutcu, who resigned on October 19 citing health problems.",
+    "The crisis began in mid-September when several investment funds could not meet redemption requests. The regulator ordered 131 funds, holding an estimated 936.3 billion lira and 455,758 individual investors, to be liquidated. Prosecutors say 120 of 217 suspects are in custody, and payments to investors have reached 97.3 billion lira."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Claude Designs Proteins Against Scorpion Toxins",
+   "body": [
+    "Anthropic says an internal research Claude model designed small proteins that bind tightly to scorpion neurotoxins, in a research post dated October 20.",
+    "It is the latest in Anthropic's life-sciences push, which also includes deep research partnerships with six drug developers and an open call for guest investigators."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,580.07",
+   "change": "−1.82%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,437.00",
+   "change": "−2.86%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,770.31",
+   "change": "−1.09%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$204.64",
+   "change": "−4.22%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "10,760",
+   "change": "−3.63%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.96",
+   "change": "+0.03%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$110.08",
+   "change": "−6.43%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,909",
+   "change": "+0.26%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$78,594",
+   "change": "+1.50%"
+  }
+ ],
+ "markets_note": "Snapshot from the day's data feed; the Intel line was left out as it looked unreliable.",
+ "weather": {
+  "now": "17° / 7°",
+  "cond": "cloudy",
+  "summary": "Now 7°C, feels like 7°C, humidity 82%.",
+  "days": [
+   {
+    "d": "MON",
+    "c": "Cloudy",
+    "t": "17° / 7°"
+   },
+   {
+    "d": "TUE",
+    "c": "Patchy rain nearby",
+    "t": "18° / 8°"
+   },
+   {
+    "d": "WED",
+    "c": "Thundery outbreaks in nearby",
+    "t": "16° / 7°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "Nov 4",
+   "text": "Qwen enters the iOS developer beta for China"
+  },
+  {
+   "big": "₺936bn",
+   "text": "estimated assets in the 131 Turkish funds ordered liquidated"
+  },
+  {
+   "big": "-2.86%",
+   "text": "Nasdaq's latest move, to 25,437"
+  }
+ ]
+}
