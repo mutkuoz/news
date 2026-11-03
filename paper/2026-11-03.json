@@ -1,0 +1,109 @@
+{
+ "tagline": "Anthropic shows its books, and warns about AI building AI.",
+ "lead": {
+  "kicker": "AI & Business",
+  "headline": "Anthropic's IPO Filing Reveals Explosive Growth, Huge Losses and a Warning",
+  "deck": "An amended S-1 shows about 7 billion in quarterly revenue, a 3 billion loss, and a caution that AI-driven AI progress may soon cross an internal threshold.",
+  "body": [
+   "Anthropic filed an amended S-1 with the SEC on Monday, adding financial results through September 30. The first filing, released the week before, covered only the first half of 2026. CNBC reports the company is preparing to start its roadshow.",
+   "For the nine months ended September 30, revenue was 3.24 billion, up roughly 1,200% from the same period last year. Third-quarter revenue was about 7 billion, up about 1,127% year over year. Growth is slowing from its extreme pace, though: quarter-over-quarter growth was about 47% in Q3, compared with 144% in Q2 and 132% in Q1.",
+   "The losses are very large. Anthropic reported a 3.29 billion net loss in the third quarter and 04 billion for nine months, which the filing attributes mostly to changes in the fair value of convertible notes and derivative liabilities. Compute and infrastructure expenses rose 4.4 billion over nine months, up 329%. Purchase commitments and leases total about 95.4 billion, substantially all for compute and infrastructure, with much of the capacity coming from Amazon, Google and SpaceX.",
+   "The risk factors include a notable admission. The filing says internal estimates suggest Anthropic may soon meet the threshold in its Responsible Scaling Policy for dramatically accelerated progress attributable to AI. No current model has been designated as crossing it, and the company says it is still assessing the data. It also says it does not expect to safely let Claude fully autonomously design successive generations of frontier models without meaningful human supervision, and is considering policy updates to keep humans in control.",
+   "TechCrunch notes that an S-1 is both a disclosure and a marketing document, so the claim could be read as promotional. It also points to Claude's rapid gains in coding, math and cybersecurity this year as a reason to take the warning seriously. Investors are meanwhile uneasy about the AI buildout, rising interest rates and data-center debt, and OpenAI, which confidentially filed for an IPO in June, is signaling a 2027 debut."
+  ],
+  "image": {
+   "src": "/assets/times/e-to-rsi-capability-aka-self-building-ai.webp",
+   "alt": "Illustration accompanying TechCrunch's report on Anthropic's revised IPO filing",
+   "caption": "TechCrunch's illustration for its report on Anthropic's revised IPO filing.",
+   "credit": "Photo: techcrunch.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the risk-factor section of the S-1 on AI-accelerated progress and Anthropic's Responsible Scaling Policy, and write down in your own words which claims are measurable and which are judgment calls.",
+    "Track the compute-commitment numbers against revenue as a case study in how frontier AI economics work: huge fixed commitments, fast but decelerating growth."
+   ]
+  },
+  "source": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Türkiye Opens Antitrust Probe Into Google's AI Search",
+   "body": [
+    "Türkiye's Competition Authority opened an investigation on November 2 into Google's AI Overviews and AI Mode, which have been available in the country since February 2026.",
+    "The probe asks whether the features divert traffic from news publishers, whether Google's content-use agreements contain unfair terms, and whether they exclude publishers or AI chatbot providers. The board found the evidence had reached strong suspicion and ordered interim measures: equal treatment of publishers, reflecting the economic value of their content, and an opt-out from AI features without losing regular search visibility. The measures do not ban the AI features, and no fine has been reported."
+   ]
+  },
+  {
+   "kicker": "AI & Security",
+   "headline": "'Black October': AI Platforms Hit by a Wave of Cyberattacks",
+   "body": [
+    "Security firm Wiz described October as Black October after at least nine AI development platforms disclosed security incidents. Attackers compromised the LiteLLM release infrastructure and distributed a malicious version 1.107.0 on October 21, and Cursor said up to 5,000 users may have been affected by a tampered Claude Code extension available for about 11 hours.",
+    "The same month saw the roughly .3 billion theft from Binance hot wallets on October 29, about 90% of which the company says it has replenished. Authorities have not established that the incidents were a single coordinated campaign."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,541.40",
+   "change": "−0.51%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,164.36",
+   "change": "−1.07%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,983.98",
+   "change": "+0.41%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$202.06",
+   "change": "−1.26%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "10,962",
+   "change": "+1.88%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "49.99",
+   "change": "+0.04%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$104.79",
+   "change": "+0.02%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,946",
+   "change": "−0.60%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$76,611",
+   "change": "−2.09%"
+  }
+ ],
+ "markets_note": "Snapshot from the day's data feed; the Intel line was left out as it looked unreliable. Weather unavailable today.",
+ "stats": [
+  {
+   "big": "7B",
+   "text": "Anthropic's third-quarter revenue, up about 1,127% year over year"
+  },
+  {
+   "big": "$895B",
+   "text": "purchase and lease commitments, nearly all for compute"
+  },
+  {
+   "big": "31,039",
+   "text": "US job cuts in October tied directly to AI, a monthly record"
+  }
+ ]
+}

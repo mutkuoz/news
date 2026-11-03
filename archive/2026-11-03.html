@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>utku's news — the daily brief, 3 november 2026</title>
+	<meta name="description" content="26 stories in brief — international politics, ai & computing, business & tech, other important news. the 3 november 2026 edition." />
+	<link rel="canonical" href="https://news.utku.space/archive/2026-11-03.html" />
+	<meta name="author" content="Mehmet Utku Öztürk" />
+	<meta name="robots" content="index, follow, max-snippet:-1" />
+	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+	<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+	<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="utku&rsquo;s news" />
+	<meta property="og:locale" content="en" />
+	<meta property="og:url" content="https://news.utku.space/archive/2026-11-03.html" />
+	<meta property="og:title" content="utku's news — the daily brief, 3 november 2026" />
+	<meta property="og:description" content="26 stories in brief — international politics, ai & computing, business & tech, other important news. the 3 november 2026 edition." />
+	<meta property="og:image" content="https://news.utku.space/assets/utku-bg.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="utku's news — the daily brief, 3 november 2026" />
+	<meta name="twitter:description" content="26 stories in brief — international politics, ai & computing, business & tech, other important news. the 3 november 2026 edition." />
+
+	<!-- self-hosted newsreader + playfair display (same faces as utku.space) -->
+	<link rel="preload" href="/assets/fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="stylesheet" href="/assets/fonts.css" />
+
+	<script>
+	/* apply saved theme before first paint — same storage key as utku.space */
+	(function () {
+		try {
+			var t = localStorage.getItem('theme');
+			if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+		} catch (e) {}
+	})();
+	</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+	--serif:   'Newsreader', Georgia, 'Times New Roman', serif;
+	--display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+/* ── pure black / white theming — mirrors utku.space ───────────────── */
+:root[data-theme="light"] {
+	--bg:#ffffff; --fg:#000000;
+	--fg2:rgba(0,0,0,0.74); --muted:rgba(0,0,0,0.52); --muted2:rgba(0,0,0,0.36);
+	--hair:rgba(0,0,0,0.16);
+	--bg-art-opacity: 1;
+	--bg-art-filter: none;
+}
+:root[data-theme="dark"] {
+	--bg:#000000; --fg:#ffffff;
+	--fg2:rgba(255,255,255,0.78); --muted:rgba(255,255,255,0.54); --muted2:rgba(255,255,255,0.38);
+	--hair:rgba(255,255,255,0.20);
+	--bg-art-opacity: 0.85;
+	--bg-art-filter: invert(1);
+}
+
+html { scroll-behavior: smooth; background: var(--bg); transition: background-color 0.35s ease; }
+
+body {
+	font-family: var(--serif);
+	font-optical-sizing: auto;
+	text-transform: lowercase;
+	color: var(--fg);
+	background: transparent;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: color 0.35s ease;
+	min-height: 100vh;
+	line-height: 1.5;
+}
+
+::selection { background: var(--fg); color: var(--bg); }
+
+/* ── fixed background artwork ──────────────────────────────────────── */
+.page-bg {
+	position: fixed; inset: 0; z-index: 0; pointer-events: none;
+	background-image: url('/assets/utku-bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: var(--bg-art-opacity);
+	filter: var(--bg-art-filter);
+	transition: opacity 0.35s ease, filter 0.35s ease;
+}
+@supports (-webkit-touch-callout: none) { .page-bg { background-attachment: scroll; } }
+
+/* ── reading progress ──────────────────────────────────────────────── */
+#scrollProgress {
+	position: fixed; top: 0; left: 0; height: 2px; width: 0;
+	background: var(--fg); z-index: 200; opacity: 0.6;
+}
+
+/* ── navbar ────────────────────────────────────────────────────────── */
+#navbar {
+	position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+	display: flex; align-items: center; justify-content: space-between;
+	gap: 1rem; height: 3.4rem; padding: 0 1.3rem;
+	background: color-mix(in srgb, var(--bg) 86%, transparent);
+	backdrop-filter: blur(7px); -webkit-backdrop-filter: blur(7px);
+	border-bottom: 1px solid var(--hair);
+	transition: background 0.35s ease, border-color 0.35s ease;
+}
+@media (min-width: 720px) { #navbar { padding: 0 2rem; } }
+.nav-brand {
+	font-family: var(--display); font-style: italic; font-weight: 600;
+	font-size: 1.02rem; color: var(--fg); text-decoration: none; white-space: nowrap;
+}
+.nav-links { display: flex; gap: 1.6rem; margin-left: auto; margin-right: 1.3rem; }
+.nav-link {
+	font-family: var(--serif); font-size: 0.86rem; letter-spacing: 0.02em;
+	color: var(--muted); text-decoration: none;
+	position: relative; padding-bottom: 2px; transition: color 0.18s ease;
+}
+.nav-link::after {
+	content: ''; position: absolute; left: 0; right: 100%; bottom: 0; height: 1px;
+	background: var(--fg); transition: right 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+.nav-link:hover { color: var(--fg); }
+.nav-link:hover::after { right: 0; }
+@media (max-width: 520px) { .nav-links { gap: 1rem; } .nav-link.nav-home { display: none; } }
+
+.mode-toggle {
+	display: flex; align-items: center; justify-content: center;
+	width: 2rem; height: 2rem; border-radius: 50%; flex-shrink: 0;
+	border: 1px solid var(--hair); background: transparent; cursor: pointer; color: var(--fg);
+	transition: border-color 0.2s ease, transform 0.4s cubic-bezier(0.34,1.4,0.64,1);
+}
+.mode-toggle:hover { border-color: var(--fg); transform: rotate(-22deg); }
+.mode-toggle:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+.mode-toggle svg { width: 0.95rem; height: 0.95rem; }
+:root[data-theme="light"] .icon-moon { display: none; }
+:root[data-theme="dark"]  .icon-sun  { display: none; }
+
+/* ── page column ───────────────────────────────────────────────────── */
+.paper {
+	position: relative; z-index: 1;
+	max-width: 54rem; margin: 0 auto;
+	padding: 6rem 1.3rem 4rem;
+}
+@media (min-width: 720px) { .paper { padding: 7rem 2.4rem 5rem; } }
+.section { scroll-margin-top: 4.5rem; margin-top: 3rem; }
+
+/* ── masthead ──────────────────────────────────────────────────────── */
+.masthead { border-bottom: 1px solid var(--hair); padding-bottom: 1.2rem; }
+.dateline {
+	display: flex; align-items: center; justify-content: space-between; gap: 0.6rem;
+	font-size: 0.72rem; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.9rem;
+}
+.nameplate {
+	font-family: var(--display); font-weight: 700;
+	font-size: clamp(2.4rem, 8vw, 4.6rem); line-height: 1; text-align: center;
+	letter-spacing: -0.02em;
+}
+.subline {
+	margin-top: 0.9rem; text-align: center;
+	font-style: italic; font-size: 0.88rem; color: var(--muted);
+}
+.subline a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--hair); padding-bottom: 1px; }
+.subline a:hover { border-color: var(--fg); }
+
+/* ── section rule-head ─────────────────────────────────────────────── */
+.rule-head { margin-bottom: 0.2rem; padding-bottom: 0.45rem; border-bottom: 1px solid var(--hair); }
+.rule-head-label { font-family: var(--serif); font-size: 1rem; font-weight: 600; letter-spacing: 0.01em; color: var(--fg); }
+
+/* ── the briefs ────────────────────────────────────────────────────── */
+.briefs { list-style: none; }
+.briefs li {
+	border-top: 1px solid var(--hair);
+	padding: 0.72rem 0 0.72rem 1.15rem;
+	position: relative;
+	font-size: 0.98rem; line-height: 1.75; color: var(--fg2);
+	transition: padding-left 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+.briefs li:first-child { border-top: none; }
+.briefs li::before {
+	content: '·'; position: absolute; left: 0.15rem; top: 0.62rem;
+	font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: var(--muted);
+}
+.briefs li:hover { padding-left: 1.45rem; }
+.briefs li:hover::before { color: var(--fg); }
+.briefs a {
+	color: var(--fg); text-decoration: none;
+	border-bottom: 1px solid var(--hair); padding-bottom: 1px;
+	transition: border-color 0.18s ease, opacity 0.18s ease;
+}
+.briefs a:hover { border-color: var(--fg); }
+.briefs strong { color: var(--fg); font-weight: 600; }
+
+/* ── previous editions ─────────────────────────────────────────────── */
+.prev-list { display: grid; }
+.prev-link {
+	display: grid; grid-template-columns: 8.5rem 1fr; align-items: baseline; gap: 1rem;
+	padding: 0.7rem 0; border-top: 1px solid var(--hair);
+	text-decoration: none; color: var(--fg);
+	transition: padding-left 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+.prev-list .prev-link:first-child { border-top: none; }
+.prev-link:hover { padding-left: 0.5rem; }
+.prev-link .d { font-size: 0.74rem; letter-spacing: 0.03em; color: var(--muted); }
+.prev-link:hover .d { color: var(--fg); }
+.prev-link .t { font-size: 0.95rem; font-weight: 500; }
+.prev-link:hover .t { text-decoration: underline; text-underline-offset: 3px; }
+.more-note { margin-top: 1.2rem; font-style: italic; font-size: 0.9rem; color: var(--muted2); }
+.more-note a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--hair); padding-bottom: 1px; }
+.more-note a:hover { border-color: var(--fg); }
+
+/* ── colophon ──────────────────────────────────────────────────────── */
+.colophon { margin-top: 4rem; padding-top: 1.1rem; border-top: 1px solid var(--hair); }
+.colophon-line { font-size: 0.82rem; color: var(--muted); line-height: 1.9; letter-spacing: 0.02em; }
+.colophon-line a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--hair); padding-bottom: 1px; }
+.colophon-line a:hover { border-color: var(--fg); }
+
+/* ── reveal ────────────────────────────────────────────────────────── */
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.6s cubic-bezier(0.4,0,0.2,1), transform 0.6s cubic-bezier(0.4,0,0.2,1); }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+	html { scroll-behavior: auto; }
+	.reveal { opacity: 1; transform: none; transition: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- fixed background artwork — sits under everything, never scrolls -->
+<div class="page-bg" aria-hidden="true"></div>
+
+<!-- reading-progress hairline -->
+<div id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ═══ NAVBAR ════════════════════════════════════════════════════════════ -->
+<nav id="navbar">
+	<a href="/" class="nav-brand">utku&rsquo;s&nbsp;news</a>
+	<div class="nav-links">
+		<a href="/times/" class="nav-link">the utku times</a>
+		<a href="/archive.html" class="nav-link">archive</a>
+		<a href="https://utku.space" class="nav-link nav-home">utku&rsquo;s space ↗</a>
+	</div>
+	<button class="mode-toggle" id="modeToggle" aria-label="toggle dark mode" title="day / night (d)">
+		<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			<circle cx="12" cy="12" r="4.5"></circle>
+			<path d="M12 1.5v2.5M12 20v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M1.5 12h2.5M20 12h2.5M4.2 19.8l1.8-1.8M18 6l1.8-1.8"></path>
+		</svg>
+		<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"></path>
+		</svg>
+	</button>
+</nav>
+
+<!-- ═══ PAGE ══════════════════════════════════════════════════════════════ -->
+<main class="paper" id="top">
+
+	<!-- ── MASTHEAD ───────────────────────────────────────────────────── -->
+	<header class="masthead reveal">
+		<div class="dateline">
+			<span>ankara &middot; türkiye</span>
+			<span>3 november 2026</span>
+		</div>
+		<h1 class="nameplate">the daily brief</h1>
+		<p class="subline">fresh every morning at 09:00 gmt+3</p>
+	</header>
+
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">international politics</h2></div>
+		<ul class="briefs">
+			<li>On the eve of the US midterms Trump said an Iran deal "could happen" and that oil prices are falling, claims the report notes are unconfirmed — <a href="https://www.turkiyetoday.com/world/trump-says-iran-deal-could-happen-as-he-reopens-reflecting-pool-on-eve-of-midterms-3231575" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Russia called signs of new military action against Iran "extremely alarming" and urged diplomacy and calm around the Strait of Hormuz — <a href="https://www.turkiyetoday.com/world/russia-calls-signs-of-new-military-action-against-iran-extremely-alarming-3231569" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Cost of living and the Iran war are weighing on voters heading into the US midterm elections — <a href="https://www.turkiyetoday.com/world/cost-of-living-iran-war-weigh-on-voters-ahead-of-us-midterms-3231546" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Russia and Ukraine accused each other of regrouping forces while a ceasefire is in effect — <a href="https://www.turkiyetoday.com/world/russia-and-ukraine-trade-claims-over-military-regrouping-during-ceasefire-3231545" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Drone strikes on the power grid have plunged parts of eastern Sudan into darkness — <a href="https://www.turkiyetoday.com/world/drone-strikes-plunge-eastern-sudan-into-darkness-as-attacks-on-power-grid-intensify-3231527" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Germany's defense minister plans talks with Italy and Japan on joining their next-generation fighter jet program — <a href="https://www.turkiyetoday.com/world/germany-to-hold-talks-with-italy-and-japan-on-joining-next-gen-fighter-jet-program-3231574" target="_blank" rel="noopener">türkiye today</a></li>
+		</ul>
+	</section>
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">ai &amp; computing</h2></div>
+		<ul class="briefs">
+			<li>Anthropic's amended S-1 shows about $17 billion in third-quarter revenue (up roughly 1,127% year over year), a $23.29 billion quarterly net loss and about $895.4 billion in compute and lease commitments — <a href="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html" target="_blank" rel="noopener">cnbc</a></li>
+			<li>The revised filing says Anthropic may soon meet its Responsible Scaling Policy threshold for dramatically AI-accelerated progress, while no current Claude model has crossed it — <a href="https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/" target="_blank" rel="noopener">techcrunch</a></li>
+			<li>Anthropic's research shows an internal Claude model designed small proteins that bind tightly to scorpion neurotoxins — <a href="https://www.anthropic.com/research/claude-scorpion-toxin-binder-design" target="_blank" rel="noopener">anthropic</a></li>
+			<li>An Anthropic study of 50 professional analysts found they mostly sided with an AI agent on judgment calls and rarely credited it afterward — <a href="https://www.anthropic.com/research/agents-judgment-calls" target="_blank" rel="noopener">anthropic</a></li>
+			<li>Google unveiled Gemini 4 Argon, ranked just behind Claude Opus 5.5 and Sonnet 5.5 on Artificial Analysis's index, with a phased rollout starting with cybersecurity partners — <a href="https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html" target="_blank" rel="noopener">cnbc</a></li>
+			<li>Hyperscaler capex is on track for about $800 billion this year, and OpenAI reportedly cut its latest funding round to $20 billion from $30 billion — <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener">ai news today</a></li>
+			<li>Marvell agreed to buy Lumentum in an all-stock deal valued at about $115 billion — <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener">ai news today</a></li>
+			<li>Türkiye's Competition Authority opened a probe into Google's AI Overviews and AI Mode and ordered interim measures protecting publishers — <a href="https://www.turkiyetoday.com/business/turkiye-launches-antitrust-probe-into-google-over-ai-search-features-3231544" target="_blank" rel="noopener">türkiye today</a></li>
+		</ul>
+	</section>
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">business &amp; tech</h2></div>
+		<ul class="briefs">
+			<li>Wiz dubbed October "Black October" after at least nine AI development platforms disclosed security incidents, alongside the roughly $6.3 billion Binance hot-wallet theft — <a href="https://www.turkiyetoday.com/business/black-october-cyberattacks-hit-ai-platforms-crypto-exchanges-worldwide-3231563" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Brent crude fell nearly 8% to $104.43 a barrel as Iran and the US exchanged messages through Qatari mediators — <a href="https://www.turkiyetoday.com/business/brent-crude-falls-nearly-8-below-105-as-us-iran-diplomacy-eases-supply-fears-3231573" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Apple's fiscal fourth-quarter revenue rose 12% to $114.48 billion, while inventory jumped 154% as memory chip costs climbed — <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener">ai news today</a></li>
+			<li>US employers announced 153,074 job cuts in October, with 31,039 tied directly to AI, the most in any month Challenger has recorded — <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener">ai news today</a></li>
+			<li>Borsa Istanbul lost about $128 billion in value with only 12 stocks rising amid the investment-fund scandal fallout — <a href="https://www.turkiyetoday.com/business/only-12-stocks-rise-as-turkish-exchange-sheds-128b-in-fund-scandal-fallout-3231555" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Türkiye's central bank reserves slid below $160 billion in October, a third straight weekly decline — <a href="https://www.turkiyetoday.com/business/turkish-central-bank-reserves-slide-below-160b-in-october-3231565" target="_blank" rel="noopener">türkiye today</a></li>
+			<li>Türkiye's technology-intensive exports reached $86.4 billion in the first nine months of the year — <a href="https://www.turkiyetoday.com/business/turkiyes-technology-intensive-exports-surge-to-864b-in-9-months-3231498" target="_blank" rel="noopener">türkiye today</a></li>
+		</ul>
+	</section>
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">other important news</h2></div>
+		<ul class="briefs">
+			<li>NASA's Perseverance rover has driven 28.10 miles on Mars, farther than any vehicle has driven on another world — <a href="https://www.sciencedaily.com/releases/2026/11/261101010536.htm" target="_blank" rel="noopener">sciencedaily</a></li>
+			<li>The IceCube observatory is detecting ghost particles with 10 billion times the energy of solar neutrinos — <a href="https://www.sciencedaily.com/releases/2026/11/261101010533.htm" target="_blank" rel="noopener">sciencedaily</a></li>
+			<li>A new electronic implant lowers blood sugar without insulin or traditional drugs and may also promote weight loss — <a href="https://www.sciencedaily.com/releases/2026/10/261031221151.htm" target="_blank" rel="noopener">sciencedaily</a></li>
+			<li>A 24-year study of more than 8,200 adults links excess body weight to faster brain aging — <a href="https://www.sciencedaily.com/releases/2026/11/261101010559.htm" target="_blank" rel="noopener">sciencedaily</a></li>
+			<li>Meituan launched LongCat-2.5 Preview and more than 50 teams raced legged and humanoid robots up Mount Tai in China's first major mountain challenge — <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener">ai news today</a></li>
+		</ul>
+	</section>
+
+	<!-- ── PREVIOUS EDITIONS ──────────────────────────────────────────── -->
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">previous editions</h2></div>
+		<div class="prev-list">
+			<a class="prev-link" href="/archive/2026-11-02.html"><span class="d">2026-11-02</span><span class="t">the 2 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-01.html"><span class="d">2026-11-01</span><span class="t">the 1 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-31.html"><span class="d">2026-10-31</span><span class="t">the 31 october 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-30.html"><span class="d">2026-10-30</span><span class="t">the 30 october 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-29.html"><span class="d">2026-10-29</span><span class="t">the 29 october 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-28.html"><span class="d">2026-10-28</span><span class="t">the 28 october 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-27.html"><span class="d">2026-10-27</span><span class="t">the 27 october 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-26.html"><span class="d">2026-10-26</span><span class="t">the 26 october 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-25.html"><span class="d">2026-10-25</span><span class="t">the 25 october 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-10-24.html"><span class="d">2026-10-24</span><span class="t">the 24 october 2026 edition</span></a>
+		</div>
+		<p class="more-note"><a href="/archive.html">full archive →</a></p>
+	</section>
+
+	<!-- ── COLOPHON ───────────────────────────────────────────────────── -->
+	<footer class="colophon reveal">
+		<p class="colophon-line">researched, written &amp; published every morning at 09:00 gmt+3 by <a href="https://claude.com/claude-code" target="_blank" rel="noopener">claude</a> &middot; part of <a href="https://utku.space">utku&rsquo;s space</a></p>
+	</footer>
+
+</main>
+
+<!-- ═══ SCRIPT ════════════════════════════════════════════════════════════ -->
+<script>
+/* ── day / night (instant twin of the utku.space cinematic) ────────── */
+(function () {
+	var html = document.documentElement;
+	function setTheme(t) {
+		html.setAttribute('data-theme', t);
+		try { localStorage.setItem('theme', t); } catch (e) {}
+	}
+	function flip() { setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }
+	document.getElementById('modeToggle').addEventListener('click', flip);
+	document.addEventListener('keydown', function (e) {
+		if ((e.key === 'd' || e.key === 'D') && !e.metaKey && !e.ctrlKey && !e.altKey) flip();
+	});
+})();
+
+/* ── reading progress ──────────────────────────────────────────────── */
+(function () {
+	var bar = document.getElementById('scrollProgress');
+	function paint() {
+		var h = document.documentElement;
+		var max = h.scrollHeight - h.clientHeight;
+		bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+	}
+	addEventListener('scroll', paint, { passive: true }); paint();
+})();
+
+/* ── reveal on scroll ──────────────────────────────────────────────── */
+(function () {
+	var els = document.querySelectorAll('.reveal');
+	if (!('IntersectionObserver' in window)) {
+		els.forEach(function (el) { el.classList.add('visible'); }); return;
+	}
+	var io = new IntersectionObserver(function (entries) {
+		entries.forEach(function (en) {
+			if (en.isIntersecting) { en.target.classList.add('visible'); io.unobserve(en.target); }
+		});
+	}, { threshold: 0.06 });
+	els.forEach(function (el) { io.observe(el); });
+})();
+</script>
+</body>
+</html>
