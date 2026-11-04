@@ -1,0 +1,136 @@
+{
+ "tagline": "Nvidia draws a line through the AI cloud, and America votes.",
+ "lead": {
+  "kicker": "AI & Business",
+  "headline": "Nvidia Tells Cloud Partners to Sell Most Services Outside China",
+  "deck": "The Financial Times reports that new cloud contracts must send at least 51% of services to non-Chinese customers.",
+  "body": [
+   "Nvidia has told cloud computing customers that they must sell at least 51% of their services to non-Chinese companies, according to a Financial Times report published on Tuesday and carried by Türkiye Today with AFP. The paper cited five people with knowledge of the matter, none of whom were named.",
+   "The rule reportedly applies only to future contracts, so existing agreements are not affected. Nvidia is said to be telling its data center partners to reduce their work with Chinese customers. The report does not name the cloud partners involved or the contracts at stake.",
+   "Nvidia neither confirmed nor denied the report to AFP. It did defend American chip infrastructure, saying that clouds built on American chips underpin the ability of US model and application makers to compete globally. It also warned that if the world's clouds rely on foreign-made chips, the model and application layers will be foreign-built as well.",
+   "In Beijing, foreign ministry spokesperson Mao Ning said she was not aware of the report. She added that China hopes all parties will offer a fair, transparent and non-discriminatory business environment to companies from every country, including Chinese ones.",
+   "The report lands amid a broader contest over AI. China and the United States have in recent months accused each other of stealing AI technology and jeopardizing security, and Nvidia, one of the world's most valuable companies, depends on global demand for the data centers that run AI systems on its chips."
+  ],
+  "image": {
+   "src": "/assets/times/of-services-outside-china-report-3231617.jpg",
+   "alt": "Image published with the Türkiye Today report on Nvidia's reported cloud rule",
+   "caption": "Image from Türkiye Today's report on Nvidia's reported rule for cloud customers.",
+   "credit": "Photo: turkiyetoday.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the FT original (or a second report) and note which parts are sourced to five unnamed people and which are Nvidia's own statements, then treat the 51% figure as unconfirmed.",
+    "Track how chip access rules shape who can build cloud and model businesses: write a short note on who benefits if compute is rationed by customer nationality."
+   ]
+  },
+  "source": "https://www.turkiyetoday.com/business/nvidia-tells-cloud-clients-to-sell-51-of-services-outside-china-report-3231617"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Inflation Eases to 27.8% but October Jump Beats Forecasts",
+   "body": [
+    "Türkiye's annual consumer inflation fell to 27.8% in October from 29.7% in September, but the monthly rate rose to 2.6% from 1.8%, above the roughly 2.2% markets expected. Clothing rose 12.6% on the month, energy 4.9% and food 3.5%.",
+    "Core inflation was 2.1% on the month and 28.3% on the year. The central bank cut its policy rate by 100 basis points to 36% on October 22, ending a nine-month pause, and warned it could tighten again if the disinflation outlook deteriorates significantly and persistently."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic Shows How to Prove a Model Gave the Answer",
+   "body": [
+    "Anthropic published research on provable inference, built around FlashProve, an open-source zkSNARK system that proves a response came from specific committed model weights.",
+    "AI News Today reports it runs at about 110 tokens per second on a 400B mixture-of-experts model on a single GPU, with proofs of roughly 19MB per 1,024-token request."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,568.92",
+   "change": "+0.36%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,372.01",
+   "change": "+0.83%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,786.72",
+   "change": "−0.38%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$206.69",
+   "change": "+2.29%"
+  },
+  {
+   "name": "Intel",
+   "value": "$60.55",
+   "change": "+0.97%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,024",
+   "change": "+0.56%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.02",
+   "change": "+0.07%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$103.15",
+   "change": "−0.43%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,950",
+   "change": "+0.24%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$76,083",
+   "change": "−0.78%"
+  }
+ ],
+ "markets_note": "Snapshot from the day's data feed.",
+ "weather": {
+  "now": "16° / 8°",
+  "cond": "patchy rain nearby",
+  "summary": "Now 8°C, feels like 7°C, humidity 92%.",
+  "days": [
+   {
+    "d": "WED",
+    "c": "Patchy rain nearby",
+    "t": "16° / 8°"
+   },
+   {
+    "d": "THU",
+    "c": "Patchy rain nearby",
+    "t": "12° / 7°"
+   },
+   {
+    "d": "FRI",
+    "c": "Patchy rain nearby",
+    "t": "11° / 5°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "51%",
+   "text": "minimum share of services Nvidia's cloud clients must reportedly sell outside China"
+  },
+  {
+   "big": "27.8%",
+   "text": "Türkiye's annual inflation in October, down from 29.7%"
+  },
+  {
+   "big": "$103.15",
+   "text": "Brent crude per barrel in the markets table"
+  }
+ ]
+}
