@@ -1,0 +1,135 @@
+{
+ "tagline": "Anthropic opens its books, and Washington changes hands.",
+ "lead": {
+  "kicker": "AI & Business",
+  "headline": "Anthropic Posts $17 Billion Quarter as IPO Nears",
+  "deck": "A filing shows revenue up roughly twelvefold in a year, a $23.3 billion net loss, and $895 billion in spending commitments.",
+  "body": [
+   "Anthropic reported third-quarter revenue of nearly $17 billion, about 12 times its revenue in the same quarter a year earlier, according to a company filing released Monday and reported by Türkiye Today. Revenue for the three months ended September 30 exceeded the $16.3 billion the company earned in all of the first half of 2026.",
+   "The growth came at a cost. Net loss widened to $23.3 billion from $12.1 billion a year earlier, and operating expenses rose 292% to $17.5 billion. Anthropic, which develops the Claude chatbot, trains and runs its models on chips from Amazon, Google, Nvidia and AMD.",
+   "Bloomberg reported that the company has committed to spending $895 billion, nearly all of it on computing capacity and infrastructure. About $70 billion falls due in the 12 months through September 2027, and roughly $448 billion is expected by the end of 2030, with most of the rest between 2031 and 2045.",
+   "The numbers arrived in an amended prospectus filed with the SEC on Monday, a week after the initial filing on October 26. Anthropic has applied to list on the Nasdaq Global Select Market under the ticker ANT. Goldman Sachs and Morgan Stanley are leading the offering, expected before US Thanksgiving, per Bloomberg.",
+   "Bloomberg also reported that Anthropic aims to match or beat the $86.2 billion SpaceX raised in its market debut, and that investors told bankers a fair valuation is about $1.4 trillion to $1.5 trillion. The initial prospectus left the share price and share count blank, so those figures are not final."
+  ],
+  "image": {
+   "src": "/assets/times/in-quarterly-revenue-up-12-fold-3231607.jpg",
+   "alt": "Image published with the Türkiye Today report on Anthropic's quarterly revenue",
+   "caption": "Anthropic, whose revenue filing anchors today's front page.",
+   "credit": "Photo: turkiyetoday.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Skim the S-1 on the SEC's EDGAR site and note how the revenue, loss and compute-commitment figures relate; those three numbers explain the whole business.",
+    "Treat the valuation and raise targets as unconfirmed: they come from people familiar with the matter, not from the filing."
+   ]
+  },
+  "source": "https://www.turkiyetoday.com/business/anthropic-reports-17-billion-in-quarterly-revenue-up-12-fold-3231607"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Türkiye Aims for 70% Renewable Energy by 2040",
+   "body": [
+    "Energy Minister Alparslan Bayraktar says Türkiye aims to meet about 70% of its energy needs from renewables by 2040 under its National Energy 2040 vision, backed by billions of dollars in investment and greater electrification.",
+    "He tied the plan to energy security, lower reliance on imports and the 2053 net-zero goal. The roadmap was set for formal unveiling in Istanbul ahead of the COP31 climate conference in Antalya, November 9 to 20."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Hinton Warns of a Chernobyl-Scale AI Incident",
+   "body": [
+    "Nobel laureate Geoffrey Hinton predicts a Chernobyl-scale AI incident within about a year or two, such as an AI-assisted attack that causes a major grid outage or freezes the financial system for a week.",
+    "He rejects the label of doomer and says AI could enable a good future, but admitted that humanity might have been better off never developing it."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,688.62",
+   "change": "+1.58%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,736.51",
+   "change": "+1.44%"
+  },
+  {
+   "name": "Dow",
+   "value": "53,356.12",
+   "change": "+3.03%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$200.13",
+   "change": "−3.17%"
+  },
+  {
+   "name": "Intel",
+   "value": "$58.27",
+   "change": "−3.77%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,478",
+   "change": "+4.12%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.03",
+   "change": "+0.04%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$93.75",
+   "change": "−0.92%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,141",
+   "change": "+1.67%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$80,614",
+   "change": "+4.23%"
+  }
+ ],
+ "weather": {
+  "now": "13° / 7°",
+  "cond": "patchy rain nearby",
+  "summary": "Now 8°C, feels like 7°C, humidity 90%.",
+  "days": [
+   {
+    "d": "THU",
+    "c": "Cloudy",
+    "t": "13° / 7°"
+   },
+   {
+    "d": "FRI",
+    "c": "Patchy rain nearby",
+    "t": "11° / 5°"
+   },
+   {
+    "d": "SAT",
+    "c": "Patchy rain nearby",
+    "t": "8° / -0°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$17B",
+   "text": "Anthropic's Q3 revenue, about 12 times a year earlier"
+  },
+  {
+   "big": "$895B",
+   "text": "compute and infrastructure commitments disclosed in the prospectus"
+  },
+  {
+   "big": "228",
+   "text": "US House seats called for Democrats by the AP, 218 needed"
+  }
+ ]
+}
