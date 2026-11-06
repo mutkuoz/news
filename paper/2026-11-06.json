@@ -1,0 +1,136 @@
+{
+ "tagline": "A $2 trillion tech rout, and peace talks in Abu Dhabi.",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Nasdaq Falls Into Correction as Midterms Rattle the AI Trade",
+  "deck": "The Nasdaq Composite lost 5.52% in a day, chip stocks fell more than 12%, and investors began pricing a slower, more expensive AI buildout.",
+  "body": [
+   "The Nasdaq Composite fell 5.52% on Thursday to 24,314.99, its worst day since April 2025, according to Fox Business. The index closed in correction territory, at least 10% below its October 6 record. The Dow dropped 1,833 points, or 3.44%, to 51,523.06, and the S&P 500 lost 4.36%.",
+   "The sharpest damage was in chips. The Philadelphia Semiconductor Index fell more than 12%, and Nvidia dropped 9.26% to $181.60. Tesla slid 10.77% and SpaceX 9.05%. Data-center operators IREN, Applied Digital and Nebius each fell more than 14%, and GE Vernova and Constellation Energy, which supply power and equipment to the AI boom, were also hit.",
+   "Investors were weighing what the Democrats' midterm sweep could mean for AI regulation and data-center development. Rising electricity prices have turned data-center construction into a political issue, and some Democrats have called for restrictions or pauses on new projects. Analysts also said the market was pricing in the results after the previous day's rally.",
+   "eToro's Jakub Rochlitz said the market reads the AI infrastructure buildout as becoming slower and more expensive. Jed Ellerbroek of Argent Capital Management told Reuters the moves felt like a capitulation phase for data-center capex beneficiaries, especially semiconductors, though he thought they were outsized.",
+   "It was the second straight day of selling, and analysts said it could signal more to come. Japan's Nikkei and Korea's Kospi, which fell after Wednesday's rout, may decline again when Asian markets open Friday."
+  ],
+  "image": {
+   "src": "/assets/times/nasdaq-marketsite-times-square.jpg",
+   "alt": "The Nasdaq MarketSite tower in Times Square, New York",
+   "caption": "The Nasdaq MarketSite tower in Times Square, New York, where the index closed in correction territory.",
+   "credit": "Photo: NASA Headquarters / NASA/Emma Howells, Public domain, via Wikimedia Commons"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Compare the Nvidia and chip-index drops with the market data on this page, and note which AI-linked names fell furthest: that shows where the market sees regulatory risk.",
+    "Treat explanations as analyst opinion, not fact: the article says part of the move was investors pricing in results after Wednesday's rally."
+   ]
+  },
+  "source": "https://foxbusiness.com/markets/stocks-nov-5-2026"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Foreign Investors Pull $879 Million From Turkish Markets",
+   "body": [
+    "Foreign investors sold about $879 million of Turkish assets in the week ending October 30: $750.4 million in government debt, $66.3 million in equities and $62.3 million in other securities. Equity selling has now continued for five straight weeks.",
+    "Central bank total reserves fell about $4.1 billion to $158.1 billion, a second weekly decline. Net reserves excluding swaps dropped to $24.3 billion from $30.8 billion, their lowest in about seven months."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic Study: Computer Science Dominates AI-Assisted Research",
+   "body": [
+    "Anthropic analyzed 207,049 research sessions from August 2 to September 30 and surveyed 528 scientists. Computer science made up 32.7% of Claude Code sessions, although it is only 4.3% of the world's researchers.",
+    "About 40% of surveyed researchers expect AI to carry out full research projects on its own by 2030, and 94% expect it to match top researchers in data analysis by then."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,353.73",
+   "change": "−4.36%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "24,315.00",
+   "change": "−5.52%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,523.06",
+   "change": "−3.44%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$181.60",
+   "change": "−9.26%"
+  },
+  {
+   "name": "Intel",
+   "value": "$52.25",
+   "change": "−10.33%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,333",
+   "change": "−1.26%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.15",
+   "change": "+0.23%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$100.09",
+   "change": "+1.83%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,059",
+   "change": "−1.33%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$75,756",
+   "change": "−5.78%"
+  }
+ ],
+ "markets_note": "Thursday close, from live data.",
+ "weather": {
+  "now": "11° / 4°",
+  "cond": "cloudy",
+  "summary": "Now 6°C, feels like 4°C, humidity 65%.",
+  "days": [
+   {
+    "d": "FRI",
+    "c": "Patchy rain nearby",
+    "t": "11° / 4°"
+   },
+   {
+    "d": "SAT",
+    "c": "Partly Cloudy",
+    "t": "9° / -1°"
+   },
+   {
+    "d": "SUN",
+    "c": "Patchy rain nearby",
+    "t": "6° / -3°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "5.52%",
+   "text": "Nasdaq Composite's one-day fall, its worst since April 2025"
+  },
+  {
+   "big": "12%+",
+   "text": "drop in the Philadelphia Semiconductor Index"
+  },
+  {
+   "big": "$879M",
+   "text": "pulled by foreign investors from Turkish assets in one week"
+  }
+ ]
+}
