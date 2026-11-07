@@ -1,0 +1,136 @@
+{
+ "tagline": "Anthropic opens its books, and a $16.3 billion half-year.",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Anthropic's IPO Filing Reveals $16.3 Billion in Half-Year Revenue",
+  "deck": "The S-1 shows revenue up about 1,300% on a year earlier and a first quarterly operating profit, ahead of a planned Nasdaq listing under the ticker ANT.",
+  "body": [
+   "Anthropic reported $16.3 billion in revenue for the first half of 2026, up about 1,300% from $1.16 billion a year earlier, according to its public IPO filing as reported by The Next Web. The second quarter alone brought in $11.6 billion, most of the half-year total.",
+   "The company posted its first operating profit in the second quarter, $974 million. Over the full half it still recorded an operating loss of $693 million, and a net loss of $80.7 billion. Most of that loss is a $72.4 billion non-cash charge for revaluing convertible notes, plus $8.8 billion tied to note agreements with Google and Amazon. Excluding those items and stock pay, adjusted operating income was $1.6 billion, a 10% margin.",
+   "The balance sheet is large: $112.4 billion in cash and $19.3 billion in short-term investments at June 30, with $141.1 billion raised to date. More than 11,900 customers pay at least $100,000 a year, up from about 950, and roughly 250 pay more than $10 million. The top five customers made up about 25% of revenue in the nine months to September 30.",
+   "Anthropic plans to list Class A shares on Nasdaq as ANT. The price range and share count are blank in the filing. Goldman Sachs and Morgan Stanley lead a group of 22 banks, and sources told the Wall Street Journal the offering could come in the week of November 16, a timing The Next Web says it has not verified.",
+   "The filing lands in a shaky week for AI stocks. NBC News reported that the Nasdaq 100 fell 6.3% on Thursday as election results and doubts about AI returns hit tech shares, so the market's appetite for the listing is an open question."
+  ],
+  "image": {
+   "src": "/assets/times/news-anthropic-ipo-filing-nasdaq-ant-s-1.jpg",
+   "alt": "A phone showing the Anthropic logo in front of a blurred portrait",
+   "caption": "A phone showing the Anthropic logo, as the company prepares to list on Nasdaq.",
+   "credit": "Photo: thenextweb.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the revenue figures against the filing's own caveat: most of the $80.7 billion net loss is a non-cash revaluation, so compare the operating and adjusted lines instead.",
+    "Watch for the price range and listing date: both are blank in the filing, and the November 16 week is only a press report."
+   ]
+  },
+  "source": "https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Parliament Ratifies Defense Pact With Pakistan and Saudi Arabia",
+   "body": [
+    "Turkish lawmakers approved the Mecca Agreement on Joint Defense on Thursday, with the AK Party, its ally the MHP and the main opposition CHP all in favor. The pact covers military training, joint exercises, defense technology, counterterrorism, intelligence sharing and logistics support in peacetime and war.",
+    "A committee of foreign ministers, defense ministers and chiefs of staff will oversee it, with a permanent secretariat in Saudi Arabia led first by Pakistan. It takes effect once all three countries finish ratification, and other states may join with the members' approval."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Review Says Anthropic Is Moving Twice as Fast, but Evidence Is Redacted",
+   "body": [
+    "An independent METR assessment estimates Anthropic is making AI capability progress at about twice its previous pace, based on internal data from August 12 to October 29. The roughly 100-page report was published November 5.",
+    "METR said Anthropic redacted most of the most informative material, so the public cannot verify much of the conclusion."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,376.86",
+   "change": "+0.31%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "24,579.42",
+   "change": "+1.09%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,285.73",
+   "change": "−0.46%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$186.64",
+   "change": "+2.78%"
+  },
+  {
+   "name": "Intel",
+   "value": "$56.28",
+   "change": "+7.71%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,483",
+   "change": "+1.32%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.15",
+   "change": "+0.23%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$97.76",
+   "change": "−0.54%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,080",
+   "change": "−0.83%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$75,727",
+   "change": "−0.28%"
+  }
+ ],
+ "markets_note": "Latest close, via paper_data.py.",
+ "weather": {
+  "now": "9° / -0°",
+  "cond": "clear",
+  "summary": "Now 2°C, feels like -0°C, humidity 75%.",
+  "days": [
+   {
+    "d": "SAT",
+    "c": "Partly Cloudy",
+    "t": "9° / -0°"
+   },
+   {
+    "d": "SUN",
+    "c": "Partly Cloudy",
+    "t": "6° / -3°"
+   },
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "7° / -3°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$16.3B",
+   "text": "Anthropic revenue in the first half of 2026"
+  },
+  {
+   "big": "11,900+",
+   "text": "customers paying $100,000 or more a year"
+  },
+  {
+   "big": "-6.3%",
+   "text": "Nasdaq 100 on Thursday, erasing $2.3 trillion"
+  }
+ ]
+}
