@@ -1,0 +1,136 @@
+{
+ "tagline": "Tesla calls time on the Cybertruck, and Antalya readies for COP31.",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Tesla to Wind Down the Cybertruck as Musk Bets on the Cybercab",
+  "deck": "Production at the Texas gigafactory will end around mid-2027 to free capacity for the driverless Cybercab, after years of sales far below Musk's forecast.",
+  "body": [
+   "Tesla will wind down production of the Cybertruck at its Texas gigafactory around mid-2027, CEO Elon Musk said in an X post on Friday, according to a Reuters report carried by NBC News. He said the change would free up capacity to build more of the newly launched Cybercab.",
+   "It is unclear whether Cybertruck production will move to another plant or end altogether. The Austin factory is the only known Tesla facility equipped to make the truck's specialized components. Musk called the Cybertruck the best vehicle Tesla has ever made and described the move as the end of an era.",
+   "The numbers explain the decision. Kelley Blue Book says Tesla sold 20,237 Cybertrucks in the US last year, down 48% from 38,965 in 2024. Before launch, Musk had predicted annual sales of 250,000. Former Aston Martin chief executive Andy Palmer said the sharp-edged stainless-steel design limited sales in Europe, where pedestrian-impact crash rules made approval effectively impossible.",
+   "The Cybercab has butterfly doors and no steering wheel, pedals or mirrors, and it is central to Musk's push to position Tesla as an AI and robotics company. Tesla began offering paid rides in a small Cybercab fleet in Austin in September. It still has to answer questions from the US auto safety regulator, NHTSA, about whether it properly self-certified the Cybercab as compliant with federal safety standards.",
+   "Cybertruck lead engineer Wes Morrill said on X that the truck was an impressive technology development platform and that its legacy continues through the Cybercab."
+  ],
+  "image": {
+   "src": "/assets/times/tion-years-poor-sales-markets-rcna607817.jpg",
+   "alt": "Image from the NBC News report on the Cybertruck wind-down",
+   "caption": "Tesla's Cybertruck, which the company will stop building around mid-2027.",
+   "credit": "Photo: nbcnews.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Treat the Cybercab as the real story: it ties Tesla's valuation to autonomy, so watch the NHTSA certification question rather than Cybertruck volumes.",
+    "Note the gap between forecast and result (250,000 predicted, 20,237 sold in the US last year) when judging any bold product or AI-timeline claim."
+   ]
+  },
+  "source": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Antalya Prepares to Host COP31 Climate Summit",
+   "body": [
+    "The 31st UN Climate Change Conference opens in Antalya on 9 November and runs to 20 November. Türkiye says it has received confirmations from 91 heads of state and government.",
+    "Environment, Urbanization and Climate Change Minister Murat Kurum said representatives of 196 countries, nearly 300 ministers and about 1.5 million visitors are expected. Türkiye plans to highlight its urban development, its reconstruction after the February 2023 earthquakes, and cooperation with international organizations."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Claude Gets a Personal Finance Beta",
+   "body": [
+    "Anthropic launched a Personal Finance beta for US Pro, Max and Ultra subscribers. Users connect selected bank accounts through Plaid and can ask Claude about spending, upcoming bills or unusual transactions.",
+    "Access is read-only, so Claude cannot transfer or invest money. It can review up to two years of transaction history, and conversations in the Personal Finance hub are excluded from model training, according to The Neuron's daily digest."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,376.86",
+   "change": "+0.31%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "24,579.43",
+   "change": "+1.09%"
+  },
+  {
+   "name": "Dow",
+   "value": "51,285.73",
+   "change": "−0.46%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$186.64",
+   "change": "+2.78%"
+  },
+  {
+   "name": "Intel",
+   "value": "$56.28",
+   "change": "+7.71%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,483",
+   "change": "+1.32%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.13",
+   "change": "−0.04%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$98.32",
+   "change": "+0.03%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,075",
+   "change": "−0.94%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$75,754",
+   "change": "+0.01%"
+  }
+ ],
+ "markets_note": "",
+ "weather": {
+  "now": "5° / -3°",
+  "cond": "clear",
+  "summary": "Now -0°C, feels like -3°C, humidity 69%.",
+  "days": [
+   {
+    "d": "SUN",
+    "c": "Partly Cloudy",
+    "t": "5° / -3°"
+   },
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "7° / -4°"
+   },
+   {
+    "d": "TUE",
+    "c": "Patchy rain nearby",
+    "t": "7° / -2°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "20,237",
+   "text": "Cybertrucks sold in the US last year, down 48% from 2024."
+  },
+  {
+   "big": "91",
+   "text": "heads of state and government confirmed for COP31 in Antalya."
+  },
+  {
+   "big": "165,000",
+   "text": "US jobs added in October, with unemployment at 4.1%."
+  }
+ ]
+}
