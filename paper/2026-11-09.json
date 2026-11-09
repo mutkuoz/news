@@ -1,0 +1,123 @@
+{
+  "tagline": "Chips, probes and a shaken market",
+  "lead": {
+    "kicker": "Business & Tech",
+    "headline": "Nvidia Opens Investigation Into CEO Jensen Huang",
+    "deck": "The board says it has no reason to believe secrets were compromised, as Congress asks for answers",
+    "body": [
+      "Nvidia's board said on Sunday it is opening an independent investigation after reports that chief executive Jensen Huang was the target of a foreign intelligence effort. A committee of independent directors, advised by outside counsel, will oversee the inquiry.",
+      "The New York Times and the Financial Times reported on Huang's relationship with Alice Huang, a Chinese businesswoman who is not related to him. Her Singapore-based company, Megaspeed, was buying Nvidia's advanced chips, and U.S. intelligence reportedly concluded she had been recruited by China's top intelligence agency. The New York Times put Megaspeed's purchases at about $4.8 billion in equipment. The Chinese Embassy has denied any spying allegations.",
+      "In an email to staff, Huang acknowledged an extramarital relationship and apologised to his wife, children and colleagues. The board said it has no reason to believe national security or company secrets were compromised, and a spokesperson said Huang remains CEO.",
+      "The politics are heating up. House Republicans led by China Select Committee chairman John Moolenaar have asked Huang to testify on November 18, and Senator Elizabeth Warren called for bipartisan legislation on advanced chip exports to China. President Trump called Huang a fine person and an honorable guy.",
+      "The timing is awkward for the company. Nvidia is worth nearly $4.5 trillion, and it fell 9.2% on November 5 during a tech selloff in which the Nasdaq 100 lost 6.3% and the semiconductor index dropped 12.3%."
+    ],
+    "image": {
+      "src": "/assets/times/eo-jensen-huang-investigation-rcna608148.jpg",
+      "alt": "Nvidia CEO Jensen Huang",
+      "caption": "Nvidia chief executive Jensen Huang, whose company's board opened an investigation on Sunday.",
+      "credit": "Photo: nbcnews.com"
+    },
+    "box": {
+      "title": "What Utku should do",
+      "items": [
+        "Read the export-control debate closely: chip rules toward China decide which AI hardware developers can actually get and at what price.",
+        "Watch the November 18 hearing and Nvidia's next earnings call before assuming GPU prices or CUDA-centered tooling will stay stable."
+      ]
+    },
+    "source": "NBC News, Al Jazeera"
+  },
+  "secondary": [
+    {
+      "kicker": "Türkiye",
+      "headline": "Antalya Hosts COP31 With 91 Leaders Expected",
+      "body": ["Türkiye expects 91 heads of state and government at the COP31 climate summit in Antalya, which runs from November 9 to 20. Daily Sabah reports that the country has prepared five medical stations for the summit, and Istanbul is screening 20 climate documentaries ahead of it."]
+    },
+    {
+      "kicker": "AI",
+      "headline": "Anthropic Files for IPO and Pushes Into Government",
+      "body": ["Anthropic filed an S-1 with the SEC on October 26 for a proposed initial public offering. Later that week it expanded its partnership with the US General Services Administration to bring Claude to all levels of government, and published early progress on using Claude to accelerate drug development."]
+    }
+  ],
+  "markets": [
+ {
+  "name": "S&P 500",
+  "value": "7,376.86",
+  "change": "+0.31%"
+ },
+ {
+  "name": "Nasdaq",
+  "value": "24,579.43",
+  "change": "+1.09%"
+ },
+ {
+  "name": "Dow",
+  "value": "51,285.73",
+  "change": "−0.46%"
+ },
+ {
+  "name": "Nvidia",
+  "value": "$186.64",
+  "change": "+2.78%"
+ },
+ {
+  "name": "Intel",
+  "value": "$56.28",
+  "change": "+7.71%"
+ },
+ {
+  "name": "BIST 100",
+  "value": "11,483",
+  "change": "+1.32%"
+ },
+ {
+  "name": "USD / TRY",
+  "value": "50.16",
+  "change": "+0.02%"
+ },
+ {
+  "name": "Brent crude",
+  "value": "$98.23",
+  "change": "−0.09%"
+ },
+ {
+  "name": "Gold",
+  "value": "$4,125",
+  "change": "+1.23%"
+ },
+ {
+  "name": "Bitcoin",
+  "value": "$74,977",
+  "change": "−1.02%"
+ }
+]
+,
+  "markets_note": "Latest quotes from paper_data.py",
+  "weather": {
+ "now": "7° / -4°",
+ "cond": "clear",
+ "summary": "Now -2°C, feels like -5°C, humidity 71%.",
+ "days": [
+  {
+   "d": "MON",
+   "c": "Sunny",
+   "t": "7° / -4°"
+  },
+  {
+   "d": "TUE",
+   "c": "Patchy rain nearby",
+   "t": "7° / -2°"
+  },
+  {
+   "d": "WED",
+   "c": "Partly Cloudy",
+   "t": "10° / -2°"
+  }
+ ]
+}
+,
+  "stats": [
+    {"big": "6.3%", "text": "Nasdaq 100 fall on November 5, erasing $2.3 trillion"},
+    {"big": "$4.5T", "text": "Nvidia's market value, nearly, as of Friday"},
+    {"big": "Nov 18", "text": "Date lawmakers asked Huang to testify"}
+  ]
+}
