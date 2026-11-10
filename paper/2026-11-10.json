@@ -1,0 +1,134 @@
+{
+ "tagline": "A new frontier model, a probe at Nvidia, and a war said to be over",
+ "lead": {
+  "kicker": "AI & Computing",
+  "headline": "Anthropic Releases Claude Fable 5.2 and Mythos 5.2",
+  "deck": "One model, two doors: a public version with tighter safeguards and a restricted one for vetted security and biology teams",
+  "body": [
+   "Anthropic on Monday released upgrades to Claude Fable 5.2 and Claude Mythos 5.2. The company says they are the same underlying model, and describes it as a step above Opus 5.5 in almost all the capabilities it evaluated.",
+   "The difference is access. Fable carries stronger cybersecurity and biology safeguards and is open to all users, with the API model ID claude-fable-5-2. Mythos is restricted to vetted organizations in dual-use fields, who must be approved through the Cyber Verification Program or the Life Sciences Verification Program.",
+   "Anthropic reports that Fable 5.2 scored 49.1% on FrontierCode 2.0 at Xhigh effort, the highest of any released model it tested, and that Mythos 5.2 found 10.2% more vulnerabilities than Opus 5.5 on an internal CVE rediscovery evaluation. It also says a team of 1,000 Fable 5.2 agents formalized Fermat's Last Theorem in about 30 hours, and that the model solved two open problems in black hole physics. These are the company's own results.",
+   "Standard pricing is $8 per million input tokens and $40 per million output tokens; fast mode, up to 2.5 times faster, costs $16 and $80. Outputs are up to 30% faster than Fable 5.1, and the model is available on Amazon Web Services, Google Cloud and Microsoft Azure. Anthropic says Fable 5.2 has about 55% fewer safety-classifier blocks than Fable 5.1 and rates the risk of high-stakes misalignment as low.",
+   "The launch follows Anthropic's October 26 filing of an S-1 with the SEC for a proposed initial public offering."
+  ],
+  "image": {
+   "src": "/assets/times/claude-fable-and-mythos-5-2.jpg",
+   "alt": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+   "caption": "Anthropic's launch graphic for Claude Fable 5.2 and Claude Mythos 5.2, released on November 9.",
+   "credit": "Photo: anthropic.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Try Fable 5.2 on a real project of yours and compare it against your current model on one hard task, so you know where it is actually better.",
+    "Read the release page's evaluation notes and note which results are Anthropic's own, so you can judge the claims yourself."
+   ]
+  },
+  "source": "anthropic.com"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Steel Plant Blast in Izmir Kills at Least 16",
+   "body": [
+    "An explosion at the HABAŞ iron and steel plant in Izmir's Aliağa district on Monday killed at least 16 people and hurt 13, according to President Erdoğan. Initial assessments suggest a crane collapsed into an electric arc furnace during casting and set off the blast. Investigations are under way and about 10 people were reportedly still trapped."
+   ]
+  },
+  {
+   "kicker": "AI & Chips",
+   "headline": "Justice Department Takes Over Nvidia Chip Probe",
+   "body": [
+    "The Justice Department asked the Commerce Department to pause its part of an inquiry into whether Nvidia customer Megaspeed smuggled AI chips into China, after an Nvidia representative contacted Commerce investigators. Justice then took over the investigation. Nvidia's board has separately opened an independent inquiry into CEO Jensen Huang, and Nvidia shares fell while the wider market rose."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,549.94",
+   "change": "+2.35%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,253.14",
+   "change": "+2.74%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,389.75",
+   "change": "+2.15%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$178.67",
+   "change": "−4.27%"
+  },
+  {
+   "name": "Intel",
+   "value": "$59.37",
+   "change": "+5.49%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,713",
+   "change": "+2.00%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.21",
+   "change": "+0.17%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$91.73",
+   "change": "−0.91%"
+  },
+  {
+   "name": "Gold",
+   "value": "$4,126",
+   "change": "+0.27%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$74,440",
+   "change": "−0.19%"
+  }
+ ],
+ "markets_note": "Latest closes as fetched this morning.",
+ "weather": {
+  "now": "6° / -2°",
+  "cond": "overcast",
+  "summary": "Now 2°C, feels like -1°C, humidity 51%.",
+  "days": [
+   {
+    "d": "TUE",
+    "c": "Moderate or heavy snow showers",
+    "t": "6° / -2°"
+   },
+   {
+    "d": "WED",
+    "c": "Partly Cloudy",
+    "t": "11° / -1°"
+   },
+   {
+    "d": "THU",
+    "c": "Overcast",
+    "t": "14° / 4°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "49.1%",
+   "text": "Fable 5.2's FrontierCode 2.0 score at Xhigh effort, per Anthropic"
+  },
+  {
+   "big": "$8 / $40",
+   "text": "price per million input / output tokens for Fable 5.2"
+  },
+  {
+   "big": "16",
+   "text": "killed in the Izmir steel plant explosion"
+  }
+ ]
+}
