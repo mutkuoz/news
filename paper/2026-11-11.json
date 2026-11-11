@@ -1,0 +1,116 @@
+{
+ "tagline": "Anthropic names its price, Nvidia hires a prosecutor, and Antalya hosts the climate world",
+ "lead": {
+  "kicker": "AI & Computing",
+  "headline": "Anthropic Launches IPO Roadshow, Targeting a Valuation Near $1 Trillion",
+  "deck": "825 million shares at $70 to $78 on the Nasdaq under the ticker ANT, in a test of Wall Street's appetite for AI",
+  "body": [
+   "Anthropic on Tuesday launched the roadshow for its proposed initial public offering, putting 825 million shares of Class A stock on the market at an indicative $70 to $78 each. The company has applied to list on the Nasdaq Global Select Market under the ticker ANT. Anthropic is selling 801,351,354 of the shares, while certain existing stockholders are selling the other 23,648,646.",
+   "According to the filing as reported by NBC News, the price range implies a valuation of up to about $1.02 trillion and could raise up to $64.4 billion. A separate $26 billion is expected from cornerstone investors including Google, Nvidia and AMD, with Broadcom, Micron, Microsoft and TSMC also named. Goldman Sachs and Morgan Stanley lead the underwriting.",
+   "The numbers behind the pitch are large. Third-quarter revenue was $16.96 billion, up 47% from the previous quarter, though growth slowed from a 144% jump the quarter before. The net loss narrowed, and the company has nearly $900 billion in computing commitments with partners including Amazon and Google. Its last private valuation was $965 billion, in May.",
+   "The offering lands at a nervous moment. Tech shares fell sharply after the US midterm results, and the Nasdaq recorded its deepest one-day drop in 19 months last week amid concerns about AI scrutiny. Earlier talk of a $1.5 trillion valuation was reportedly questioned by some investors, which is why the roughly $1 trillion target is being described as modest.",
+   "Anthropic cautions that the registration statement is not yet effective, so the shares cannot be bought or sold until it takes effect. The IPO is expected next week."
+  ],
+  "image": {"src": "/assets/times/trillion-ipo-valuation-target-rcna608514.jpg", "alt": "Anthropic sets modest $1 trillion IPO valuation target in test of Wall Street\u2019s AI fervor", "caption": "Anthropic's IPO target will test investor appetite for AI companies.", "credit": "Photo: nbcnews.com"},
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the Anthropic roadshow post and the NBC breakdown side by side, and note which numbers come from the company and which from reporters.",
+    "Pick one figure from the filing, such as revenue growth slowing from 144% to 47%, and write a two-line take on what it says about the AI business."
+   ]
+  },
+  "source": "NBC News, Anthropic"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "COP31 Opens in Antalya With 160-Plus Agenda Items",
+   "body": ["The UN climate conference opened on Monday at the Antalya Expo Center, with Türkiye holding the presidency under Murat Kurum and Australia's Chris Bowen leading the formal negotiations. Talks cover just transition, adaptation finance and the Global Goal on Adaptation, building on the COP29 goal of at least $300 billion a year for developing countries by 2035. Greta Thunberg told the talks that everything and everyone we love is at stake."]
+  },
+  {
+   "kicker": "AI & Computing",
+   "headline": "Nvidia Hires Ex-Prosecutor to Probe Its CEO",
+   "body": ["Nvidia has brought in a former federal prosecutor to investigate CEO Jensen Huang's reported relationship with an alleged Chinese spy whose company was buying Nvidia chips. President Trump says the FBI is also looking into it. Nvidia shares fell about 5.5% in the latest session."]
+  }
+ ],
+ "markets": [
+ {
+  "name": "S&P 500",
+  "value": "7,520.93",
+  "change": "−0.38%"
+ },
+ {
+  "name": "Nasdaq",
+  "value": "25,065.88",
+  "change": "−0.74%"
+ },
+ {
+  "name": "Dow",
+  "value": "52,231.89",
+  "change": "−0.30%"
+ },
+ {
+  "name": "Nvidia",
+  "value": "$168.89",
+  "change": "−5.47%"
+ },
+ {
+  "name": "Intel",
+  "value": "$58.13",
+  "change": "−2.09%"
+ },
+ {
+  "name": "BIST 100",
+  "value": "11,662",
+  "change": "−0.43%"
+ },
+ {
+  "name": "USD / TRY",
+  "value": "50.23",
+  "change": "+0.02%"
+ },
+ {
+  "name": "Brent crude",
+  "value": "$92.37",
+  "change": "+0.96%"
+ },
+ {
+  "name": "Gold",
+  "value": "$4,055",
+  "change": "+0.62%"
+ },
+ {
+  "name": "Bitcoin",
+  "value": "$73,677",
+  "change": "−2.06%"
+ }
+],
+ "markets_note": "Latest close.",
+ "weather": {
+ "now": "11° / 1°",
+ "cond": "overcast",
+ "summary": "Now 2°C, feels like -0°C, humidity 91%.",
+ "days": [
+  {
+   "d": "WED",
+   "c": "Cloudy",
+   "t": "11° / 1°"
+  },
+  {
+   "d": "THU",
+   "c": "Overcast",
+   "t": "16° / 3°"
+  },
+  {
+   "d": "FRI",
+   "c": "Partly Cloudy",
+   "t": "18° / 7°"
+  }
+ ]
+},
+ "stats": [
+  {"big": "$64.4B", "text": "the most Anthropic could raise from its share sale"},
+  {"big": "47%", "text": "quarter-on-quarter revenue growth, down from 144% the quarter before"},
+  {"big": "-5.5%", "text": "Nvidia's move in the latest session"}
+ ]
+}
