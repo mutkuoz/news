@@ -1,0 +1,127 @@
+{
+ "tagline": "Nvidia's board meets on its CEO, Anthropic heads to market, and COP31 turns to methane",
+ "lead": {
+  "kicker": "AI & Computing",
+  "headline": "Nvidia Board Meets Over CEO Jensen Huang's Future as Shares Slide",
+  "deck": "Shares fell almost 9% after hours on reports of an emergency board session, putting more than $350 billion of value at risk",
+  "body": [
+   "Nvidia shares fell almost 9% in after-hours trading on Wednesday after reports that the company's board would meet to discuss the future of chief executive Jensen Huang. If the drop holds at Thursday's open, it would erase more than $350 billion of market value from a company that had been worth more than $4 trillion. Intel, Qualcomm and ARM also fell, and Nasdaq futures pointed lower.",
+   "The Wall Street Journal first reported the meeting. Two sources told NBC News it was set for Wednesday evening and that the White House was aware. Nvidia did not respond to requests for comment. The New York Times, citing five people who worked at the company, reported that Huang had been involved with a woman who reported to him and with a second woman suspected of being a Chinese spy. NBC News has not confirmed the Times report.",
+   "On Sunday, Nvidia's board said it had opened a probe into whether Huang was targeted in a foreign intelligence operation, and said it was confident in him. In a note to employees, Huang wrote that he had been unfaithful to his wife, without giving details. NBC reported that US intelligence agencies concluded the woman, Alice Huang, was a Chinese intelligence operative. Al Jazeera notes that US officials have not provided evidence, and China's foreign ministry called the claims groundless and an attempt to smear China.",
+   "Analysts are split on what comes next. Yale governance expert Jeffrey Sonnenfeld said the board should move to oust Huang, arguing he has lost credibility inside and outside the company. Chip analyst Stacy Rasgon countered that Huang is central to Nvidia's identity and that China would be the main beneficiary of his removal. Dan Ives estimated Nvidia is worth about $300 a share with Huang and $225 without him, and analysts see few obvious internal successors.",
+   "The political stakes are rising. Senators Elizabeth Warren and Chris Coons asked Commerce Secretary Howard Lutnick to preserve records on Nvidia's AI chip exports to China, and Democrats gain subpoena power when the new Congress arrives. Huang, who has led Nvidia since 1993, has lobbied to ease export limits. President Trump said he would certainly take him on his coming Asia trip."
+  ],
+  "image": {
+   "src": "/assets/times/ting-ceo-jensen-huangs-future-rcna608906.jpg",
+   "alt": "Nvidia shares drop after hours amid meeting over CEO Jensen Huang's future",
+   "caption": "Nvidia's board met as the chipmaker's shares slid after hours.",
+   "credit": "Photo: nbcnews.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Compare the NBC and Al Jazeera accounts and list which claims are confirmed, which are only reported, and which are denied.",
+    "Note that Nvidia's chips power the major AI labs, then write two lines on what a leadership shock at the chip supplier could mean for AI developers."
+   ]
+  },
+  "source": "NBC News, Al Jazeera"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "COP31 Turns to Zero Waste and Methane in Antalya",
+   "body": [
+    "The third day of COP31 focused on zero waste and cutting methane emissions, while several nations joined a pledge to install more rooftop solar. Separately, Turkish authorities ordered the arrest of 11 people over the deadly steel plant explosion in Izmir."
+   ]
+  },
+  {
+   "kicker": "AI & Computing",
+   "headline": "Anthropic Releases Fable 5.2 and Mythos 5.2",
+   "body": [
+    "Anthropic released Claude Fable 5.2 to all users and Mythos 5.2 to vetted organizations, days before its IPO roadshow priced 825 million shares at $70 to $78 under the ticker ANT. Its roughly $1 trillion valuation target fell short of earlier figures."
+   ]
+  }
+ ],
+ "markets": [
+ {
+  "name": "S&P 500",
+  "value": "7,619.38",
+  "change": "+1.31%"
+ },
+ {
+  "name": "Nasdaq",
+  "value": "25,466.19",
+  "change": "+1.60%"
+ },
+ {
+  "name": "Dow",
+  "value": "52,486.49",
+  "change": "+0.49%"
+ },
+ {
+  "name": "Nvidia",
+  "value": "$173.73",
+  "change": "+2.87%"
+ },
+ {
+  "name": "Intel",
+  "value": "$62.50",
+  "change": "+7.52%"
+ },
+ {
+  "name": "BIST 100",
+  "value": "11,666",
+  "change": "+0.04%"
+ },
+ {
+  "name": "USD / TRY",
+  "value": "50.24",
+  "change": "+0.06%"
+ },
+ {
+  "name": "Brent crude",
+  "value": "$91.71",
+  "change": "−1.13%"
+ },
+ {
+  "name": "Gold",
+  "value": "$3,988",
+  "change": "−0.31%"
+ },
+ {
+  "name": "Bitcoin",
+  "value": "$73,667",
+  "change": "−0.07%"
+ }
+]
+,
+ "markets_note": "Latest close.",
+ "weather": {
+ "now": "15° / 4°",
+ "cond": "overcast",
+ "summary": "Now 5°C, feels like 3°C, humidity 86%.",
+ "days": [
+  {
+   "d": "THU",
+   "c": "Cloudy",
+   "t": "15° / 4°"
+  },
+  {
+   "d": "FRI",
+   "c": "Cloudy",
+   "t": "18° / 7°"
+  },
+  {
+   "d": "SAT",
+   "c": "Partly Cloudy",
+   "t": "17° / 9°"
+  }
+ ]
+}
+,
+ "stats": [
+  {"big": "~9%", "text": "Nvidia's after-hours drop on news of the board meeting"},
+  {"big": "$350B+", "text": "market value at risk if the fall holds at Thursday's open"},
+  {"big": "0.4%", "text": "rise in US consumer prices in October, slower than before"}
+ ]
+}
