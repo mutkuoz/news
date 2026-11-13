@@ -1,0 +1,136 @@
+{
+ "tagline": "Nvidia loses its founder-CEO, Anthropic heads to the Nasdaq, and COP31 meets in Antalya",
+ "lead": {
+  "kicker": "AI & Computing",
+  "headline": "Jensen Huang Resigns as Nvidia CEO After 33 Years",
+  "deck": "Colette Kress takes over as interim chief as shares slid more than 14% at one point and the board starts a search",
+  "body": [
+   "Jensen Huang resigned as chief executive of Nvidia on Thursday, 12 November, and left the board, ending a 33-year run at the company he co-founded in 1993. Nvidia gave no reason, but his exit followed days of scrutiny over his personal relationships and possible national security risks.",
+   "On Sunday, Huang admitted to being unfaithful to his wife and apologised to his family and employees. The board said it had confidence in him and opened an independent investigation into reports that Chinese intelligence had targeted him. By Wednesday, Reuters reported the board was meeting to consider removing him after further allegations involving a senior executive who reported to him, which The New York Times also reported. Al Jazeera's reporter noted there is no established evidence that Huang knowingly helped Beijing or that company secrets were compromised, and the board said it has no reason to believe national security was compromised.",
+   "Chief financial officer Colette Kress, who has held that job since 2013, is interim CEO. Under her tenure annual revenue grew from $4.13bn in fiscal 2014 to $215.9bn in fiscal 2026. The board is weighing insiders and outsiders for the permanent job. Trump suggested former Apple CEO Tim Cook, and Reuters named Nvidia's Ian Buck, Arm's Rene Haas, AMD's Lisa Su and Micron's Sanjay Mehrotra among those under discussion.",
+   "Nvidia shares fell more than 14% at one point on Thursday before recovering some ground, and the company is reported to control about 90% of the advanced AI chip market. The China angle matters: Huang long lobbied against export limits, Trump approved H200 exports in December 2025, and Chinese firms reportedly ordered more than two million of the chips, worth up to $54bn. Those are orders, not completed sales. US lawmakers are now examining the national security implications.",
+   "Nvidia is also reportedly preparing to invest about $10bn in Anthropic, tied to a stock market listing expected next week, so the leadership question reaches well beyond one company."
+  ],
+  "image": {
+   "src": "/assets/times/en-huang-resign-and-who-is-colette-kress.jpg",
+   "alt": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+   "caption": "Jensen Huang speaks to a scrum of reporters in a file photo.",
+   "credit": "Photo: aljazeera.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read Nvidia's next filing or statement on the CEO search; a new chief could change the company's China export and open-source stance, which affects the GPUs and tools you build on.",
+    "Do not move any money or projects on the headline alone; watch whether the stock settles over a few sessions before drawing conclusions."
+   ]
+  },
+  "source": "Al Jazeera"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "COP31 in Antalya Hears Climate Crisis Is Outrunning Us",
+   "body": [
+    "The 31st UN climate conference is under way in Antalya, co-hosted with Australia. UN Secretary-General Antonio Guterres told delegates the crisis is moving faster than the response, blamed the fossil fuel lobby for delay and said fossil fuels \"must go the way of the dinosaurs\".",
+    "Talks centre on a voluntary Turkish push to electrify transport, buildings and industry, aiming for electricity to make up 35% of global energy use by 2035. The EU wants the electricity to be \"clean\". The US has skipped the talks for a second year, and several major leaders are staying away."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic Launches IPO Roadshow and Releases Fable 5.2",
+   "body": [
+    "Anthropic opened its roadshow on 10 November, offering 825 million Class A shares at an expected $70 to $78 under the Nasdaq ticker ANT. Of those, 23.6 million are sold by existing stockholders. The page gives no pricing date.",
+    "A day earlier it released Claude Fable 5.2 to all users and the same underlying model as Mythos 5.2 to vetted organizations. Anthropic says outputs are up to 30% faster than 5.1, and prices Fable at $8 and $40 per million input and output tokens."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,592.40",
+   "change": "−0.35%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,366.09",
+   "change": "−0.39%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,297.09",
+   "change": "−0.36%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$166.19",
+   "change": "−4.34%"
+  },
+  {
+   "name": "Intel",
+   "value": "$61.20",
+   "change": "−2.08%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,811",
+   "change": "+1.24%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.31",
+   "change": "+0.11%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$95.42",
+   "change": "−0.42%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,920",
+   "change": "+0.90%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$68,995",
+   "change": "−6.72%"
+  }
+ ],
+ "markets_note": "Quotes from the data tool at publication time; Nvidia moved on the CEO news.",
+ "weather": {
+  "now": "18° / 8°",
+  "cond": "overcast",
+  "summary": "Now 8°C, feels like 6°C, humidity 87%.",
+  "days": [
+   {
+    "d": "FRI",
+    "c": "Partly Cloudy",
+    "t": "18° / 8°"
+   },
+   {
+    "d": "SAT",
+    "c": "Partly Cloudy",
+    "t": "17° / 10°"
+   },
+   {
+    "d": "SUN",
+    "c": "Patchy rain nearby",
+    "t": "14° / 7°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "14%",
+   "text": "Nvidia's intraday fall at one point on Thursday"
+  },
+  {
+   "big": "$215.9bn",
+   "text": "Nvidia revenue in fiscal 2026, up from $4.13bn in fiscal 2014"
+  },
+  {
+   "big": "2M+",
+   "text": "H200 chips Chinese firms reportedly ordered, worth up to $54bn"
+  }
+ ]
+}
