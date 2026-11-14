@@ -24,7 +24,7 @@ import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent
-UA = {"User-Agent": "UtkuTimes/1.0 (https://news.utku.space; utku@kalitte.com.tr) python-urllib"}
+UA = {"User-Agent": "UtkuTimes/1.0 (+https://news.utku.space) python-urllib"}
 
 MARKETS = [  # (label, yahoo symbol, decimals, prefix)
     ("S&P 500", "^GSPC", 2, ""), ("Nasdaq", "^IXIC", 2, ""), ("Dow", "^DJI", 2, ""),
