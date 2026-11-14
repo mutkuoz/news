@@ -1,0 +1,136 @@
+{
+ "tagline": "Nvidia hunts for a CEO, Türkiye and Qatar sign a defence pact, and Anthropic's IPO roadshow rolls on",
+ "lead": {
+  "kicker": "AI & Computing",
+  "headline": "Nvidia Starts Its Search for a Successor to Jensen Huang",
+  "deck": "Interim chief Colette Kress holds the seat as the board weighs insiders and outsiders, and a China chip-sales trail comes under scrutiny",
+  "body": [
+   "Nvidia's board is searching for a permanent chief executive after Jensen Huang left the company and its board following reports of extramarital affairs. CFO Colette Kress is interim CEO, and Nvidia says it will consider candidates from inside and outside the company.",
+   "The only candidate named in Al Jazeera's account is former Apple chief Tim Cook, whom Donald Trump suggested, writing that \"A Legend replaces a Legend.\" Reuters has since reported a third alleged affair, this time with another Nvidia employee.",
+   "The China angle is what makes this more than a personnel story. One of the affairs was reportedly with Alice Huang, a Chinese executive whom US intelligence suspected of being tapped by China's Ministry of State Security; Beijing calls the claim baseless. Megaspeed, the company she is linked to, bought more than $4.8bn of Nvidia chips over about two years, and The Information reported she facilitated at least $7.5bn in chip shipments to Chinese firms. Nvidia's board has opened an independent investigation into whether Huang was targeted by a foreign intelligence operation.",
+   "Nvidia, valued at nearly $4 trillion, lost around 11% of its value in the week up to Huang's exit, and its shares rose 1.8% in premarket trading on Friday. UBS analyst Timothy Arcuri said a new leader could bring a pause in Nvidia's willingness to pursue AI industry deals in the near term.",
+   "The timing is awkward: Trump is due to meet Xi Jinping next week at the APEC summit in Shenzhen, where chip exports are likely to be on the table."
+  ],
+  "image": {
+   "src": "/assets/times/andal-whats-next-for-the-us-tech-company.jpg",
+   "alt": "Nvidia scandal: What's next for the US tech company?",
+   "caption": "Nvidia's search for a permanent chief executive is the week's biggest technology story.",
+   "credit": "Photo: aljazeera.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Watch Nvidia's announcement of the permanent CEO: a leader who pauses AI deals or changes the China export stance could shift GPU pricing and cloud availability for the tools you build on.",
+    "Treat the first few trading days as noise; the facts that matter are the board's investigation and next week's Trump-Xi meeting, so re-read the story after both."
+   ]
+  },
+  "source": "Al Jazeera"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Türkiye and Qatar Sign a Mutual Defence Agreement",
+   "body": [
+    "President Erdoğan and Qatar's Emir Sheikh Tamim bin Hamad Al Thani signed the pact in Istanbul on Friday. Erdoğan's office said it would add a new dimension to relations; the emir called it a strategic partnership.",
+    "Other agreements were signed alongside it, including a memorandum on peace, reconciliation and conflict resolution. The article does not describe the pact's specific obligations. A security analyst told Al Jazeera that Turkish weapons and air defences could be deployed to Qatar soon, which is his assessment rather than an announced plan."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic's IPO Roadshow Offers 825 Million Shares",
+   "body": [
+    "Anthropic launched its roadshow on 10 November for an initial public offering of Class A shares on the Nasdaq Global Select Market under the symbol ANT. It expects a price of $70 to $78 per share; 801.4 million shares come from the company and 23.6 million from existing stockholders, who get the proceeds from their own shares.",
+    "Underwriters hold a 30-day option on up to 123.75 million more shares. The page gives no pricing date or valuation. This week Anthropic also published research on safety evaluations and on how Claude designs electronics."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,561.67",
+   "change": "−0.40%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,136.27",
+   "change": "−0.91%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,347.55",
+   "change": "+0.10%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$162.85",
+   "change": "−2.01%"
+  },
+  {
+   "name": "Intel",
+   "value": "$59.66",
+   "change": "−2.52%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,843",
+   "change": "+0.27%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.28",
+   "change": "+0.06%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$96.08",
+   "change": "+0.27%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,888",
+   "change": "+0.06%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$66,863",
+   "change": "−6.28%"
+  }
+ ],
+ "markets_note": "Quotes from the data tool at publication time.",
+ "weather": {
+  "now": "17° / 10°",
+  "cond": "light drizzle",
+  "summary": "Now 11°C, feels like 10°C, humidity 88%.",
+  "days": [
+   {
+    "d": "SAT",
+    "c": "Patchy rain nearby",
+    "t": "17° / 10°"
+   },
+   {
+    "d": "SUN",
+    "c": "Patchy rain nearby",
+    "t": "14° / 8°"
+   },
+   {
+    "d": "MON",
+    "c": "Partly Cloudy",
+    "t": "13° / 6°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "~11%",
+   "text": "Nvidia's loss in value in the week to Huang's exit"
+  },
+  {
+   "big": "$4.8bn",
+   "text": "Nvidia chips bought by Megaspeed over about two years"
+  },
+  {
+   "big": "825M",
+   "text": "Class A shares in Anthropic's IPO offering"
+  }
+ ]
+}
