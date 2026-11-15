@@ -1,0 +1,136 @@
+{
+ "tagline": "Big investors ask Nvidia to slow down, Trump, Xi and Putin plan a summit, and Starship lands in the arms",
+ "lead": {
+  "kicker": "AI & Computing",
+  "headline": "Nvidia's Big Shareholders Ask the Board to Keep the Door Open for Huang",
+  "deck": "Altimeter and Atreides, holding about $2.13bn of stock, urge a slow CEO search as a petition backed by Elon Musk passes 100,000 names",
+  "body": [
+   "Two of Nvidia's best-known investors have asked the chipmaker's board not to rush into naming a permanent chief executive. In a letter posted on X on Friday, Altimeter Capital's Brad Gerstner and Atreides Management's Gavin Baker urged directors to weigh all options, including \"the potential return of Jensen Huang.\"",
+   "The letter stops short of demanding Huang's immediate reinstatement. It says Nvidia will be \"capably led\" by interim CEO Colette Kress, the company's finance chief of 13 years, and asks the board to avoid a \"needless rush\" before \"all the facts are known.\" Altimeter disclosed 9.4 million Nvidia shares worth nearly $1.9bn at the end of June, and Atreides 1.2 million shares worth nearly $250m.",
+   "Huang resigned as president, chief executive and director on Thursday amid an independent board investigation. Reports tied his exit to several alleged affairs, including one with Alice Huang, a suspected Chinese spy who also worked with Megaspeed, a Singapore-based Nvidia customer under Justice Department investigation for possibly redirecting restricted AI chips to China. Nvidia's announcement gave no reason for the resignation.",
+   "Support for Huang is growing outside the boardroom too. Elon Musk said he signed a \"Stand with Jensen\" petition that claims more than 100,000 signatures, including over 5,000 current Nvidia employees, and warned that some critical deals will be lost without him.",
+   "Washington is also circling. House Intelligence Committee Democrats want Commerce Secretary Howard Lutnick to testify about Megaspeed, and Lutnick has agreed to appear before the Senate Banking Committee on December 10 on whether China is being kept from advanced AI chips. Trump travels to the APEC summit in Shenzhen this week, though US officials say he does not plan to raise the affair with Xi Jinping."
+  ],
+  "image": {
+   "src": "/assets/times/nvidia-headquarters-santa-clara.jpg",
+   "alt": "Nvidia sign",
+   "caption": "An Nvidia sign: the company's board must now decide whether it is looking for a successor or a way back for Huang.",
+   "credit": "Photo: Will Buckner, CC BY 2.0, via Wikimedia Commons"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Put December 10 in your diary: Lutnick's Senate testimony on AI chip exports to China is the next hard fact in this story and could affect GPU supply and pricing for the tools you build on.",
+    "Read the board's next formal statement rather than the petition counts; whether Nvidia picks an outsider, keeps Kress or recalls Huang tells you how stable its developer roadmap (CUDA, cloud deals) will be."
+   ]
+  },
+  "source": "CNBC"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Turkish State Banks Pour Green Money Into SMEs at COP31",
+   "body": [
+    "At a COP31 panel in Antalya on Saturday, Türkiye's three big state banks set out their sustainability lending. VakıfBank said it raised $9bn in international funding this year, $7bn of it for sustainability investments, and signed $1.7bn of new agreements during the summit with maturities of up to 20 years.",
+    "Ziraat Bankası said it secured $2.9bn in sustainability-linked syndicated financing this year and plans agreements for another $2bn during COP31, while Halkbank described a sustainability package of about TL 100 billion. The push comes as the EU's carbon border mechanism enters its definitive phase, with more than 40 percent of Türkiye's market linked to Europe."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic Heads for a Listing That Could Value It at $1.4 Trillion",
+   "body": [
+    "Anthropic's stock market debut, expected this coming week, could raise as much as $64.4bn by selling 825 million shares at between $70 and $78 each, with the company valued at up to $1.4 trillion when potential shares are included. It has separately secured $26bn in a private placement.",
+    "The listing follows the release of Claude Fable 5.2, available to all API users on the major clouds, and Claude Mythos 5.2, limited to vetted cybersecurity and life-sciences organisations."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,561.67",
+   "change": "−0.40%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "25,136.27",
+   "change": "−0.91%"
+  },
+  {
+   "name": "Dow",
+   "value": "52,347.55",
+   "change": "+0.10%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$162.85",
+   "change": "−2.01%"
+  },
+  {
+   "name": "Intel",
+   "value": "$59.66",
+   "change": "−2.52%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,843",
+   "change": "+0.27%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.28",
+   "change": "+0.06%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$95.84",
+   "change": "+0.02%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,886",
+   "change": "+0.03%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$64,885",
+   "change": "−4.93%"
+  }
+ ],
+ "markets_note": "Quotes from the data tool at publication time.",
+ "weather": {
+  "now": "14° / 7°",
+  "cond": "partly cloudy",
+  "summary": "Now 8°C, feels like 7°C, humidity 89%.",
+  "days": [
+   {
+    "d": "SUN",
+    "c": "Patchy rain nearby",
+    "t": "14° / 7°"
+   },
+   {
+    "d": "MON",
+    "c": "Patchy rain nearby",
+    "t": "12° / 6°"
+   },
+   {
+    "d": "TUE",
+    "c": "Patchy rain nearby",
+    "t": "13° / 5°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$2.13bn",
+   "text": "Nvidia stock held by the two investors who wrote to the board"
+  },
+  {
+   "big": "100,000+",
+   "text": "signatures claimed by the petition to reinstate Huang"
+  },
+  {
+   "big": "−2.01%",
+   "text": "Nvidia's last daily move, to $162.85"
+  }
+ ]
+}
