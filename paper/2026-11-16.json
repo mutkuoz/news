@@ -1,0 +1,74 @@
+{
+  "tagline": "Anthropic readies a trillion-dollar Nasdaq debut, Trump, Xi and Putin meet in Shenzhen, and COP31 winds down in Antalya",
+  "lead": {
+    "kicker": "Business & AI",
+    "headline": "Anthropic Sets Terms for a Trillion-Dollar Nasdaq Debut",
+    "deck": "The Claude maker plans to sell 825 million shares at $70 to $78 and list as ANT on Thursday, in a week that also brings Nvidia's earnings",
+    "body": [
+      "Anthropic is set to begin trading on the Nasdaq on Thursday under the ticker ANT, according to The National. The company plans to offer 825 million shares at $70 to $78 each, which would value it at between $1.3 trillion and $1.45 trillion. Estimates once reached $2 trillion but have fallen amid a slide in AI stocks.",
+      "The offering includes a $26 billion private placement of non-voting shares, bought at the IPO price by Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC. Anthropic's own news page shows the timeline: it filed its S-1 registration statement with the SEC on 26 October and launched the IPO roadshow on 10 November.",
+      "The numbers in the filing are unusual. Revenue was $33.24 billion for the nine months to 30 September, up about 1,200% from a year earlier. Over the same period the company reported a net loss above $104 billion, which The National says came mostly from non-cash accounting adjustments to financing instruments.",
+      "Risks sit alongside the growth. The Pentagon has labelled Anthropic a supply chain risk to national security, and the company is fighting that in court. Chief executive Dario Amodei has pushed for stronger AI regulation and tighter chip export controls, which has drawn opposition from the Trump administration.",
+      "The listing lands in a crowded week. Nvidia reports earnings on Tuesday, with analysts expecting revenue of about $109 billion, and it is run by interim CEO Colette Kress after Jensen Huang resigned. CNBC reports stock futures edged higher as traders wait for both events, which could set the near-term direction of the AI trade."
+    ],
+    "image": {
+      "src": "/assets/times/2026-11-16-nvidia-earnings-anthropic-ipo.jpg",
+      "alt": "A golden bull figure breaking through torn newspaper stock listings",
+      "caption": "A golden bull bursts through newspaper stock tables, the market symbol for a rising market.",
+      "credit": "Photo: thenationalnews.com"
+    },
+    "box": {
+      "title": "What Utku should do",
+      "items": [
+        "Skim the risk-factor and use-of-proceeds sections of Anthropic's S-1 once it is public, and note how it describes compute costs and revenue growth.",
+        "Watch Nvidia's Tuesday results for guidance on AI chip demand, since that is the market's other test of the AI trade this week."
+      ]
+    },
+    "source": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+  },
+  "secondary": [
+    {
+      "kicker": "Türkiye",
+      "headline": "Antalya Climate Talks Near Their End With Little Agreed",
+      "body": [
+        "The COP31 climate summit in Antalya is in its final days. Climate Home News reports that day six brought climate marches calling for justice but limited progress in the talks, with Australia and Türkiye due to chair a stocktaking plenary where red lines were expected to emerge.",
+        "Money is the sore point. At a Pacific pledging event, developed countries only re-announced old pledges, leaving the new fund $300 million short of its $500 million target for 2026. Daily Sabah says Türkiye hopes the summit will unlock financing for its own energy transition."
+      ]
+    },
+    {
+      "kicker": "AI",
+      "headline": "Claude Designs Working Electronics From Short Prompts",
+      "body": [
+        "Anthropic says Claude designed three electronic devices from short prompts, and a hardware company then built working prototypes from the files it produced. The post, published on 9 November, came the same day as the release of Claude Fable 5.2 and Claude Mythos 5.2, which Anthropic calls its most capable models for complex technical work.",
+        "A separate Anthropic post on 13 November sets out recommendations for building strong safety evaluations, based on the company's own experience."
+      ]
+    }
+  ],
+  "markets": [
+    {"name": "S&P 500", "value": "7,561.67", "change": "−0.40%"},
+    {"name": "Nasdaq", "value": "25,136.27", "change": "−0.91%"},
+    {"name": "Dow", "value": "52,347.55", "change": "+0.10%"},
+    {"name": "Nvidia", "value": "$162.85", "change": "−2.01%"},
+    {"name": "Intel", "value": "$59.66", "change": "−2.52%"},
+    {"name": "BIST 100", "value": "11,843", "change": "+0.27%"},
+    {"name": "USD / TRY", "value": "50.38", "change": "+0.19%"},
+    {"name": "Brent crude", "value": "$94.86", "change": "−1.02%"},
+    {"name": "Gold", "value": "$3,869", "change": "−0.44%"},
+    {"name": "Bitcoin", "value": "$65,005", "change": "+1.37%"}
+  ],
+  "weather": {
+    "now": "13° / 7°",
+    "cond": "overcast",
+    "summary": "Now 7°C, feels like 6°C, humidity 83%.",
+    "days": [
+      {"d": "MON", "c": "Patchy rain nearby", "t": "13° / 7°"},
+      {"d": "TUE", "c": "Patchy light drizzle", "t": "13° / 5°"},
+      {"d": "WED", "c": "Partly Cloudy", "t": "16° / 5°"}
+    ]
+  },
+  "stats": [
+    {"big": "$1.45T", "text": "top of Anthropic's IPO valuation range"},
+    {"big": "825M", "text": "shares on offer at $70 to $78"},
+    {"big": "$26B", "text": "private placement from Google, Nvidia, Microsoft and others"}
+  ]
+}
