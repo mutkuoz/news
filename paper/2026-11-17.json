@@ -1,0 +1,76 @@
+{
+  "tagline": "Anthropic prices its trillion-dollar IPO, Trump eyes Xi and Putin in Shenzhen, and Ankara faces EU steel duties",
+  "lead": {
+    "kicker": "Business & AI",
+    "headline": "Anthropic Files Terms for a $64 Billion Nasdaq Listing",
+    "deck": "The Claude maker plans to sell 825 million shares at $70 to $78, with trading as ANT due to start on 19 November",
+    "body": [
+      "Anthropic plans to sell 825 million shares at $70 to $78 each on the Nasdaq under the ticker ANT, The Next Web reports. At the top of the range that would raise up to $64.4 billion from the public offering and value the company at about $1.4 trillion on a fully diluted basis. Trading is due to start on 19 November, with Goldman Sachs and Morgan Stanley as lead banks.",
+      "A separate $26 billion private placement with cornerstone investors would take the total raise to as much as $90.4 billion. The investors are led by Google, Nvidia and AMD, and also include Broadcom, Micron, Microsoft and TSMC. Board members and related entities may buy up to $303 million of shares.",
+      "The filing puts numbers on the growth. Run-rate revenue was about $81 billion as of 31 October, up $10 billion in a single month, while the company has nearly $900 billion in computing commitments with partners including Amazon and Google. Its last private valuation was $965 billion, when it filed confidentially in June.",
+      "The price has come down from earlier hopes. Guidance was near $2 trillion about six weeks ago, and preliminary terms for a $69.3 billion raise circulated briefly before being retracted, according to Reuters. Truth Ventures founder Varun Datta told the site that much of the company's success is already priced in, and the prospectus warns that AI's advance could outpace Anthropic's own safety measures.",
+      "For context, SpaceX raised $75 billion at a $1.75 trillion valuation in its June IPO, and OpenAI is raising $30 billion in what is expected to be its last private round before its own listing early next year."
+    ],
+    "image": {
+      "src": "/assets/times/thropic-ipo-terms-1-4-trillion-valuation.jpg",
+      "alt": "A man in glasses and a suit walking along a city street, surrounded by aides and a reporter holding a microphone",
+      "caption": "A man in glasses is flanked by aides and a microphone on a city street, the photo The Next Web ran with its IPO report.",
+      "credit": "Photo: thenextweb.com"
+    },
+    "box": {
+      "title": "What Utku should do",
+      "items": [
+        "Once the final prospectus is public, read the risk-factors and compute-commitments sections and note how a company describes the cost of staying at the AI frontier.",
+        "Watch the pricing on 18 November and the first-day trading on 19 November; compare the final price with the $70 to $78 range to see how the market values AI labs."
+      ],
+      "source": ""
+    },
+    "source": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+  },
+  "secondary": [
+    {
+      "kicker": "Türkiye",
+      "headline": "EU Hits Turkish Steel With Anti-Dumping Duties as Finance Chief Courts Investors",
+      "body": [
+        "The European Union has imposed anti-dumping duties on steel imports from Türkiye and four other countries, according to Daily Sabah.",
+        "Finance Minister Mehmet Şimşek is scheduled to meet MSCI and investors to address market concerns and discuss reforms. Elsewhere in the economy, Türkiye expects 2026 tourism revenue to top $65 billion after a record third quarter, and it has begun building a third airport on the sea."
+      ]
+    },
+    {
+      "kicker": "AI",
+      "headline": "Anthropic Shortens Its Vulnerability Disclosure Window to 30 Days",
+      "body": [
+        "Anthropic has updated its coordinated vulnerability disclosure policy, cutting the window from 90 days to 30 days for high- and critical-severity issues and to 45 days for others, according to the company's research page.",
+        "In other research this month, Anthropic reported that Claude designed three electronic devices from short prompts, and that a hardware company then built working prototypes from the resulting files."
+      ]
+    }
+  ],
+  "markets": [
+    {"name": "S&P 500", "value": "7,416.59", "change": "−1.92%"},
+    {"name": "Nasdaq", "value": "24,509.76", "change": "−2.49%"},
+    {"name": "Dow", "value": "51,608.17", "change": "−1.41%"},
+    {"name": "Nvidia", "value": "$156.14", "change": "−4.12%"},
+    {"name": "Intel", "value": "$55.47", "change": "−7.02%"},
+    {"name": "BIST 100", "value": "11,842", "change": "−0.01%"},
+    {"name": "USD / TRY", "value": "50.40", "change": "+0.12%"},
+    {"name": "Brent crude", "value": "$91.72", "change": "−0.78%"},
+    {"name": "Gold", "value": "$3,878", "change": "+0.64%"},
+    {"name": "Bitcoin", "value": "$65,014", "change": "−0.45%"}
+  ],
+  "markets_note": "Latest available quotes.",
+  "weather": {
+    "now": "13° / 5°",
+    "cond": "overcast",
+    "summary": "Now 6°C, feels like 4°C, humidity 90%.",
+    "days": [
+      {"d": "TUE", "c": "Thundery outbreaks in nearby", "t": "13° / 5°"},
+      {"d": "WED", "c": "Cloudy", "t": "16° / 5°"},
+      {"d": "THU", "c": "Patchy rain nearby", "t": "16° / 11°"}
+    ]
+  },
+  "stats": [
+    {"big": "$64.4B", "text": "maximum public raise in Anthropic's planned Nasdaq IPO"},
+    {"big": "$81B", "text": "Anthropic's run-rate revenue at the end of October, per its filing"},
+    {"big": "−2.49%", "text": "Nasdaq's latest move, as Nvidia dragged down AI stocks"}
+  ]
+}
