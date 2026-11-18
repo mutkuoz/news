@@ -1,0 +1,136 @@
+{
+ "tagline": "Nvidia's board shuts the door on Jensen Huang, stocks slide, and Trump flies to Shenzhen for Xi and Putin",
+ "lead": {
+  "kicker": "Business & AI",
+  "headline": "Nvidia Posts Record Quarter as Board Rules Out Huang's Return",
+  "deck": "Revenue more than doubled to $115.8 billion, yet the chip giant is hunting for a new chief executive after Jensen Huang resigned on 12 November",
+  "body": [
+   "Nvidia reported third-quarter revenue of $115.8 billion on Tuesday, up 103% from a year earlier, with net profit of $64.9 billion, Al Jazeera reports. It guided to about $130 billion for the fourth quarter, plus or minus 3%. Shares closed 0.4% lower in regular trading and rose 4.8% after hours.",
+   "The numbers arrived against an unusual backdrop. On 12 November the board announced that Jensen Huang had resigned as president, CEO and board member over what it called personal behavior inconsistent with the company's code of conduct, TechCrunch reports. On the earnings call, chairman Harvey Jones said the board unanimously accepted the resignation and does not intend to reinstate him.",
+   "Huang said on X that he would be honored to return if the board judged it best for shareholders and the company. A petition with nearly 200,000 signatures, including Elon Musk and Tim Sweeney, asks for his return. CFO Colette Kress is interim CEO while the board considers internal and external candidates.",
+   "The scrutiny centers on Huang's relationship with Alice Huang, a former executive at Singapore-based data center firm Megaspeed who has been accused of working with China's Ministry of State Security; she has not commented and Beijing calls the allegations baseless. US Commerce and Justice confirmed a criminal investigation into Megaspeed, which is suspected of diverting advanced chips to China and denies wrongdoing. The SEC is reportedly probing Nvidia as well.",
+   "Washington also closed a loophole that let Chinese AI developers remotely access advanced chips abroad, and named Indonesia, Malaysia, Singapore, Thailand and Brazil as high-risk for diversion, so shipments there now need export licenses. Analyst Jay Goldberg said the next CEO and Nvidia's exposure to Chinese AI companies will matter for the outlook, and called a Huang return unlikely but possible."
+  ],
+  "image": {
+   "src": "/assets/times/ensen-huangs-return-amid-strong-earnings.jpg",
+   "alt": "The Nvidia logo on a concrete sign with flowers laid beneath the street number 2788",
+   "caption": "Bouquets of flowers sit beneath the Nvidia sign at its headquarters, the photo Al Jazeera ran with its earnings report.",
+   "credit": "Photo: aljazeera.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read Nvidia's Q3 release or call transcript and note how much of the $115.8 billion comes from data centers, then compare it with the $130 billion guidance to see what the market is pricing in.",
+    "Follow the new export-license rules for Southeast Asia and Brazil; they show how chip policy shapes where AI compute can be built, which is useful context for any AI project that depends on GPUs."
+   ]
+  },
+  "source": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Court Puts State Fund in Charge of Sözcü Media Group",
+   "body": [
+    "An Istanbul court appointed the Savings Deposit Insurance Fund (TMSF) as trustee of the Sözcü media group, Daily Sabah reports. Prosecutors ordered four executives detained and authorized searches of the offices of Sözcü newspaper and SZC TV as part of an investigation into owner Burak Akbay over alleged ties to the Gülenist Terror Group (FETÖ).",
+    "Prosecutors say Akbay faced terrorism-related charges in a 2016 probe and that financial-crimes reports suggest he used overseas bank accounts. The allegations remain under investigation. Separately, Türkiye's October home sales fell 23.3% to about 131,000, according to TurkStat figures."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Amazon and Google to Hold Nearly 30% of Anthropic After IPO",
+   "body": [
+    "Amazon will hold about 14.7% of Anthropic after its IPO and Google about 13.7%, together nearly 30%, TechCrunch reports. Part of the stakes comes from converting promissory notes into non-voting shares.",
+    "A $26 billion private placement of non-voting stock is led by AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners, with Google and Nvidia each committing $10 billion. Anthropic also plans to spend more than $100 billion on AWS over the next decade."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,340.53",
+   "change": "−1.03%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "24,328.38",
+   "change": "−0.74%"
+  },
+  {
+   "name": "Dow",
+   "value": "50,759.42",
+   "change": "−1.64%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$155.46",
+   "change": "−0.44%"
+  },
+  {
+   "name": "Intel",
+   "value": "$55.17",
+   "change": "−0.54%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,661",
+   "change": "−1.53%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.43",
+   "change": "+0.03%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$92.81",
+   "change": "−0.35%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,792",
+   "change": "−1.86%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$64,442",
+   "change": "−0.64%"
+  }
+ ],
+ "markets_note": "Latest available quotes.",
+ "weather": {
+  "now": "16° / 5°",
+  "cond": "cloudy",
+  "summary": "Now 5°C, feels like 3°C, humidity 89%.",
+  "days": [
+   {
+    "d": "WED",
+    "c": "Overcast",
+    "t": "16° / 5°"
+   },
+   {
+    "d": "THU",
+    "c": "Patchy rain nearby",
+    "t": "16° / 10°"
+   },
+   {
+    "d": "FRI",
+    "c": "Sunny",
+    "t": "19° / 8°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$115.8B",
+   "text": "Nvidia's third-quarter revenue, up 103% on the year"
+  },
+  {
+   "big": "$130B",
+   "text": "Nvidia's guidance for fourth-quarter revenue"
+  },
+  {
+   "big": "−1.64%",
+   "text": "Dow's move on Tuesday, down 848 points as chip stocks sold off"
+  }
+ ]
+}
