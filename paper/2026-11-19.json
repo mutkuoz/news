@@ -1,0 +1,135 @@
+{
+ "tagline": "Anthropic prices the biggest IPO in history, Trump meets Putin in China, and the US loses measles elimination status",
+ "lead": {
+  "kicker": "Business & AI",
+  "headline": "Anthropic Raises $81.3 Billion in the Largest IPO Ever",
+  "deck": "Shares priced at $83 give the Claude maker a value of about $1.5 trillion as trading opens on the Nasdaq today",
+  "body": [
+   "Anthropic raised $81.3 billion in an initial public offering, the largest on record, Al Jazeera reports, surpassing SpaceX's $75 billion debut in June. Shares were priced at $83 each, above the $70 to $78 range the company had planned, and Anthropic and its seven co-founders sold 980 million shares rather than the 825 million first offered. Trading begins today on the Nasdaq under the ticker ANT.",
+   "The pricing values the company at roughly $1.5 trillion, which would make it the world's 12th-biggest firm, just behind Tesla. A separate $26 billion private placement brings the total capital raised to $107.3 billion.",
+   "The listing arrives at a tense moment for AI stocks. The Nasdaq Composite has fallen nearly 7.6% over a recent stretch, led by a drop of more than 30% in Nvidia, whose chief executive Jensen Huang stepped down last week. AI-focused companies make up about half the value of the S&P 500, and AI-exposed Asian markets including South Korea's Kospi, Hong Kong's Hang Seng and Taiwan's Taiex were lower in Thursday morning trading.",
+   "Analysts framed the deal as a test of confidence. Dan Ives of Yorkville Ives called it a near-term win for the tech sector that could help restore investor faith in the AI boom, while IPO expert Jay Ritter of the University of Florida said that today artificial intelligence is the next big thing, but noted that Anthropic's profits will depend partly on factors outside its control.",
+   "Gartner forecasts AI spending of $2.7 trillion in 2026 and $3.6 trillion in 2027. Anthropic, founded in 2021 by former OpenAI researchers, makes the Claude models, and on 9 November it released Claude Fable 5.2 and Claude Mythos 5.2."
+  ],
+  "image": {
+   "src": "/assets/times/raises-81-3bn-in-biggest-ipo-of-all-time.jpg",
+   "alt": "A pedestrian walks past a street display showing the word Claude with Anthropic's orange starburst mark",
+   "caption": "A street display carrying the Claude name and Anthropic's starburst mark, the photo Al Jazeera ran with its IPO report.",
+   "credit": "Photo: aljazeera.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Watch ANT's first-day trading today and compare the $83 price with the $70 to $78 range, then note how the Nvidia sell-off and the IPO interact in the market numbers on this page.",
+    "Read Anthropic's S-1 filing sections on risk factors and the Long-Term Benefit Trust to see how an AI lab describes its own governance and compute costs."
+   ]
+  },
+  "source": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Erdoğan Says Most Investors in Collapsed Funds Have Been Paid",
+   "body": [
+    "President Erdoğan said at least one payment has reached 444,987 of the 455,758 investors in the liquidated funds, Daily Sabah reports. Regulators ordered 131 funds liquidated in September after some warned they could not meet redemptions; their assets had grown past $20 billion in three years.",
+    "Total payments have reached TL 161 billion, which Erdoğan said came from no Treasury money, and about TL 41 billion in unjust gains has been recovered. Authorities have identified about 500 suspects, 136 of them arrested, and a prosecutor has asked to investigate former banking regulator head Şahap Kavcıoğlu, who denies the allegations."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic Says Claude Solved Two Open Black Hole Problems",
+   "body": [
+    "Anthropic said on 17 November that Claude solved two unresolved questions in theoretical physics, both about black holes and the search for a theory of quantum gravity. The post gives no further detail on the listing page, and the results will need review by physicists.",
+    "The company also shortened its coordinated vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for others."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,323.63",
+   "change": "−0.23%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "24,429.88",
+   "change": "+0.42%"
+  },
+  {
+   "name": "Dow",
+   "value": "50,198.17",
+   "change": "−1.11%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$150.96",
+   "change": "−2.89%"
+  },
+  {
+   "name": "Intel",
+   "value": "$54.67",
+   "change": "−0.91%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,477",
+   "change": "−1.57%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.45",
+   "change": "+0.02%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$88.97",
+   "change": "−3.24%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,715",
+   "change": "−0.73%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$62,943",
+   "change": "−3.01%"
+  }
+ ],
+ "weather": {
+  "now": "16° / 9°",
+  "cond": "patchy rain nearby",
+  "summary": "Now 11°C, feels like 8°C, humidity 81%.",
+  "days": [
+   {
+    "d": "THU",
+    "c": "Patchy light drizzle",
+    "t": "16° / 9°"
+   },
+   {
+    "d": "FRI",
+    "c": "Sunny",
+    "t": "18° / 8°"
+   },
+   {
+    "d": "SAT",
+    "c": "Light drizzle",
+    "t": "14° / 7°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$81.3B",
+   "text": "raised in Anthropic's IPO, the largest ever"
+  },
+  {
+   "big": "$83",
+   "text": "IPO share price, above the $70 to $78 range"
+  },
+  {
+   "big": "5,412",
+   "text": "confirmed US measles cases this year as of 12 November"
+  }
+ ]
+}
