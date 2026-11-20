@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Anthropic Lists at $2 Trillion, but Markets Slide",
+  "deck": "The largest IPO ever raises $81.3 billion; Wall Street and Asia sell off anyway on AI bubble fears",
+  "body": [
+   "Anthropic shares began trading on the Nasdaq on Thursday after an initial public offering that raised $81.3 billion, the largest in history. The company priced the offering at $83 a share on Wednesday, above its projected range of $70 to $78, and the stock traded at about $111.50 in the first minutes, roughly 33% above the IPO price.",
+   "At the opening price Anthropic's market value topped $2 trillion, more than Meta, Tesla or Walmart; only Apple, Amazon, Alphabet, Nvidia and Microsoft are worth more. With existing fundraising and private offerings timed to the listing, the company expects about $220 billion in cash reserves. Its seven founders cashed out nearly $2 billion. CEO Dario Amodei told the opening bell that financial strength reinforces the company's commitment to pacing AI development, calling it a race to the top.",
+   "The debut did not calm the wider market. Al Jazeera reports the stock peaked at $111 and settled near $97, a gain of about 17% on the day, while the Nasdaq Composite fell 2.3% and the S&P 500 fell 2%. On Friday, Japan's Nikkei and South Korea's Kospi each dropped about 4.5% in morning trading and Taiwan's Taiex fell nearly 6%.",
+   "A Societe Generale strategist said the sell-off reflects worries that AI-led growth is slowing, pointing to a demand vacuum as foreign investors stay away. Gartner projects global AI-related investment of $2.7 trillion in 2026 and $3.6 trillion in 2027, and commentators are drawing comparisons with the dot-com bubble.",
+   "Policy added to the pressure: the US Bureau of Industry and Security announced new export licence requirements meant to stop Chinese AI developers from remotely accessing top-tier computing power in data centres in third countries, mainly in Southeast Asia."
+  ],
+  "image": {
+   "src": "/assets/times/sdaq-exchanges-at-110-27-above-ipo-price.jpg",
+   "alt": "Anthropic hits Nasdaq exchanges",
+   "caption": "Anthropic's first day of trading on the Nasdaq, where shares opened about 33% above the IPO price.",
+   "credit": "Photo: techcrunch.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read the S-1 and Amodei's opening-bell remarks on pacing development: they show how a frontier lab frames safety to investors, useful context for any AI project write-up.",
+    "Watch how AI-linked stocks behave over the next week before drawing conclusions; one day of trading says little about whether this is a bubble."
+   ]
+  },
+  "source": "TechCrunch, Al Jazeera"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Kızılelma Becomes First Unmanned Fighter in Service",
+   "body": [
+    "Baykar says the first Kızılelma combat aircraft has been delivered to security forces, making Türkiye the first country to add an unmanned fighter jet to its inventory. Three units are in active service after 600 test and training sorties.",
+    "President Erdoğan called it a historic day. The aircraft has a maximum takeoff weight of 8.5 tons, a 1.5-ton internal payload and a top speed of Mach 0.9. Baykar signed its first Kızılelma export deal, for 12 aircraft, with Indonesia in May."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Gemini Learns to Drive Your Mac",
+   "body": [
+    "Google's Gemini desktop app for Mac can now carry out tasks for the user, navigating native apps and browsing websites in the background while the user's screen and cursor stay free.",
+    "Users can pause, stop or approve actions before they take effect. The feature is US-only, in English, and requires a Google AI Plus, Pro or Ultra subscription. TechCrunch notes OpenAI, Anthropic and Meta already offer similar agent features."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,175.83",
+   "change": "−2.02%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "23,879.20",
+   "change": "−2.25%"
+  },
+  {
+   "name": "Dow",
+   "value": "49,097.06",
+   "change": "−2.19%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$145.98",
+   "change": "−3.30%"
+  },
+  {
+   "name": "Intel",
+   "value": "$55.72",
+   "change": "+1.92%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,400",
+   "change": "−0.67%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.55",
+   "change": "+0.18%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$89.77",
+   "change": "−2.40%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,532",
+   "change": "−4.18%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$61,981",
+   "change": "−1.60%"
+  }
+ ],
+ "markets_note": "Live quotes from the data tool at time of printing.",
+ "weather": {
+  "now": "18° / 7°",
+  "cond": "clear",
+  "summary": "Now 7°C, feels like 6°C, humidity 92%.",
+  "days": [
+   {
+    "d": "FRI",
+    "c": "Sunny",
+    "t": "18° / 7°"
+   },
+   {
+    "d": "SAT",
+    "c": "Light rain shower",
+    "t": "15° / 7°"
+   },
+   {
+    "d": "SUN",
+    "c": "Sunny",
+    "t": "11° / 4°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "$81.3B",
+   "text": "raised in Anthropic's IPO, the largest ever"
+  },
+  {
+   "big": "~6%",
+   "text": "drop in Taiwan's Taiex on Friday morning"
+  },
+  {
+   "big": "$83",
+   "text": "IPO price per share, above the $70-$78 range"
+  }
+ ]
+}
