@@ -1,0 +1,137 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Nvidia's Founder Is Out, and Washington Is Arguing Over His Return",
+  "deck": "Jensen Huang's Nov 12 resignation amid unproven spy allegations has split the board, employees and the White House",
+  "body": [
+   "Nvidia founder Jensen Huang stepped down on November 12 as chair, CEO and board member after media reports of a relationship with a businesswoman, Alice Huang, who is alleged to have worked for Beijing. Al Jazeera reports she may have helped route restricted chips to China. The allegations are not established as fact, Daily Sabah notes, and U.S. officials are reportedly divided. Nvidia's management says it has no reason to believe national security or trade secrets were compromised.",
+   "On Friday President Trump said he would welcome Huang back and would 'love to see Jensen be given a second chance,' calling him 'a good man' who 'made some bad decisions.' Huang had offered on X on Tuesday to return. Board chair Harvey Jones said on an earnings call that directors unanimously accepted the resignation and do not plan to reinstate him. CFO Colette Kress is interim CEO.",
+   "Inside the company, the mood is not one of relief. Thousands of employees have signed a letter asking for Huang's return, and a petition reportedly has 180,000 signatures. At the DealBook conference Elon Musk compared the ouster to removing Michael Jordan from the Chicago Bulls. The New York Times, as cited by TechCrunch, reports that Huang ran the company through praise, fear and humiliation over a 33-year career; his spokesman calls those allegations fabrications.",
+   "Pressure is also coming from the legal side. The California attorney general subpoenaed Nvidia on November 20 over concerns about Huang's ties with China, according to TechCrunch. Shares fell more than 4.3% on the day he left, leaving the company's value just above $4 trillion, and the stock had already dropped more than 20% in the prior month, Daily Sabah reports.",
+   "The stakes reach well beyond one company. Microsoft, Google, Amazon, Meta and OpenAI all use Nvidia chips, and Nvidia says its CUDA developer base grew from 4.5 million in 2025 to 6 million at GTC 2026. In Washington, Democrats who take control of Congress in January are investigating Commerce Secretary Howard Lutnick over chip-smuggling warnings, and Trump says he has not lost confidence in him."
+  ],
+  "image": {
+   "src": "/assets/times/idia-to-reinstate-brilliant-jensen-huang.jpg",
+   "alt": "Trump calls for Nvidia to reinstate Jensen Huang",
+   "caption": "Jensen Huang, the Nvidia founder at the centre of a leadership fight, in a photo that illustrates the story.",
+   "credit": "Photo: aljazeera.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Keep your model code portable (PyTorch, standard formats) so a single vendor's stack or leadership turmoil never blocks a project; CUDA's 6 million developers show how deep the dependence runs.",
+    "Before forming a view, read the primary reporting (NYT, Reuters) and note which claims are labelled 'not established as fact'; this is a good exercise in separating allegation from evidence."
+   ]
+  },
+  "source": "Al Jazeera, Daily Sabah, TechCrunch"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "COP31 in Antalya Runs Into Overtime",
+   "body": [
+    "The COP31 climate summit in Antalya went past its scheduled end because nearly 200 countries remain split over a draft deal that no longer mentions fossil fuels. A third draft is expected Saturday, Al Jazeera reports.",
+    "Australia's opening draft called for a faster fossil fuel phase-out, but a slimmer version dropped those mentions after Saudi Arabia and other major producers objected. It also dropped a $120 billion target for helping poorer countries adapt. The EU warned the draft risks turning the COP into a 'fossil summit', and the United States is absent for a second year.",
+    "For the host, the summit has had a commercial upside: Daily Sabah reports Türkiye announced deals and plans worth over $26 billion."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "An AI Researcher Claims the Riemann Hypothesis, and So Does a Human",
+   "body": [
+    "Levent Alpöge, a mathematician who works at Anthropic, claims a solution to the Riemann hypothesis, a conjecture from 1859 and one of the Millennium Prize problems. Several independent mathematicians, including MIT's Andrew Sutherland, say the Lean version of his proof compiles, though a full human-readable explanation is still pending.",
+    "Separately, Stanford postdoc Alessandro Masullo posted a human-written proof of the General Riemann hypothesis. It has not yet been checked in Lean, so its correctness is unconfirmed, TechCrunch reports."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "6,910.39",
+   "change": "−3.70%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "22,617.73",
+   "change": "−5.28%"
+  },
+  {
+   "name": "Dow",
+   "value": "48,147.33",
+   "change": "−1.93%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$125.53",
+   "change": "−14.01%"
+  },
+  {
+   "name": "Intel",
+   "value": "$51.28",
+   "change": "−7.97%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,131",
+   "change": "−2.36%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.56",
+   "change": "+0.20%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$89.87",
+   "change": "−2.29%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,539",
+   "change": "−3.98%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$56,831",
+   "change": "−8.19%"
+  }
+ ],
+ "markets_note": "Figures from the market-data feed at press time.",
+ "weather": {
+  "now": "14° / 7°",
+  "cond": "light drizzle",
+  "summary": "Now 12°C, feels like 11°C, humidity 91%.",
+  "days": [
+   {
+    "d": "SAT",
+    "c": "Light rain shower",
+    "t": "14° / 7°"
+   },
+   {
+    "d": "SUN",
+    "c": "Partly Cloudy",
+    "t": "11° / 4°"
+   },
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "16° / 3°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "180,000",
+   "text": "signatures reportedly on the petition for Jensen Huang's return"
+  },
+  {
+   "big": "6M",
+   "text": "developers on Nvidia's CUDA platform, up from 4.5 million in 2025"
+  },
+  {
+   "big": "-14.01%",
+   "text": "Nvidia's move in the markets table below"
+  }
+ ]
+}
