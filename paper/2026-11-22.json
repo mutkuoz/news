@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "AI & Computing",
+  "headline": "An Anthropic Mathematician and Claude Claim a Proof of the Riemann Hypothesis",
+  "deck": "The Lean code runs to about 17 million lines, and experts say checking it will take weeks",
+  "body": [
+   "Levent Alpöge, a member of Anthropic's technical staff, wrote on his website on Friday that he believes he has, working with Claude, discovered a proof of the Riemann hypothesis. His argument covers the generalised version, which extends the 1859 conjecture to a broader family of functions. He published a four-page explanation instead of a conventional paper, and released the argument in Lean, a proof assistant that checks reasoning step by step. He wrote that Claude 'far outpaced me near the finish line.'",
+   "The Riemann hypothesis concerns how prime numbers are distributed, which is encoded in the Riemann zeta function. It is one of seven Clay Mathematics Institute Millennium Prize Problems, each carrying a $1 million award. Abhishek Saha of Queen Mary University of London told Al Jazeera that hundreds of results have been proven assuming it is true, and that if the claim holds it 'shatters my model of reality.'",
+   "Verification is under way. TechCrunch reports that several participants in a Zulip discussion, including MIT mathematician Andrew Sutherland, confirmed the Lean proof compiles, and a later update says independent sources have checked it. But compiling is not the same as understanding. Kevin Buzzard of Imperial College London said the code is about 17 million lines, possibly tens of thousands of pages of mathematics, and no human has yet read all of it. He expects humans to understand it within a week or two, and things to become clear in a matter of weeks.",
+   "A rival claim has appeared too. Ravi Vakil, a Stanford professor, posted a proof of the generalised Riemann hypothesis by Stanford postdoc Alessandro Masullo. Vakil says 'it is all human, with no AI,' and Masullo says it took 12 years. It is not yet in Lean. Alpöge has said he will produce a human-readable explanation, and he admitted feeling guilty about releasing the proof without one.",
+   "Buzzard rejected the idea that mathematicians are now redundant, comparing AI to a telescope and noting that it 'doesn't have taste.' He also noted that stronger versions, the extended and grand Riemann hypotheses, remain open. Saha argued that credit should go to Alpöge rather than Claude. For now the result stands as a claim that formal software accepts and humans are still reading."
+  ],
+  "image": {
+   "src": "/assets/times/s-most-famous-maths-problem-been-cracked.jpg",
+   "alt": "Mathematical formulas on a blackboard",
+   "caption": "The Riemann hypothesis, posed in 1859, concerns the hidden order in the prime numbers.",
+   "credit": "Photo: aljazeera.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Learn the basics of Lean (the Natural Number Game is a gentle start) and try formalising one small theorem; formal proof is becoming a real skill at the AI frontier.",
+    "Follow the verification in the open (the Lean Zulip discussion and Buzzard's commentary) and note which claims are confirmed and which are only expected; this is a good exercise in reading expert uncertainty."
+   ]
+  },
+  "source": "Al Jazeera, TechCrunch"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Türkiye Eases Its Mortgage Squeeze but Tightens Credit-Card Payments",
+   "body": [
+    "Türkiye's banking regulator BDDK announced on Friday, November 20, that its 75% cut to the maximum loan-to-value ratio on home loans will now apply only to people who own at least two homes. Homes owned by a spouse or children under 18 count toward the total. The cut was introduced in a decision dated August 24, 2023, and had applied to owners of at least one home, lowering the maximum ratio from 90% to 22.5%.",
+    "The same board decision links credit-card minimum payments to the card limit: 20% of the period's debt for limits up to TL 100,000, 30% for limits above that up to TL 200,000, and 40% above TL 200,000, Daily Sabah reports."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Signal Blocks Screenshots, Citing AI Agents Built Into Phones",
+   "body": [
+    "Signal is restricting screenshots on Android and iOS, and its Windows app already blocked them by default. President Meredith Whittaker called operating systems that integrate agentic AI an existential threat, arguing that agents which scan the screen can store what they capture in local or remote databases outside Signal's control.",
+    "Users can switch the restriction off, but Whittaker said doing so would break Signal's privacy guarantees. She acknowledged the fix is incomplete because it does not close other, less obvious ways AI agents could reach app data, TechCrunch reports."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "6,910.39",
+   "change": "−3.70%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "22,617.73",
+   "change": "−5.28%"
+  },
+  {
+   "name": "Dow",
+   "value": "48,147.33",
+   "change": "−1.93%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$125.53",
+   "change": "−14.01%"
+  },
+  {
+   "name": "Intel",
+   "value": "$51.28",
+   "change": "−7.97%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,131",
+   "change": "−2.36%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.56",
+   "change": "+0.20%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$92.57",
+   "change": "+0.64%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,515",
+   "change": "−4.62%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$59,092",
+   "change": "+0.50%"
+  }
+ ],
+ "markets_note": "Figures from the market-data feed at press time.",
+ "weather": {
+  "now": "11° / 4°",
+  "cond": "partly cloudy",
+  "summary": "Now 4°C, feels like 2°C, humidity 91%.",
+  "days": [
+   {
+    "d": "SUN",
+    "c": "Patchy rain nearby",
+    "t": "11° / 4°"
+   },
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "15° / 3°"
+   },
+   {
+    "d": "TUE",
+    "c": "Light rain shower",
+    "t": "12° / 2°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "17M",
+   "text": "lines of Lean code in the claimed Riemann hypothesis proof"
+  },
+  {
+   "big": "$1M",
+   "text": "Clay Institute prize attached to each Millennium Prize Problem"
+  },
+  {
+   "big": "22.5%",
+   "text": "maximum home-loan ratio under the BDDK restriction, now limited to owners of two or more homes"
+  }
+ ]
+}
