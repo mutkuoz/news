@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Wall Street's AI Rally Cracks: Nasdaq Sheds 5.28% in a Day",
+  "deck": "More than $4 trillion has vanished from the Magnificent Seven in about six weeks, even as Anthropic raised $91 billion in its debut",
+  "body": [
+   "The Nasdaq fell 5.28% on Friday, erasing all of its gains for the year, according to an AFP report published on Sunday. Analyst Steve Sostick called it 'a huge repricing going on right now,' and Adam Sarhan said 'the bubble already deflated.'",
+   "AFP's analysis of Bloomberg data finds that the Magnificent Seven (Nvidia, Microsoft, Google, Apple, Amazon, Meta and Tesla) have lost more than $4 trillion in combined market value in about six weeks, more than France's annual GDP. Nvidia was hit hardest in our market table, down 14.01% at $125.53.",
+   "Nvidia is also in the middle of a leadership crisis. Its longtime chief Jensen Huang resigned over multiple extramarital affairs, one reportedly involving an alleged Chinese spy who may have funneled restricted chips to China. Disruption in the chip market, central to the AI industry, spread through the broader market.",
+   "Investors are also questioning returns. AI investment and debt have grown rapidly while profits have lagged, and the European Central Bank has flagged the opacity of AI-related debt and the circular ownership and commitment links across the AI supply chain. Sostick linked part of the shift to the US midterms, pointing to local ballot measures restricting data centers.",
+   "The timing is awkward for Anthropic, whose stock market debut on Thursday raised $91 billion. The company has said it may need to borrow money in the future. Whether the selloff is a correction or the start of something deeper is the question markets will try to answer this week."
+  ],
+  "image": {
+   "src": "/assets/times/ng-is-ai-euphoria-ceasing-on-wall-street.jpg",
+   "alt": "Image from the Daily Sabah article on the AI selloff",
+   "caption": "The Daily Sabah image that ran with its report on the AI market repricing",
+   "credit": "Photo: dailysabah.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Read Anthropic's IPO and risk disclosures with the selloff in mind: a good exercise in how an AI company describes its own funding and debt needs.",
+    "Watch Nvidia and chip-export news this week; if you build on GPU-heavy tools, check that your projects do not depend on a single vendor or paid tier."
+   ]
+  },
+  "source": "https://www.dailysabah.com/business/tech/huge-repricing-is-ai-euphoria-ceasing-on-wall-street"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "COP31 in Antalya Ends Without a Deal",
+   "body": [
+    "UN climate talks hosted by Türkiye ended without agreement, the first COP to fail since Copenhagen in 2009. Multiple blocs said the final draft, presented by presidents Türkiye and Australia, was too weak.",
+    "Oil and gas producers opposed references to fossil fuels, while the EU said it would not endorse a text that omits them. The draft would also have acknowledged for the first time that warming is on track to exceed 1.5C, but a $120 billion adaptation target was dropped. COP31 president Murat Kurum said 'We did everything we could.'"
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Nvidia Keeps Huang Out and Pulls H200 Chips From China",
+   "body": [
+    "Colette Kress is interim CEO, and Nvidia says it has no plans to bring Jensen Huang back, though Huang has said he is prepared to return. Nvidia reported soaring revenue and beat expectations, but its falling share price suggests Wall Street is not reassured.",
+    "The company will stop selling H200 chips in China, which critics estimate at about 20% of its business, much of it indirect. An investigation is examining how much leadership knew about chips allegedly sold secretly to China."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "6,910.39",
+   "change": "−3.70%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "22,617.73",
+   "change": "−5.28%"
+  },
+  {
+   "name": "Dow",
+   "value": "48,147.33",
+   "change": "−1.93%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$125.53",
+   "change": "−14.01%"
+  },
+  {
+   "name": "Intel",
+   "value": "$51.28",
+   "change": "−7.97%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,131",
+   "change": "−2.36%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.59",
+   "change": "+0.06%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$89.76",
+   "change": "−3.04%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,604",
+   "change": "+2.53%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$61,248",
+   "change": "+1.92%"
+  }
+ ],
+ "markets_note": "Latest close as reported by the data tool.",
+ "weather": {
+  "now": "16° / 3°",
+  "cond": "cloudy",
+  "summary": "Now 3°C, feels like 0°C, humidity 78%.",
+  "days": [
+   {
+    "d": "MON",
+    "c": "Sunny",
+    "t": "16° / 3°"
+   },
+   {
+    "d": "TUE",
+    "c": "Light rain shower",
+    "t": "11° / 3°"
+   },
+   {
+    "d": "WED",
+    "c": "Sunny",
+    "t": "4° / -2°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "5.28%",
+   "text": "Nasdaq's one-day fall on Friday, erasing its 2026 gains"
+  },
+  {
+   "big": "$4T+",
+   "text": "lost by the Magnificent Seven in about six weeks"
+  },
+  {
+   "big": "$91B",
+   "text": "raised by Anthropic in its stock market debut"
+  }
+ ]
+}
