@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Nvidia Board Brings Huang Back; Shares Surge 31% and Wall Street Rebounds",
+  "deck": "Twelve days after his resignation, the chip giant's chief executive is reinstated, lifting the Nasdaq 6.5% in a day",
+  "body": [
+   "Nvidia's board reinstated Jensen Huang as chief executive, president and board member on Monday, effective immediately, less than two weeks after he resigned amid allegations involving personal relationships and national-security concerns. Nvidia had said days earlier that it had no plans to bring him back.",
+   "Investors reacted at once. Nvidia shares jumped about 31% to $165.05, still below the $186.40 level before the controversy. The stock had fallen nearly 23% in the week after his resignation.",
+   "The rally spread. The Nasdaq closed up 6.51%, the S&P 500 up 4.73% and the Dow up 3.01%, according to our market table. The S&P 500 had lost seven sessions in a row and had slipped into correction territory before Monday.",
+   "The story is not over. TechCrunch reports that Huang is scheduled to testify in the US Senate next week and that Megaspeed, the company at the centre of the scandal, appears headed for a US blacklist. President Trump publicly welcomed the decision, and Democrats have called for scrutiny.",
+   "Deutsche Bank strategist Jim Reid noted that comparable volatility shocks have historically taken several weeks to subside. And Nvidia's business remains closely tied to US export controls on advanced chips, which the reinstatement did not resolve."
+  ],
+  "image": {
+   "src": "/assets/times/idia-shares-surge-over-30-183222460-html.jpg",
+   "alt": "Image published with Yahoo Finance's report on Nvidia's share surge",
+   "caption": "Image published with Yahoo Finance's report on Nvidia's surge after its board reinstated its chief executive",
+   "credit": "Photo: finance.yahoo.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Treat one day's 31% jump as noise: if you plan around GPU pricing or cloud credits, wait for the Senate testimony and any export-control news before assuming anything changed.",
+    "Read next week's testimony coverage for supply and export-control signals, since those decide how cheap and available AI compute is for builders."
+   ]
+  },
+  "source": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-surge-over-30-183222460.html"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Ankara Opens Call for Home-Grown Humanoid Robots",
+   "body": [
+    "Türkiye's Industry and Technology Ministry launched a call on Monday for domestic bipedal humanoid robots for industrial work such as assembly, logistics and precision machining, with the goal of producing robots that outperform rivals.",
+    "The call offers a 50% grant on eligible costs covering design, prototyping, testing, validation and real-world deployment, for projects of up to 48 months. Applications go through rip.sanayi.gov.tr by Dec. 31."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic's Claude Ship Puts AI Agents on Code Review",
+   "body": [
+    "Anthropic announced Claude Ship on Monday, a suite of agents for reviewing, fixing and approving routine code changes. Code Review is generally available; PR Steward, which handles failing CI checks and merge conflicts, and Claude Approvals, which applies a policy the team writes as a file in the repository, are in beta.",
+    "It is rolling out to Claude Team and Enterprise plans and works with GitHub repositories. Teams choose the review depth and which changes escalate to a human, and Anthropic recommends starting Approvals in observe-only mode."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,237.17",
+   "change": "+4.73%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "24,089.56",
+   "change": "+6.51%"
+  },
+  {
+   "name": "Dow",
+   "value": "49,595.31",
+   "change": "+3.01%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$165.05",
+   "change": "+31.48%"
+  },
+  {
+   "name": "Intel",
+   "value": "$59.66",
+   "change": "+16.34%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "11,104",
+   "change": "−0.24%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.62",
+   "change": "+0.09%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$86.58",
+   "change": "−3.12%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,632",
+   "change": "−0.54%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$60,182",
+   "change": "−1.60%"
+  }
+ ],
+ "markets_note": "Closing figures for Monday, Nov 23, from the market data tool.",
+ "weather": {
+  "now": "11° / 3°",
+  "cond": "light drizzle",
+  "summary": "Now 9°C, feels like 7°C, humidity 91%.",
+  "days": [
+   {
+    "d": "TUE",
+    "c": "Light rain shower",
+    "t": "11° / 3°"
+   },
+   {
+    "d": "WED",
+    "c": "Partly Cloudy",
+    "t": "4° / -2°"
+   },
+   {
+    "d": "THU",
+    "c": "Overcast",
+    "t": "8° / -3°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "+31%",
+   "text": "Nvidia's jump after Huang's reinstatement, to $165.05"
+  },
+  {
+   "big": "+6.5%",
+   "text": "Nasdaq's gain on the day, after a seven-session S&P losing streak"
+  },
+  {
+   "big": "50%",
+   "text": "Grant on eligible costs in Türkiye's humanoid robot call"
+  }
+ ]
+}
