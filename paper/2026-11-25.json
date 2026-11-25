@@ -1,0 +1,120 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Anthropic Slips Below Its $83 IPO Price Within a Week of Debut",
+  "deck": "Shares opened at $111.50 on Nasdaq and fell as low as $76, a worry for AI startups lining up behind it",
+  "body": [
+   "Anthropic's stock fell below its initial public offering price on Tuesday, less than a week after it began trading on Nasdaq. Shares dipped as low as $76 by midday, down nearly 12% from Monday's close and about 8% below the $83 at which the offering was priced.",
+   "The slide is steep because of where the stock started. Anthropic opened at $111.50 on its first day. The company priced the offering on November 18 and closed the IPO, including the underwriters' full option to buy extra shares, on November 20, according to its own announcements.",
+   "TechCrunch notes that trading below the IPO price is often read as a negative signal, since underwriters normally price offerings below the value they expect the stock to reach. If shares keep trading poorly, it adds, private AI startup valuations could come under pressure and other AI companies could find the IPO window harder to use.",
+   "The weakness was not limited to Anthropic. Nvidia fell more than 7% by midday on Tuesday, giving back part of the gain of more than 30% it posted on Monday when Jensen Huang was reinstated as chief executive.",
+   "Meanwhile the company kept publishing. Its research page lists work on two open black-hole physics problems and a shorter 30-day disclosure window for high-severity security flaws."
+  ],
+  "image": {
+   "src": "/assets/times/po-price-a-worrying-sign-for-ai-startups.jpg",
+   "alt": "Image published with TechCrunch's report on Anthropic's share price",
+   "caption": "Image published with TechCrunch's report on Anthropic's shares falling below their IPO price",
+   "credit": "Photo: techcrunch.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Don't read one week of trading as a verdict on the technology: follow the model and API announcements on Anthropic's news page, which matter more to a builder than the ticker.",
+    "If you plan around AI startup funding or hiring, watch whether other AI companies delay their listings in the coming weeks."
+   ]
+  },
+  "source": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Libya's Haftar Visits Ankara; Erdogan to Travel to Libya in December",
+   "body": [
+    "Eastern Libyan commander Khalifa Haftar arrived in Ankara on Tuesday, his first known visit to Türkiye, with his sons Khaled and Belqasim. Reuters reported he was set to meet President Erdogan, though no official readout was released.",
+    "The trip came days after a Ukrainian long-range attack hit a Russian warship in Benghazi, killing at least 10 Libyan and Russian crew. Tripoli's government said neither Russia nor Ukraine had the right to conduct military operations on Libyan territory.",
+    "Foreign Minister Hakan Fidan said Erdogan will visit Libya in December, his first trip there in 15 years. An analyst suggests Ankara may seek a meeting between Haftar and Tripoli's Dbeibah."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Even the Best AI Agents Fail Everyday Tasks More Than a Third of the Time",
+   "body": [
+    "A benchmark called ShellBench, built on more than ten million anonymized live agent exchanges, found that top models from OpenAI, Anthropic and Meta failed more than a third of the time. Across all models, 15.7% of attempts broke at least one safety rule.",
+    "About 10% of otherwise correct attempts still violated a safety criterion. Agents missed a child's school pickup 79.5% of the time and recommended duplicate or incorrect invoice payments 40.3% of the time."
+   ]
+  }
+ ],
+ "markets": [
+ {
+  "name": "Dow",
+  "value": "50,018.70",
+  "change": "+0.85%"
+ },
+ {
+  "name": "Nvidia",
+  "value": "$155.38",
+  "change": "−5.86%"
+ },
+ {
+  "name": "Intel",
+  "value": "$54.80",
+  "change": "−8.15%"
+ },
+ {
+  "name": "BIST 100",
+  "value": "10,966",
+  "change": "−1.25%"
+ },
+ {
+  "name": "USD / TRY",
+  "value": "50.65",
+  "change": "+0.09%"
+ },
+ {
+  "name": "Brent crude",
+  "value": "$87.64",
+  "change": "−4.11%"
+ },
+ {
+  "name": "Gold",
+  "value": "$3,552",
+  "change": "−0.27%"
+ },
+ {
+  "name": "Bitcoin",
+  "value": "$59,405",
+  "change": "−2.95%"
+ }
+]
+,
+ "markets_note": "Snapshot from paper_data.py at time of publication.",
+ "weather": {
+ "now": "4° / -2°",
+ "cond": "clear",
+ "summary": "Now -0°C, feels like -3°C, humidity 78%.",
+ "days": [
+  {
+   "d": "WED",
+   "c": "Partly Cloudy",
+   "t": "4° / -2°"
+  },
+  {
+   "d": "THU",
+   "c": "Overcast",
+   "t": "7° / -3°"
+  },
+  {
+   "d": "FRI",
+   "c": "Cloudy",
+   "t": "11° / -0°"
+  }
+ ]
+}
+,
+ "stats": [
+  {"big": "$83", "text": "Anthropic's IPO price, which shares fell below on Tuesday"},
+  {"big": "$111.50", "text": "Where Anthropic opened on Nasdaq less than a week earlier"},
+  {"big": "15.7%", "text": "Share of AI agent attempts that broke a safety rule in ShellBench"}
+ ]
+}

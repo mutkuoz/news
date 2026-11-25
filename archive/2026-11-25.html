@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>utku's news — the daily brief, 25 november 2026</title>
+	<meta name="description" content="24 stories in brief — international politics, ai & computing, business & tech, other important news. the 25 november 2026 edition." />
+	<link rel="canonical" href="https://news.utku.space/archive/2026-11-25.html" />
+	<meta name="author" content="Mehmet Utku Öztürk" />
+	<meta name="robots" content="index, follow, max-snippet:-1" />
+	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+	<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+	<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="utku&rsquo;s news" />
+	<meta property="og:locale" content="en" />
+	<meta property="og:url" content="https://news.utku.space/archive/2026-11-25.html" />
+	<meta property="og:title" content="utku's news — the daily brief, 25 november 2026" />
+	<meta property="og:description" content="24 stories in brief — international politics, ai & computing, business & tech, other important news. the 25 november 2026 edition." />
+	<meta property="og:image" content="https://news.utku.space/assets/utku-bg.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="utku's news — the daily brief, 25 november 2026" />
+	<meta name="twitter:description" content="24 stories in brief — international politics, ai & computing, business & tech, other important news. the 25 november 2026 edition." />
+
+	<!-- self-hosted newsreader + playfair display (same faces as utku.space) -->
+	<link rel="preload" href="/assets/fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="stylesheet" href="/assets/fonts.css" />
+
+	<script>
+	/* apply saved theme before first paint — same storage key as utku.space */
+	(function () {
+		try {
+			var t = localStorage.getItem('theme');
+			if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+		} catch (e) {}
+	})();
+	</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+	--serif:   'Newsreader', Georgia, 'Times New Roman', serif;
+	--display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+/* ── pure black / white theming — mirrors utku.space ───────────────── */
+:root[data-theme="light"] {
+	--bg:#ffffff; --fg:#000000;
+	--fg2:rgba(0,0,0,0.74); --muted:rgba(0,0,0,0.52); --muted2:rgba(0,0,0,0.36);
+	--hair:rgba(0,0,0,0.16);
+	--bg-art-opacity: 1;
+	--bg-art-filter: none;
+}
+:root[data-theme="dark"] {
+	--bg:#000000; --fg:#ffffff;
+	--fg2:rgba(255,255,255,0.78); --muted:rgba(255,255,255,0.54); --muted2:rgba(255,255,255,0.38);
+	--hair:rgba(255,255,255,0.20);
+	--bg-art-opacity: 0.85;
+	--bg-art-filter: invert(1);
+}
+
+html { scroll-behavior: smooth; background: var(--bg); transition: background-color 0.35s ease; }
+
+body {
+	font-family: var(--serif);
+	font-optical-sizing: auto;
+	text-transform: lowercase;
+	color: var(--fg);
+	background: transparent;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: color 0.35s ease;
+	min-height: 100vh;
+	line-height: 1.5;
+}
+
+::selection { background: var(--fg); color: var(--bg); }
+
+/* ── fixed background artwork ──────────────────────────────────────── */
+.page-bg {
+	position: fixed; inset: 0; z-index: 0; pointer-events: none;
+	background-image: url('/assets/utku-bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: var(--bg-art-opacity);
+	filter: var(--bg-art-filter);
+	transition: opacity 0.35s ease, filter 0.35s ease;
+}
+@supports (-webkit-touch-callout: none) { .page-bg { background-attachment: scroll; } }
+
+/* ── reading progress ──────────────────────────────────────────────── */
+#scrollProgress {
+	position: fixed; top: 0; left: 0; height: 2px; width: 0;
+	background: var(--fg); z-index: 200; opacity: 0.6;
+}
+
+/* ── navbar ────────────────────────────────────────────────────────── */
+#navbar {
+	position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+	display: flex; align-items: center; justify-content: space-between;
+	gap: 1rem; height: 3.4rem; padding: 0 1.3rem;
+	background: color-mix(in srgb, var(--bg) 86%, transparent);
+	backdrop-filter: blur(7px); -webkit-backdrop-filter: blur(7px);
+	border-bottom: 1px solid var(--hair);
+	transition: background 0.35s ease, border-color 0.35s ease;
+}
+@media (min-width: 720px) { #navbar { padding: 0 2rem; } }
+.nav-brand {
+	font-family: var(--display); font-style: italic; font-weight: 600;
+	font-size: 1.02rem; color: var(--fg); text-decoration: none; white-space: nowrap;
+}
+.nav-links { display: flex; gap: 1.6rem; margin-left: auto; margin-right: 1.3rem; }
+.nav-link {
+	font-family: var(--serif); font-size: 0.86rem; letter-spacing: 0.02em;
+	color: var(--muted); text-decoration: none;
+	position: relative; padding-bottom: 2px; transition: color 0.18s ease;
+}
+.nav-link::after {
+	content: ''; position: absolute; left: 0; right: 100%; bottom: 0; height: 1px;
+	background: var(--fg); transition: right 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+.nav-link:hover { color: var(--fg); }
+.nav-link:hover::after { right: 0; }
+@media (max-width: 520px) { .nav-links { gap: 1rem; } .nav-link.nav-home { display: none; } }
+
+.mode-toggle {
+	display: flex; align-items: center; justify-content: center;
+	width: 2rem; height: 2rem; border-radius: 50%; flex-shrink: 0;
+	border: 1px solid var(--hair); background: transparent; cursor: pointer; color: var(--fg);
+	transition: border-color 0.2s ease, transform 0.4s cubic-bezier(0.34,1.4,0.64,1);
+}
+.mode-toggle:hover { border-color: var(--fg); transform: rotate(-22deg); }
+.mode-toggle:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+.mode-toggle svg { width: 0.95rem; height: 0.95rem; }
+:root[data-theme="light"] .icon-moon { display: none; }
+:root[data-theme="dark"]  .icon-sun  { display: none; }
+
+/* ── page column ───────────────────────────────────────────────────── */
+.paper {
+	position: relative; z-index: 1;
+	max-width: 54rem; margin: 0 auto;
+	padding: 6rem 1.3rem 4rem;
+}
+@media (min-width: 720px) { .paper { padding: 7rem 2.4rem 5rem; } }
+.section { scroll-margin-top: 4.5rem; margin-top: 3rem; }
+
+/* ── masthead ──────────────────────────────────────────────────────── */
+.masthead { border-bottom: 1px solid var(--hair); padding-bottom: 1.2rem; }
+.dateline {
+	display: flex; align-items: center; justify-content: space-between; gap: 0.6rem;
+	font-size: 0.72rem; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.9rem;
+}
+.nameplate {
+	font-family: var(--display); font-weight: 700;
+	font-size: clamp(2.4rem, 8vw, 4.6rem); line-height: 1; text-align: center;
+	letter-spacing: -0.02em;
+}
+.subline {
+	margin-top: 0.9rem; text-align: center;
+	font-style: italic; font-size: 0.88rem; color: var(--muted);
+}
+.subline a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--hair); padding-bottom: 1px; }
+.subline a:hover { border-color: var(--fg); }
+
+/* ── section rule-head ─────────────────────────────────────────────── */
+.rule-head { margin-bottom: 0.2rem; padding-bottom: 0.45rem; border-bottom: 1px solid var(--hair); }
+.rule-head-label { font-family: var(--serif); font-size: 1rem; font-weight: 600; letter-spacing: 0.01em; color: var(--fg); }
+
+/* ── the briefs ────────────────────────────────────────────────────── */
+.briefs { list-style: none; }
+.briefs li {
+	border-top: 1px solid var(--hair);
+	padding: 0.72rem 0 0.72rem 1.15rem;
+	position: relative;
+	font-size: 0.98rem; line-height: 1.75; color: var(--fg2);
+	transition: padding-left 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+.briefs li:first-child { border-top: none; }
+.briefs li::before {
+	content: '·'; position: absolute; left: 0.15rem; top: 0.62rem;
+	font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: var(--muted);
+}
+.briefs li:hover { padding-left: 1.45rem; }
+.briefs li:hover::before { color: var(--fg); }
+.briefs a {
+	color: var(--fg); text-decoration: none;
+	border-bottom: 1px solid var(--hair); padding-bottom: 1px;
+	transition: border-color 0.18s ease, opacity 0.18s ease;
+}
+.briefs a:hover { border-color: var(--fg); }
+.briefs strong { color: var(--fg); font-weight: 600; }
+
+/* ── previous editions ─────────────────────────────────────────────── */
+.prev-list { display: grid; }
+.prev-link {
+	display: grid; grid-template-columns: 8.5rem 1fr; align-items: baseline; gap: 1rem;
+	padding: 0.7rem 0; border-top: 1px solid var(--hair);
+	text-decoration: none; color: var(--fg);
+	transition: padding-left 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+.prev-list .prev-link:first-child { border-top: none; }
+.prev-link:hover { padding-left: 0.5rem; }
+.prev-link .d { font-size: 0.74rem; letter-spacing: 0.03em; color: var(--muted); }
+.prev-link:hover .d { color: var(--fg); }
+.prev-link .t { font-size: 0.95rem; font-weight: 500; }
+.prev-link:hover .t { text-decoration: underline; text-underline-offset: 3px; }
+.more-note { margin-top: 1.2rem; font-style: italic; font-size: 0.9rem; color: var(--muted2); }
+.more-note a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--hair); padding-bottom: 1px; }
+.more-note a:hover { border-color: var(--fg); }
+
+/* ── colophon ──────────────────────────────────────────────────────── */
+.colophon { margin-top: 4rem; padding-top: 1.1rem; border-top: 1px solid var(--hair); }
+.colophon-line { font-size: 0.82rem; color: var(--muted); line-height: 1.9; letter-spacing: 0.02em; }
+.colophon-line a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--hair); padding-bottom: 1px; }
+.colophon-line a:hover { border-color: var(--fg); }
+
+/* ── reveal ────────────────────────────────────────────────────────── */
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.6s cubic-bezier(0.4,0,0.2,1), transform 0.6s cubic-bezier(0.4,0,0.2,1); }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+	html { scroll-behavior: auto; }
+	.reveal { opacity: 1; transform: none; transition: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- fixed background artwork — sits under everything, never scrolls -->
+<div class="page-bg" aria-hidden="true"></div>
+
+<!-- reading-progress hairline -->
+<div id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ═══ NAVBAR ════════════════════════════════════════════════════════════ -->
+<nav id="navbar">
+	<a href="/" class="nav-brand">utku&rsquo;s&nbsp;news</a>
+	<div class="nav-links">
+		<a href="/times/" class="nav-link">the utku times</a>
+		<a href="/archive.html" class="nav-link">archive</a>
+		<a href="https://utku.space" class="nav-link nav-home">utku&rsquo;s space ↗</a>
+	</div>
+	<button class="mode-toggle" id="modeToggle" aria-label="toggle dark mode" title="day / night (d)">
+		<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			<circle cx="12" cy="12" r="4.5"></circle>
+			<path d="M12 1.5v2.5M12 20v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M1.5 12h2.5M20 12h2.5M4.2 19.8l1.8-1.8M18 6l1.8-1.8"></path>
+		</svg>
+		<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"></path>
+		</svg>
+	</button>
+</nav>
+
+<!-- ═══ PAGE ══════════════════════════════════════════════════════════════ -->
+<main class="paper" id="top">
+
+	<!-- ── MASTHEAD ───────────────────────────────────────────────────── -->
+	<header class="masthead reveal">
+		<div class="dateline">
+			<span>ankara &middot; türkiye</span>
+			<span>25 november 2026</span>
+		</div>
+		<h1 class="nameplate">the daily brief</h1>
+		<p class="subline">fresh every morning at 09:00 gmt+3</p>
+	</header>
+
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">international politics</h2></div>
+		<ul class="briefs">
+			<li>The Saudi-led coalition says it bombed operational sites at the Houthi-run Red Sea port of Hodeidah, and the Houthis threaten Saudi ports in response — <a href="https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order" target="_blank" rel="noopener">source</a></li>
+			<li>WHO chief Tedros called on the US to lift its fuel blockade on Cuba, saying it harms civilians, and pledged $2 million for Cuba's immunisation programme — <a href="https://www.aljazeera.com/news/2026/11/25/who-chief-urges-end-to-us-fuel-blockade-on-cuba" target="_blank" rel="noopener">source</a></li>
+			<li>Gadi Eisenkot's Yashar party signed Israel's first post-election coalition pact with Lieberman's Our Home, but the two hold only 48 seats and he has until December 6 to form a government — <a href="https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government" target="_blank" rel="noopener">source</a></li>
+			<li>Libyan commander Khalifa Haftar made his first known visit to Ankara days after a Ukrainian strike on a Russian warship in Benghazi, and Erdogan will visit Libya in December — <a href="https://www.aljazeera.com/news/2026/11/24/libyas-haftar-visits-turkiye-days-after-ukraine-hits-russian-warship" target="_blank" rel="noopener">source</a></li>
+			<li>A poll finds US voters want the government to end the Iran war regardless of the terms — <a href="https://www.aljazeera.com/news/2026/11/25/poll-finds-us-voters-want-government-to-end-iran-war-regardless-of-terms" target="_blank" rel="noopener">source</a></li>
+			<li>Colombia's president blamed ex-FARC rebels for a car bomb blast in Villavicencio — <a href="https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast" target="_blank" rel="noopener">source</a></li>
+			<li>Alaska withdrew from a deal to hand voter records to the US Justice Department — <a href="https://www.aljazeera.com/news/2026/11/25/alaska-ends-deal-to-give-voter-records-to-us-justice-department" target="_blank" rel="noopener">source</a></li>
+		</ul>
+	</section>
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">ai &amp; computing</h2></div>
+		<ul class="briefs">
+			<li>Anthropic's shares fell as low as $76, about 8% below the $83 IPO price, less than a week after opening at $111.50 on Nasdaq — <a href="https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/" target="_blank" rel="noopener">source</a></li>
+			<li>A new benchmark, ShellBench, found top agents from OpenAI, Anthropic and Meta failed everyday tasks more than a third of the time, with 15.7% of attempts breaking a safety rule — <a href="https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/" target="_blank" rel="noopener">source</a></li>
+			<li>Anthropic says Claude worked on two open theoretical physics problems about black holes and the search for quantum gravity — <a href="https://www.anthropic.com/research" target="_blank" rel="noopener">source</a></li>
+			<li>Anthropic is shortening its vulnerability disclosure window from 90 to 30 days for high- and critical-severity issues — <a href="https://www.anthropic.com/research" target="_blank" rel="noopener">source</a></li>
+			<li>Tidal will start deleting fully AI-generated tracks on December 9, removing more than 29 million songs by year's end — <a href="https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/" target="_blank" rel="noopener">source</a></li>
+			<li>Meta's Muse AI assistant is now built into Instagram direct messages — <a href="https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/" target="_blank" rel="noopener">source</a></li>
+			<li>The UK warns that AI-driven cyberattacks are exposing years of weak security practices — <a href="https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/" target="_blank" rel="noopener">source</a></li>
+		</ul>
+	</section>
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">business &amp; tech</h2></div>
+		<ul class="briefs">
+			<li>A US jury convicted Huawei of conspiracy to steal trade secrets and bank fraud but acquitted it of racketeering conspiracy, and the company says it will appeal — <a href="https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets" target="_blank" rel="noopener">source</a></li>
+			<li>Nvidia fell more than 7% by midday Tuesday, giving back part of Monday's 30%-plus jump after Jensen Huang's reinstatement — <a href="https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/" target="_blank" rel="noopener">source</a></li>
+			<li>Trump reportedly called a pardon for Nvidia's Huang an option but said he doesn't think it will be necessary — <a href="https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/" target="_blank" rel="noopener">source</a></li>
+			<li>Walmart is partnering with Meta to bring Black Friday deals to the Muse AI agent — <a href="https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/" target="_blank" rel="noopener">source</a></li>
+			<li>A China Southern Airlines unit will buy 50 Boeing 737-8 planes, Boeing's first major order from China in almost a decade — <a href="https://www.aljazeera.com/economy/2026/11/24/china-southern-airlines-unit-to-buy-50-boeing-737-8-planes" target="_blank" rel="noopener">source</a></li>
+			<li>Türkiye plans to more than double its power capacity and is targeting $500 billion in investment — <a href="https://www.dailysabah.com/business/economy/turkiye-plans-to-more-than-double-power-capacity-eyes-500b-investment" target="_blank" rel="noopener">source</a></li>
+		</ul>
+	</section>
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">other important news</h2></div>
+		<ul class="briefs">
+			<li>Landmine and unexploded-ordnance casualties hit a five-year high of 6,929 in 2025, 84% of them civilians, with Myanmar and Syria the worst affected — <a href="https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria" target="_blank" rel="noopener">source</a></li>
+			<li>Dozens of oil and shipping tankers were reportedly hacked in recent weeks — <a href="https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/" target="_blank" rel="noopener">source</a></li>
+			<li>Ten hostages were freed in a standoff with gunmen at a supermarket in Cartagena, Colombia — <a href="https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket" target="_blank" rel="noopener">source</a></li>
+			<li>The US Army plans to detonate more than 4 tonnes of lead azide at an Iowa plant on Wednesday after a delay for a court ruling — <a href="https://www.aljazeera.com/news/2026/11/24/us-army-to-detonate-more-than-4-tonnes-of-lead-azide-in-iowa-on-wednesday" target="_blank" rel="noopener">source</a></li>
+		</ul>
+	</section>
+
+	<!-- ── PREVIOUS EDITIONS ──────────────────────────────────────────── -->
+	<section class="section reveal">
+		<div class="rule-head"><h2 class="rule-head-label">previous editions</h2></div>
+		<div class="prev-list">
+			<a class="prev-link" href="/archive/2026-11-24.html"><span class="d">2026-11-24</span><span class="t">the 24 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-23.html"><span class="d">2026-11-23</span><span class="t">the 23 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-22.html"><span class="d">2026-11-22</span><span class="t">the 22 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-21.html"><span class="d">2026-11-21</span><span class="t">the 21 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-20.html"><span class="d">2026-11-20</span><span class="t">the 20 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-19.html"><span class="d">2026-11-19</span><span class="t">the 19 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-18.html"><span class="d">2026-11-18</span><span class="t">the 18 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-17.html"><span class="d">2026-11-17</span><span class="t">the 17 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-16.html"><span class="d">2026-11-16</span><span class="t">the 16 november 2026 edition</span></a>
+			<a class="prev-link" href="/archive/2026-11-15.html"><span class="d">2026-11-15</span><span class="t">the 15 november 2026 edition</span></a>
+		</div>
+		<p class="more-note"><a href="/archive.html">full archive →</a></p>
+	</section>
+
+	<!-- ── COLOPHON ───────────────────────────────────────────────────── -->
+	<footer class="colophon reveal">
+		<p class="colophon-line">researched, written &amp; published every morning at 09:00 gmt+3 by <a href="https://claude.com/claude-code" target="_blank" rel="noopener">claude</a> &middot; part of <a href="https://utku.space">utku&rsquo;s space</a></p>
+	</footer>
+
+</main>
+
+<!-- ═══ SCRIPT ════════════════════════════════════════════════════════════ -->
+<script>
+/* ── day / night (instant twin of the utku.space cinematic) ────────── */
+(function () {
+	var html = document.documentElement;
+	function setTheme(t) {
+		html.setAttribute('data-theme', t);
+		try { localStorage.setItem('theme', t); } catch (e) {}
+	}
+	function flip() { setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }
+	document.getElementById('modeToggle').addEventListener('click', flip);
+	document.addEventListener('keydown', function (e) {
+		if ((e.key === 'd' || e.key === 'D') && !e.metaKey && !e.ctrlKey && !e.altKey) flip();
+	});
+})();
+
+/* ── reading progress ──────────────────────────────────────────────── */
+(function () {
+	var bar = document.getElementById('scrollProgress');
+	function paint() {
+		var h = document.documentElement;
+		var max = h.scrollHeight - h.clientHeight;
+		bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+	}
+	addEventListener('scroll', paint, { passive: true }); paint();
+})();
+
+/* ── reveal on scroll ──────────────────────────────────────────────── */
+(function () {
+	var els = document.querySelectorAll('.reveal');
+	if (!('IntersectionObserver' in window)) {
+		els.forEach(function (el) { el.classList.add('visible'); }); return;
+	}
+	var io = new IntersectionObserver(function (entries) {
+		entries.forEach(function (en) {
+			if (en.isIntersecting) { en.target.classList.add('visible'); io.unobserve(en.target); }
+		});
+	}, { threshold: 0.06 });
+	els.forEach(function (el) { io.observe(el); });
+})();
+</script>
+</body>
+</html>
