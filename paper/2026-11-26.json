@@ -1,0 +1,138 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "S&P Weighs Cutting Nvidia's Credit Rating Over Governance Worries",
+  "deck": "The agency cites weak executive oversight and 'key man' risk after Jensen Huang's ouster and reinstatement",
+  "body": [
+   "S&P Global Ratings said it is considering downgrading Nvidia's credit rating from AA to AA-, the fourth-highest step on its scale. TechCrunch reported the move on Wednesday and says S&P expects to finish its review within 90 days.",
+   "The reasons are about management, not money. Despite Nvidia's strong financial performance, S&P says the ouster and reinstatement of chief executive Jensen Huang has raised concerns about weak executive oversight and a lack of succession planning. It also flagged key man risk, meaning the company leans heavily on Huang for its future success.",
+   "Nvidia would stay firmly investment grade either way, TechCrunch notes. The practical cost is borrowing: a lower rating can raise what the company pays to borrow.",
+   "The bigger issue is who leans on Nvidia's credit. In August Nvidia announced plans to arrange $500 billion in financing for AI infrastructure with six financial institutions, including Goldman Sachs, Apollo and Blackstone, with Nvidia guaranteeing 25% of the loans under the original terms. Bloomberg reported that lenders were already pressing for bigger guarantees, and TechCrunch says a downgrade would likely make them ask for more.",
+   "Smaller infrastructure companies that lack strong credit of their own rely on Nvidia as a backstop, so a lower rating could make their debt more expensive or force them to post more collateral. The review follows a turbulent week: Al Jazeera reported that Huang was reinstated on November 23, less than two weeks after he stepped down, and Nvidia shares have swung sharply since."
+  ],
+  "image": {
+   "src": "/assets/times/ngrade-over-governance-and-key-man-risks.webp",
+   "alt": "Illustration published with TechCrunch's report on the S&P review of Nvidia's credit rating",
+   "caption": "Image published with TechCrunch's report on S&P weighing a cut to Nvidia's credit rating",
+   "credit": "Photo: techcrunch.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "Treat the AI boom as a financing story as well as a technology one: follow how the $500 billion infrastructure plan and its guarantees change if S&P acts.",
+    "If you build on GPU-heavy services, watch for price or capacity changes from smaller cloud providers that depend on Nvidia-backed debt."
+   ]
+  },
+  "source": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Türkiye Aims to Run High-Speed Trains to 32 Cities by 2030",
+   "body": [
+    "Transport and Infrastructure Minister Abdulkadir Uraloğlu told Anadolu Agency that high-speed train service will extend to 18 more cities by 2030, bringing the total to 32 provinces from 14 today.",
+    "The planned additions include Bursa, Kayseri, İzmir, Mersin, Adana, Gaziantep and Kars, and tests are already under way on a high-speed section in Bursa.",
+    "The minister said the rail network grew from 10,948 km in 2002 to 14,272 km in 2026, and would reach 31,439 km once all current projects are finished."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Amodei Calls Rivals' 'Surrender Human Control' Charge 'Absurd'",
+   "body": [
+    "Anthropic chief executive Dario Amodei answered critics in a long post on X on Wednesday. Rivals including OpenAI's Sam Altman and Meta's Alexandr Wang had suggested Anthropic wants humanity to hand control to AI.",
+    "Amodei said he has repeatedly argued for democratic oversight and that humans should keep ultimate decision-making power. He drew a line between that and AI automating specific tasks such as writing software or designing a drug.",
+    "He suggested limits on recursive self-improvement and said Anthropic does not expect it to be safe for Claude to build successive frontier models without meaningful human supervision. TechCrunch notes Anthropic itself said in June that Claude wrote over 80% of the code merged into its codebase."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,182.78",
+   "change": "−0.25%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "23,585.80",
+   "change": "−0.62%"
+  },
+  {
+   "name": "Dow",
+   "value": "50,182.95",
+   "change": "+0.33%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$149.30",
+   "change": "−3.91%"
+  },
+  {
+   "name": "Intel",
+   "value": "$54.47",
+   "change": "−0.60%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "10,656",
+   "change": "−2.83%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.68",
+   "change": "+0.02%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$91.08",
+   "change": "−3.73%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,607",
+   "change": "+2.01%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$60,635",
+   "change": "+1.49%"
+  }
+ ],
+ "markets_note": "Latest quotes from market data feed; BIST 100 and others as of last close.",
+ "weather": {
+  "now": "7° / -3°",
+  "cond": "partly cloudy",
+  "summary": "Now -3°C, feels like -6°C, humidity 73%.",
+  "days": [
+   {
+    "d": "THU",
+    "c": "Overcast",
+    "t": "7° / -3°"
+   },
+   {
+    "d": "FRI",
+    "c": "Cloudy",
+    "t": "11° / -0°"
+   },
+   {
+    "d": "SAT",
+    "c": "Overcast",
+    "t": "13° / 3°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "AA → AA-",
+   "text": "the S&P rating cut being considered for Nvidia"
+  },
+  {
+   "big": "$500bn",
+   "text": "AI infrastructure financing plan Nvidia announced in August, with a 25% guarantee"
+  },
+  {
+   "big": "90 days",
+   "text": "how long S&P expects its review to take"
+  }
+ ]
+}
