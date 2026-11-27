@@ -1,0 +1,136 @@
+{
+ "tagline": "All the news that fits, in three sheets",
+ "lead": {
+  "kicker": "Business & Tech",
+  "headline": "Nvidia Pauses Server Shipments to Four Southeast Asian Countries",
+  "deck": "Dell and Super Micro told buyers in Malaysia, Singapore, Thailand and Indonesia that orders will not ship while Nvidia checks export compliance",
+  "body": [
+   "Nvidia has told its manufacturing partners to pause shipments of servers built around its chips to Malaysia, Singapore, Thailand and Indonesia, TechCrunch reported on Thursday, citing the Wall Street Journal. The pause has no announced end date.",
+   "Reuters, citing the Financial Times, adds that Dell and Supermicro, which package Nvidia chips into servers, have told customers in the four countries that their orders will not be allowed to ship. It is unclear whether the halt is temporary while Nvidia and its partners work through compliance requirements.",
+   "The trigger is a new US export rule that took effect last week. It requires licenses for shipments of advanced chips to several Southeast Asian countries, in an effort to close routes Chinese firms are believed to use to reach restricted AI hardware. TechCrunch says the Commerce Department closed a remote-access loophole earlier this month, reportedly grudgingly, according to a Washington Post report.",
+   "That loophole mattered. Chinese companies have been renting access to Nvidia chips inside data centers in these countries, and the Institute for Progress think tank estimates such remote data centers supply about 24% of China's AI computing power.",
+   "The timing is awkward for Nvidia. Reuters notes the rule came days after chief executive Jensen Huang resigned over reports of an affair with a suspected Chinese spy who had previously worked at Singapore-based cloud company Megaspeed, an Nvidia partner under scrutiny for possible illegal diversion of chips to China. Nvidia's board reinstated Huang on November 23. Nvidia shares fell about 3.9% in the latest session."
+  ],
+  "image": {
+   "src": "/assets/times/ause-on-chip-shipments-to-southeast-asia.jpg",
+   "alt": "Nvidia chips and data center hardware, as published with TechCrunch's report",
+   "caption": "Nvidia hardware sits at the center of a new US push to keep advanced AI chips out of China",
+   "credit": "Photo: techcrunch.com"
+  },
+  "box": {
+   "title": "What Utku should do",
+   "items": [
+    "If any project of yours depends on GPU cloud capacity in Southeast Asia, check where the servers actually sit and keep a fallback region ready in case prices or availability shift.",
+    "Read the new Commerce Department export rule summary and follow how the license requirement is applied. Export controls are now a core part of how AI hardware reaches the market."
+   ]
+  },
+  "source": "TechCrunch, Reuters"
+ },
+ "secondary": [
+  {
+   "kicker": "Türkiye",
+   "headline": "Probe Approved Into Former Banking Regulator Chief Kavcıoğlu",
+   "body": [
+    "Treasury and Finance Minister Mehmet Şimşek approved an investigation into Şahap Kavcıoğlu, a former central bank governor and former head of the banking regulator BDDK, media reports cited by Daily Sabah said on Thursday. He faces allegations of bribery and abuse of office, and prosecutors had already imposed an overseas travel ban.",
+    "Kavcıoğlu resigned from the BDDK earlier this month after a preliminary review by the ministry's inspection board, saying he did so to avoid causing further harm to the institution. The case sits inside a wider investment-fund scandal that erupted in mid-September and has implicated hundreds of suspects, including former officials at the Capital Markets Board and the stock exchange. Regulators ordered 131 funds liquidated in September."
+   ]
+  },
+  {
+   "kicker": "AI",
+   "headline": "Anthropic Closes IPO, Raising About $93.5 Billion",
+   "body": [
+    "Anthropic announced the close of its initial public offering, including full exercise of the underwriters' option. It sold 1.127 billion Class A shares at $83 each, for about $93.5 billion in gross proceeds, of which about $91.6 billion went to the company. The stock trades as ANT on the Nasdaq Global Select Market, where trading began on November 19.",
+    "A concurrent private placement of Class N shares added about $26.0 billion, bringing total gross proceeds to roughly $119.5 billion, all before underwriting discounts and expenses."
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "value": "7,182.78",
+   "change": "−0.25%"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "23,585.80",
+   "change": "−0.62%"
+  },
+  {
+   "name": "Dow",
+   "value": "50,182.95",
+   "change": "+0.33%"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$149.30",
+   "change": "−3.91%"
+  },
+  {
+   "name": "Intel",
+   "value": "$54.47",
+   "change": "−0.60%"
+  },
+  {
+   "name": "BIST 100",
+   "value": "10,743",
+   "change": "+0.82%"
+  },
+  {
+   "name": "USD / TRY",
+   "value": "50.73",
+   "change": "+0.10%"
+  },
+  {
+   "name": "Brent crude",
+   "value": "$92.24",
+   "change": "−2.51%"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,657",
+   "change": "+3.42%"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$61,388",
+   "change": "+1.67%"
+  }
+ ],
+ "markets_note": "Latest session closes, via paper_data.py",
+ "weather": {
+  "now": "11° / -1°",
+  "cond": "partly cloudy",
+  "summary": "Now -1°C, feels like -4°C, humidity 66%.",
+  "days": [
+   {
+    "d": "FRI",
+    "c": "Cloudy",
+    "t": "11° / -1°"
+   },
+   {
+    "d": "SAT",
+    "c": "Overcast",
+    "t": "12° / 3°"
+   },
+   {
+    "d": "SUN",
+    "c": "Cloudy",
+    "t": "12° / 2°"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "big": "4",
+   "text": "Southeast Asian countries where Nvidia server shipments are paused"
+  },
+  {
+   "big": "24%",
+   "text": "of China's AI computing power supplied by remote data centers, per the Institute for Progress"
+  },
+  {
+   "big": "-3.91%",
+   "text": "Nvidia's move in the latest session"
+  }
+ ]
+}
