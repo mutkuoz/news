@@ -1,0 +1,73 @@
+{
+  "tagline": "All the news that fits, in three sheets",
+  "lead": {
+    "kicker": "Business & Tech",
+    "headline": "OpenAI Fires Back at Apple With Its Own Trade-Secrets Suit",
+    "deck": "The ChatGPT maker accuses Apple of stealing device plans through a rehired employee and of trapping staff who want to leave",
+    "body": [
+      "OpenAI filed counterclaims against Apple in a California federal court on Friday, turning a trade-secrets fight into a two-sided legal war over who will build the next generation of AI devices. Apple sued first in July, accusing OpenAI and two former employees of misappropriating Apple's secrets to advance OpenAI's consumer hardware plans. OpenAI has denied that.",
+      "In its filing, OpenAI says Apple obtained its confidential information by rehiring a former OpenAI employee who had worked there for six months and had access to details of a new device and the company's hardware roadmap. 'Given the timing, it now appears that stealing those documents may have been his reason for joining OpenAI in the first place,' the company said.",
+      "The filing goes further than the secrets claim. OpenAI says Apple's employment practices are meant to 'trap' workers and keep them from joining competitors, that Apple blocks its access to hardware suppliers, and that it encourages staff to use personal Apple devices and accounts for work, then keeps accessing former employees' personal devices to 'monitor and ensnare departing employees.' OpenAI says about 400 Apple employees have left for it.",
+      "The stakes are strategic. Analysts believe OpenAI is working on a phone or another device of its own, and the dispute centres on who controls AI hardware that may not depend on traditional apps or operating systems, which could pull users away from the iPhone. OpenAI says its devices could 'outcompete Apple on what Apple views as its own turf.'",
+      "Reuters reports that neither company immediately responded to requests for comment. The filing does not name the former employee, set out the specific legal causes of action or say what damages OpenAI seeks, so the legal case remains at an early stage."
+    ],
+    "image": {
+      "src": "/assets/times/e-over-trade-secrets-as-ai-race-heats-up.jpg",
+      "alt": "The OpenAI logo on a dark phone-shaped tile against a blurred black-and-white backdrop",
+      "caption": "The OpenAI logo, as the company takes its fight with Apple over AI hardware to court.",
+      "credit": "Photo: aljazeera.com"
+    },
+    "box": {
+      "title": "What Utku should do",
+      "items": [
+        "Read the Al Jazeera/Reuters report and note the claim that AI devices may not rely on apps or operating systems; it is a useful thread to follow in the hardware-plus-AI space.",
+        "Watch how the court case develops: whether the employee is named and what Apple's reply says will show how much of this is about people moving between labs."
+      ]
+    },
+    "source": "Al Jazeera / Reuters"
+  },
+  "secondary": [
+    {
+      "kicker": "Türkiye",
+      "headline": "Central Bank Tightens Without Raising Rates",
+      "body": [
+        "Türkiye's central bank suspended its one-week repo auctions late Thursday and raised the remuneration on lira reserve requirements to 90% of its weighted average funding cost, up from 86%. The policy rate stays at 36%, and the bank gave no date for restarting the auctions.",
+        "Analysts quoted by Daily Sabah see it as tightening through the back door: banks that can no longer borrow at the repo rate must use pricier funding. Finance Minister Mehmet Simsek said lira deposits are steady at 61.8% of the total and that the government is ready to cut withholding taxes if needed."
+      ]
+    },
+    {
+      "kicker": "AI",
+      "headline": "Anthropic Rewrites Its API in Rust, With Claude Doing the Work",
+      "body": [
+        "Anthropic says it migrated its Messages API from Python to Rust using Claude agents. After the full migration, CPU per request fell about 70%, memory per request fell more than 80% and median time to first token fell about 20%.",
+        "The authors argue verification, not code generation, became the bottleneck: they replayed shadowed production traffic to compare outputs, and engineers reviewed fixes and rejected shortcuts. By May 2026 Claude was writing more than 80% of the code Anthropic merged."
+      ]
+    }
+  ],
+  "markets": [
+    {"name": "S&P 500", "value": "7,297.49", "change": "+1.60%"},
+    {"name": "Nasdaq", "value": "24,129.50", "change": "+2.31%"},
+    {"name": "Dow", "value": "50,774.94", "change": "+1.18%"},
+    {"name": "Nvidia", "value": "$150.49", "change": "+0.80%"},
+    {"name": "Intel", "value": "$57.40", "change": "+5.38%"},
+    {"name": "BIST 100", "value": "10,977", "change": "+2.18%"},
+    {"name": "USD / TRY", "value": "50.77", "change": "+0.19%"},
+    {"name": "Brent crude", "value": "$90.84", "change": "−3.98%"},
+    {"name": "Gold", "value": "$3,668", "change": "+3.75%"},
+    {"name": "Bitcoin", "value": "$59,902", "change": "−0.98%"}
+  ],
+  "weather": {
+    "now": "12° / 2°", "cond": "overcast",
+    "summary": "Now 2°C, feels like -1°C, humidity 65%.",
+    "days": [
+      {"d": "SAT", "c": "Overcast", "t": "12° / 2°"},
+      {"d": "SUN", "c": "Partly Cloudy", "t": "12° / 3°"},
+      {"d": "MON", "c": "Overcast", "t": "6° / 2°"}
+    ]
+  },
+  "stats": [
+    {"big": "400", "text": "Apple employees OpenAI says have left for it"},
+    {"big": "70%", "text": "drop in CPU per request after Anthropic's Rust migration"},
+    {"big": "36%", "text": "Türkiye's policy rate, unchanged as repo auctions pause"}
+  ]
+}
